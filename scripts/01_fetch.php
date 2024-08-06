@@ -47,7 +47,7 @@ if (!empty($json['Data'])) {
                     'properties' => [
                         'authority' => '水利署防災資訊服務網',
                         'stationID' => $case['DisasterFloodingID'],
-                        'stationName' => $case['Location'],
+                        'stationName' => $case['CaseNo'],
                         'unitOfMeasurement' => 'cm',
                         'result' => $case['Depth'],
                         'phenomenonTime' => $case['Time'],
