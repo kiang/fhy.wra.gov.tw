@@ -45,7 +45,7 @@ if (!empty($json['Data'])) {
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
-                        'authority' => '水利署防災資訊服務網',
+                        'authority' => $case['OperatorName'],
                         'stationID' => $case['DisasterFloodingID'],
                         'stationName' => $case['CaseNo'],
                         'unitOfMeasurement' => 'cm',
