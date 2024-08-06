@@ -41,7 +41,7 @@ if (!empty($json['Data'])) {
             }
             file_put_contents($casePath . '/' . $case['DisasterFloodingID'] . '.json', json_encode($case, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
 
-            if ($case['SourceCode'] === 7 || $case['IsReceded'] === true) {
+            if ($case['SourceCode'] === 7 || $case['IsReceded'] !== true) {
                 $fc['features'] = [
                     'type' => 'Feature',
                     'properties' => [
