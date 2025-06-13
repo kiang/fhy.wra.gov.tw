@@ -7,9 +7,15 @@
                 "authority": "第七河川分署",
                 "stationID": "28c10744-eb48-410a-a925-ff2ddd87fe4f",
                 "stationName": "88",
+                "location": "屏東縣里港鄉土庫村信國社區",
+                "situation": "排水系統受砂石堆置場之土砂堵塞，目前已開始積淹水",
                 "unitOfMeasurement": "cm",
                 "result": null,
-                "phenomenonTime": "2025-06-13T10:45:00"
+                "phenomenonTime": "2025-06-13T10:45:00",
+                "townCode": "1001309",
+                "categoryCode": 2,
+                "sourceCode": 4,
+                "dataSource": "Disaster-Report"
             },
             "geometry": {
                 "type": "Point",
@@ -25,9 +31,15 @@
                 "authority": "第七河川分署",
                 "stationID": "fe5c01d1-561c-4925-88ac-9a229867415b",
                 "stationName": "89",
+                "location": "屏東縣獅子鄉南世村南世內獅聯絡道路",
+                "situation": "南世聯外道路因土石流水量大 導致淹水，並封路",
                 "unitOfMeasurement": "cm",
                 "result": null,
-                "phenomenonTime": "2025-06-13T09:30:00"
+                "phenomenonTime": "2025-06-13T09:30:00",
+                "townCode": "1001332",
+                "categoryCode": 2,
+                "sourceCode": 4,
+                "dataSource": "Disaster-Report"
             },
             "geometry": {
                 "type": "Point",
@@ -40,12 +52,42 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第七河川分署",
+                "stationID": "659bf572-2b01-47d7-997b-d055401d005f",
+                "stationName": "104",
+                "location": "屏東縣獅子鄉楓林村楓林二巷22-2號",
+                "situation": "因排水量過大，邊坡土石流坍方、水溝堵塞、擋土牆倒塌。",
+                "unitOfMeasurement": "cm",
+                "result": null,
+                "phenomenonTime": "2025-06-13T09:30:00",
+                "townCode": "1001332",
+                "categoryCode": 2,
+                "sourceCode": 4,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.707421,
+                    22.199497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "第六河川分署",
                 "stationID": "4d4da2ce-ad21-4ccf-b657-ba7cfdc88f35",
                 "stationName": "75",
+                "location": "高雄市仁武區澄觀路一段152巷33弄巷口",
+                "situation": "路面積水",
                 "unitOfMeasurement": "cm",
                 "result": null,
-                "phenomenonTime": "2025-06-13T09:25:09"
+                "phenomenonTime": "2025-06-13T09:25:09",
+                "townCode": "6401700",
+                "categoryCode": 2,
+                "sourceCode": 4,
+                "dataSource": "Disaster-Report"
             },
             "geometry": {
                 "type": "Point",
@@ -61,9 +103,15 @@
                 "authority": "第六河川分署",
                 "stationID": "a0a2c00e-45b6-4ef4-8e3a-e1f7b6e14112",
                 "stationName": "三股農會供銷部(編號282)",
+                "location": "七股區三股農會供銷部",
+                "situation": "三股農會供銷部(編號282)",
                 "unitOfMeasurement": "cm",
-                "result": 10.3,
-                "phenomenonTime": "2025-06-13T10:55:00"
+                "result": 11.6,
+                "phenomenonTime": "2025-06-13T10:55:00",
+                "townCode": "6701500",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
             },
             "geometry": {
                 "type": "Point",
@@ -79,15 +127,45 @@
                 "authority": "第四河川分署",
                 "stationID": "395b7054-c29f-44ac-9b0a-a5466d52d587",
                 "stationName": "寶部路涵洞",
+                "location": "寶部里寶部路涵洞",
+                "situation": "寶部路涵洞",
                 "unitOfMeasurement": "cm",
-                "result": 14.3,
-                "phenomenonTime": "2025-06-13T10:53:00"
+                "result": 15.9,
+                "phenomenonTime": "2025-06-13T10:53:00",
+                "townCode": "1000701",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     120.5566947,
                     24.1008777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "第三河川分署",
+                "stationID": "1a49f5e9-5641-4efa-9e4b-796f28651c07",
+                "stationName": "三民路三段131巷8號前",
+                "location": "三民路三段131巷8號前",
+                "situation": "三民路三段131巷8號前",
+                "unitOfMeasurement": "cm",
+                "result": 12.4,
+                "phenomenonTime": "2025-06-13T11:06:00",
+                "townCode": "6600500",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.68404,
+                    24.151003
                 ]
             }
         }
