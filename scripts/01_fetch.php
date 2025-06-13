@@ -1,5 +1,18 @@
 <?php
 $basePath = dirname(__DIR__);
+
+// Create SSL context to handle HTTPS requests
+$context = stream_context_create([
+    'http' => [
+        'timeout' => 30,
+        'user_agent' => 'Mozilla/5.0 (compatible; flood-monitoring-bot/1.0)',
+    ],
+    'ssl' => [
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true,
+    ]
+]);
 /**
  * {
     "DisasterFloodingID": "6fbfca5e-4a2d-4f82-b039-1a9f7e851da7",
@@ -39,7 +52,7 @@ if (file_exists($stationsFile)) {
     }
 }
 
-$json = json_decode(file_get_contents('https://fhy.wra.gov.tw/Api/v2/Disaster/Flooding?$format=JSON'), true);
+$json = json_decode(file_get_contents('https://fhy.wra.gov.tw/Api/v2/Disaster/Flooding?$format=JSON', false, $context), true);
 $fc = [
     'type' => 'FeatureCollection',
     'features' => [],
@@ -85,7 +98,7 @@ if (!empty($json['Data'])) {
 }
 
 // Fetch IoT flood sensor real-time data
-$iotJson = json_decode(file_get_contents('https://fhyv.wra.gov.tw/FhyWeb/v1/Api/FloodSensor/RealTimeInfo?$format=JSON'), true);
+$iotJson = json_decode(file_get_contents('https://fhyv.wra.gov.tw/FhyWeb/v1/Api/FloodSensor/RealTimeInfo?$format=JSON', false, $context), true);
 if (!empty($iotJson)) {
     foreach ($iotJson as $sensor) {
         // Only include sensors with recent data (not too old) and non-zero depth
@@ -99,7 +112,7 @@ if (!empty($iotJson)) {
             // If station not found in local file, try to fetch from API
             if (!$stationData) {
                 $stationApiUrl = 'https://fhyv.wra.gov.tw/FhyWeb/v1/Api/FloodSensor/Station?$format=JSON';
-                $tempStations = json_decode(file_get_contents($stationApiUrl), true);
+                $tempStations = json_decode(file_get_contents($stationApiUrl, false, $context), true);
                 if ($tempStations) {
                     foreach ($tempStations as $station) {
                         if ($station['SensorUUID'] === $sensor['SensorUUID']) {
