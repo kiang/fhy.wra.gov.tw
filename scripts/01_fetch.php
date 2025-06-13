@@ -67,7 +67,7 @@ if (!empty($json['Data'])) {
             }
             file_put_contents($casePath . '/' . $case['DisasterFloodingID'] . '.json', json_encode($case, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
 
-            if ($case['IsReceded'] == false) {
+            if ($case['IsReceded'] == false && $case['Depth'] > 0 && $case['Depth'] !== null) {
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
@@ -105,8 +105,8 @@ if (!empty($iotJson)) {
         $sourceTime = strtotime($sensor['SourceTime']);
         $isRecent = (time() - $sourceTime) < (24 * 60 * 60); // within 24 hours
         
-        // Include if depth > 0 or if it's a recent reading (within 24 hours)
-        if ($sensor['Depth'] > 0 || $isRecent) {
+        // Only include sensors with depth > 0 and not null
+        if ($sensor['Depth'] > 0 && $sensor['Depth'] !== null) {
             $stationData = isset($stationInfo[$sensor['SensorUUID']]) ? $stationInfo[$sensor['SensorUUID']] : null;
             
             // If station not found in local file, try to fetch from API
