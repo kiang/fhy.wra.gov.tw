@@ -28,30 +28,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "第五河川分署",
-                "stationID": "d0a4c5fa-e5a3-468e-9fb1-948945417e76",
-                "stationName": "溪頂村_村落2",
-                "location": "溪頂村_56號",
-                "situation": "溪頂村_村落2",
-                "unitOfMeasurement": "cm",
-                "result": 10.5454856,
-                "phenomenonTime": "2025-06-13T15:01:22",
-                "townCode": "1000916",
-                "categoryCode": 1,
-                "sourceCode": 7,
-                "dataSource": "Disaster-Report"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.186419,
-                    23.678035
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-407",
                 "stationID": "43bf2cf8-cb8c-4af8-9ff9-f80d6fa7d6f8",
                 "stationName": "苗栗市玉華里勵志街",
@@ -59,8 +35,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 4.5,
-                "phenomenonTime": "2025-06-13T14:55:00+08:00",
-                "transferTime": "2025-06-13T15:05:06+08:00",
+                "phenomenonTime": "2025-06-13T15:05:00+08:00",
+                "transferTime": "2025-06-13T15:15:07+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
@@ -84,9 +60,9 @@
                 "address": "林厝派出所",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.7961483,
-                "phenomenonTime": "2025-06-13T15:01:01+08:00",
-                "transferTime": "2025-06-13T15:05:11+08:00",
+                "result": 5.78298664,
+                "phenomenonTime": "2025-06-13T15:11:02+08:00",
+                "transferTime": "2025-06-13T15:15:13+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -104,15 +80,67 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "7da1e0ef-68f3-4f50-bfae-2d8253355b6f",
+                "stationName": "東石鄉龍港村港墘厝",
+                "address": "龍港村92號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.3,
+                "phenomenonTime": "2025-06-13T15:12:45+08:00",
+                "transferTime": "2025-06-13T15:15:28+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17979,
+                    23.48357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "722f8c91-c140-47a4-8e1f-89f14a01d350",
+                "stationName": "東石鄉洲仔村A站",
+                "address": "洲仔村59-1號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2025-06-13T15:13:18+08:00",
+                "transferTime": "2025-06-13T15:15:27+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19441,
+                    23.44966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-412",
                 "stationID": "0fd8d868-b408-4865-bbc4-3f02f541c72c",
                 "stationName": "林東村_大發購物中心",
                 "address": "大發購物中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 13.7034907,
-                "phenomenonTime": "2025-06-13T15:04:41+08:00",
-                "transferTime": "2025-06-13T15:05:32+08:00",
+                "result": 12.510766,
+                "phenomenonTime": "2025-06-13T15:14:41+08:00",
+                "transferTime": "2025-06-13T15:15:33+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -130,6 +158,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "93320b82-e00a-49d2-afa1-96e906ba6bed",
+                "stationName": "東石鄉副瀨村副瀨",
+                "address": "副瀨村95-2號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.7,
+                "phenomenonTime": "2025-06-13T15:14:39+08:00",
+                "transferTime": "2025-06-13T15:15:43+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17195,
+                    23.48652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "1db5fed2-14f0-489f-a031-e09dfa8f2a6c",
                 "stationName": "安南區-本原街一段250巷(編號156)",
@@ -137,8 +191,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-06-13T14:00:00+08:00",
-                "transferTime": "2025-06-13T14:15:32+08:00",
+                "phenomenonTime": "2025-06-13T15:00:00+08:00",
+                "transferTime": "2025-06-13T15:15:28+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -162,9 +216,9 @@
                 "address": "西結里184號附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-06-13T15:02:23+08:00",
-                "transferTime": "2025-06-13T15:05:37+08:00",
+                "result": 4.5,
+                "phenomenonTime": "2025-06-13T15:14:23+08:00",
+                "transferTime": "2025-06-13T15:15:35+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -214,9 +268,9 @@
                 "address": "溪頂村_56號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 10.5454856,
-                "phenomenonTime": "2025-06-13T15:04:42+08:00",
-                "transferTime": "2025-06-13T15:05:46+08:00",
+                "result": 9.5086151,
+                "phenomenonTime": "2025-06-13T15:14:42+08:00",
+                "transferTime": "2025-06-13T15:15:40+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -241,8 +295,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 18.6,
-                "phenomenonTime": "2025-06-13T14:55:00+08:00",
-                "transferTime": "2025-06-13T15:05:44+08:00",
+                "phenomenonTime": "2025-06-13T15:05:00+08:00",
+                "transferTime": "2025-06-13T15:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -266,9 +320,9 @@
                 "address": "東港里前東港85號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-06-13T15:02:44+08:00",
-                "transferTime": "2025-06-13T15:05:43+08:00",
+                "result": 4.2,
+                "phenomenonTime": "2025-06-13T15:11:45+08:00",
+                "transferTime": "2025-06-13T15:15:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -293,8 +347,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-06-13T14:50:08+08:00",
-                "transferTime": "2025-06-13T14:55:48+08:00",
+                "phenomenonTime": "2025-06-13T15:05:09+08:00",
+                "transferTime": "2025-06-13T15:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -345,8 +399,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-06-13T14:00:00+08:00",
-                "transferTime": "2025-06-13T14:16:06+08:00",
+                "phenomenonTime": "2025-06-13T15:00:00+08:00",
+                "transferTime": "2025-06-13T15:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "67",
@@ -371,8 +425,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.015,
-                "phenomenonTime": "2025-06-13T14:50:08+08:00",
-                "transferTime": "2025-06-13T14:55:49+08:00",
+                "phenomenonTime": "2025-06-13T15:05:09+08:00",
+                "transferTime": "2025-06-13T15:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -422,9 +476,9 @@
                 "address": "西路里八堡圳與田中排水上游",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 24.4,
-                "phenomenonTime": "2025-06-13T15:00:00+08:00",
-                "transferTime": "2025-06-13T15:05:45+08:00",
+                "result": 24.6,
+                "phenomenonTime": "2025-06-13T15:10:00+08:00",
+                "transferTime": "2025-06-13T15:15:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -449,8 +503,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-06-13T14:50:09+08:00",
-                "transferTime": "2025-06-13T14:55:42+08:00",
+                "phenomenonTime": "2025-06-13T15:05:10+08:00",
+                "transferTime": "2025-06-13T15:15:42+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -474,9 +528,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.53,
-                "phenomenonTime": "2025-06-13T14:59:00+08:00",
-                "transferTime": "2025-06-13T15:05:45+08:00",
+                "result": 0.46,
+                "phenomenonTime": "2025-06-13T15:09:00+08:00",
+                "transferTime": "2025-06-13T15:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -500,9 +554,9 @@
                 "address": "西鎮村",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.414013863,
-                "phenomenonTime": "2025-06-13T15:00:43+08:00",
-                "transferTime": "2025-06-13T15:05:44+08:00",
+                "result": 2.408267975,
+                "phenomenonTime": "2025-06-13T15:10:41+08:00",
+                "transferTime": "2025-06-13T15:15:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -514,6 +568,32 @@
                 "coordinates": [
                     120.3816108,
                     23.6183839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-412",
+                "stationID": "9a9b5191-ee23-45aa-bb7f-10bc9a30da49",
+                "stationName": "埔南村_村落",
+                "address": "埔南村_外埔61之110號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.3813324,
+                "phenomenonTime": "2025-06-13T15:14:41+08:00",
+                "transferTime": "2025-06-13T15:15:43+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000919",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.191304,
+                    23.598212
                 ]
             }
         }
