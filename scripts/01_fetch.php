@@ -115,6 +115,12 @@ if (!empty($iotJson)) {
             }
             
             if ($stationData) {
+                // API returns Taiwan time but incorrectly marked as +00:00, so we parse the time value as Taiwan time
+                $sourceTimeStr = preg_replace('/\+00:00$|Z$/', '', $sensor['SourceTime']);
+                $transferTimeStr = preg_replace('/\+00:00$|Z$/', '', $sensor['TransferTime']);
+                $sourceTime = new DateTime($sourceTimeStr, new DateTimeZone('Asia/Taipei'));
+                $transferTime = new DateTime($transferTimeStr, new DateTimeZone('Asia/Taipei'));
+                
                 $fc['features'][] = [
                     'type' => 'Feature',
                     'properties' => [
@@ -125,8 +131,8 @@ if (!empty($iotJson)) {
                         'sensorType' => $stationData['SensorType'],
                         'unitOfMeasurement' => 'cm',
                         'result' => $sensor['Depth'],
-                        'phenomenonTime' => $sensor['SourceTime'],
-                        'transferTime' => $sensor['TransferTime'],
+                        'phenomenonTime' => $sourceTime->format('c'),
+                        'transferTime' => $transferTime->format('c'),
                         'toBeConfirm' => $sensor['ToBeConfirm'],
                         'isCulvert' => $stationData['IsCulvert'],
                         'cityCode' => $stationData['CityCode'],
