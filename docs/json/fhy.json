@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 4.4,
-                "phenomenonTime": "2025-06-15T02:55:00+08:00",
-                "transferTime": "2025-06-15T03:05:12+08:00",
+                "phenomenonTime": "2025-06-15T03:05:00+08:00",
+                "transferTime": "2025-06-15T03:15:13+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
@@ -56,6 +56,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "366b9edb-b48e-404c-9fab-7f41c278516c",
+                "stationName": "布袋鎮過溝東安里",
+                "address": "東安里24-2號前",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-06-15T03:13:03+08:00",
+                "transferTime": "2025-06-15T03:15:38+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.18134,
+                    23.41583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "1db5fed2-14f0-489f-a031-e09dfa8f2a6c",
                 "stationName": "安南區-本原街一段250巷(編號156)",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-06-15T02:00:00+08:00",
-                "transferTime": "2025-06-15T02:15:39+08:00",
+                "phenomenonTime": "2025-06-15T03:00:00+08:00",
+                "transferTime": "2025-06-15T03:15:36+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -88,9 +114,9 @@
                 "address": "白河區瓦瑤子",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 7.4,
-                "phenomenonTime": "2025-06-15T02:50:00+08:00",
-                "transferTime": "2025-06-15T03:05:37+08:00",
+                "result": 7.3,
+                "phenomenonTime": "2025-06-15T03:00:00+08:00",
+                "transferTime": "2025-06-15T03:15:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -141,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-06-15T02:00:00+08:00",
-                "transferTime": "2025-06-15T02:15:46+08:00",
+                "phenomenonTime": "2025-06-15T03:00:00+08:00",
+                "transferTime": "2025-06-15T03:15:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "67",
@@ -206,32 +232,6 @@
                 "coordinates": [
                     121.018357,
                     24.861289
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-422",
-                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
-                "stationName": "十股排水-路面淹水",
-                "address": "賓朗路163號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-06-15T02:59:00+08:00",
-                "transferTime": "2025-06-15T03:05:39+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10014",
-                "townCode": "1001404",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.1014,
-                    22.796
                 ]
             }
         }
