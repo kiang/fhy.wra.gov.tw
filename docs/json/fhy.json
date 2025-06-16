@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "81829055-66b9-44ad-a9f6-30f3f6a8446d",
+                "stationName": "東石鄉三家村三塊厝",
+                "address": "三家村130號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-06-16T16:31:51+08:00",
+                "transferTime": "2025-06-16T16:35:16+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.16992,
+                    23.47123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-407",
                 "stationID": "43bf2cf8-cb8c-4af8-9ff9-f80d6fa7d6f8",
                 "stationName": "苗栗市玉華里勵志街",
@@ -11,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 4.6,
-                "phenomenonTime": "2025-06-16T16:15:00+08:00",
-                "transferTime": "2025-06-16T16:25:16+08:00",
+                "phenomenonTime": "2025-06-16T16:25:00+08:00",
+                "transferTime": "2025-06-16T16:35:24+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
@@ -108,32 +134,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-417",
-                "stationID": "ee512830-6874-4564-b32c-c0766f044bf6",
-                "stationName": "瓦厝街76巷口(3972500FL0040)",
-                "address": "瓦厝街與76巷交叉處電線桿",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 11,
-                "phenomenonTime": "2025-06-16T16:14:27+08:00",
-                "transferTime": "2025-06-16T16:25:36+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6401500",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4143603,
-                    22.6459591
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-406",
                 "stationID": "eb749ea6-43bb-48fc-a937-cd07a5839342",
                 "stationName": "達生街與民族路口",
@@ -219,8 +219,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 12.8,
-                "phenomenonTime": "2025-06-16T16:15:00+08:00",
-                "transferTime": "2025-06-16T16:25:51+08:00",
+                "phenomenonTime": "2025-06-16T16:20:00+08:00",
+                "transferTime": "2025-06-16T16:36:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -232,32 +232,6 @@
                 "coordinates": [
                     120.177256,
                     23.067526
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-422",
-                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
-                "stationName": "十股排水-路面淹水",
-                "address": "賓朗路163號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-06-16T16:19:00+08:00",
-                "transferTime": "2025-06-16T16:25:50+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10014",
-                "townCode": "1001404",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.1014,
-                    22.796
                 ]
             }
         }
