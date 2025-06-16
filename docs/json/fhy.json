@@ -4,15 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第三河川分署",
+                "stationID": "9b32009e-34fe-4956-9c79-8f13ee2ca4ad",
+                "stationName": "南興路與敦富九街交叉口",
+                "location": "南興路與敦富九街交叉口",
+                "situation": "南興路與敦富九街交叉口",
+                "unitOfMeasurement": "cm",
+                "result": 11.4,
+                "phenomenonTime": "2025-06-16T16:55:00",
+                "townCode": "6600800",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.705422,
+                    24.190619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-407",
                 "stationID": "43bf2cf8-cb8c-4af8-9ff9-f80d6fa7d6f8",
                 "stationName": "苗栗市玉華里勵志街",
                 "address": "玉華里勵志街33巷1號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.5,
-                "phenomenonTime": "2025-06-16T16:45:00+08:00",
-                "transferTime": "2025-06-16T16:55:24+08:00",
+                "result": 4.4,
+                "phenomenonTime": "2025-06-16T16:55:00+08:00",
+                "transferTime": "2025-06-16T17:05:15+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
@@ -24,32 +48,6 @@
                 "coordinates": [
                     120.8250235,
                     24.5623688
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "f9ef5e70-ab0b-4955-ba72-6deaf20e8597",
-                "stationName": "海光鋼鐵廠前北上機車道",
-                "address": "海光鋼鐵廠前北上機車道",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.4,
-                "phenomenonTime": "2025-06-16T15:10:00+08:00",
-                "transferTime": "2025-06-16T15:15:22+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6401100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.35887,
-                    22.55901
                 ]
             }
         },
@@ -108,6 +106,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-408",
+                "stationID": "9b32009e-34fe-4956-9c79-8f13ee2ca4ad",
+                "stationName": "北屯區南興路與敦富九街交叉口",
+                "address": "南興路與敦富九街交叉口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 11.4,
+                "phenomenonTime": "2025-06-16T16:55:00+08:00",
+                "transferTime": "2025-06-16T17:05:14+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6600800",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.705422,
+                    24.190619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "1db5fed2-14f0-489f-a031-e09dfa8f2a6c",
                 "stationName": "安南區-本原街一段250巷(編號156)",
@@ -134,52 +158,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-417",
-                "stationID": "e214e6ed-e56c-44b2-a47a-fef6181fdc03",
-                "stationName": "鳳山行政中心(3972500FL0027)",
-                "address": "北上澄清路與光復路口人行道號誌桿",
+                "authority": "Operator-408",
+                "stationID": "3943e05c-3ba3-43a6-aea7-7f4a372ff932",
+                "stationName": "崇德路五段與雅潭路二段路",
+                "address": "崇德路五段與雅潭路二段路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.8,
-                "phenomenonTime": "2025-06-16T16:47:27+08:00",
-                "transferTime": "2025-06-16T16:55:39+08:00",
+                "result": 5.4,
+                "phenomenonTime": "2025-06-16T16:42:00+08:00",
+                "transferTime": "2025-06-16T17:05:34+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6401200",
+                "cityCode": "66",
+                "townCode": "6601700",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.344563,
-                    22.629217
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "ede19027-6d74-4e6e-ae07-160fb91465d6",
-                "stationName": "中山西路與青年路口(3972500FL0028)",
-                "address": "西向中山西路與青年路二段路口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 6.6,
-                "phenomenonTime": "2025-06-16T16:39:00+08:00",
-                "transferTime": "2025-06-16T16:55:45+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6401200",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.349308,
-                    22.627774
+                    120.688563,
+                    24.216134
                 ]
             }
         },
@@ -232,6 +230,32 @@
                 "coordinates": [
                     120.290121,
                     23.218394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "60707a3e-9884-435e-8a32-4a8b57dbc2fa",
+                "stationName": "東石鄉網寮村鹽田寮",
+                "address": "鹽田聖金壇旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-06-16T17:01:49+08:00",
+                "transferTime": "2025-06-16T17:05:41+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.1664,
+                    23.43618
                 ]
             }
         },
@@ -296,9 +320,9 @@
                 "address": "公學路四段(十二佃)",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5,
-                "phenomenonTime": "2025-06-16T16:45:00+08:00",
-                "transferTime": "2025-06-16T16:55:45+08:00",
+                "result": 2.2,
+                "phenomenonTime": "2025-06-16T16:55:00+08:00",
+                "transferTime": "2025-06-16T17:05:41+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -322,9 +346,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.23,
-                "phenomenonTime": "2025-06-16T16:39:00+08:00",
-                "transferTime": "2025-06-16T16:45:51+08:00",
+                "result": 0.08,
+                "phenomenonTime": "2025-06-16T16:59:00+08:00",
+                "transferTime": "2025-06-16T17:05:42+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
