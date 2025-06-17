@@ -4,15 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第一河川分署",
+                "stationID": "de4bb640-f5bc-4ee7-b7ad-a887c3a33b37",
+                "stationName": "泉興巷涵洞（原71改點）",
+                "location": "泉興巷涵洞（原71改點）",
+                "situation": "泉興巷涵洞（原71改點）",
+                "unitOfMeasurement": "cm",
+                "result": 13.6,
+                "phenomenonTime": "2025-06-17T12:55:00",
+                "townCode": "1000203",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.8480999,
+                    24.5947943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-407",
                 "stationID": "43bf2cf8-cb8c-4af8-9ff9-f80d6fa7d6f8",
                 "stationName": "苗栗市玉華里勵志街",
                 "address": "玉華里勵志街33巷1號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-06-17T12:45:00+08:00",
-                "transferTime": "2025-06-17T12:55:22+08:00",
+                "result": 4.4,
+                "phenomenonTime": "2025-06-17T12:55:00+08:00",
+                "transferTime": "2025-06-17T13:05:20+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
@@ -36,9 +60,9 @@
                 "address": "新寮里新寮社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-06-17T12:54:31+08:00",
-                "transferTime": "2025-06-17T12:55:21+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-06-17T13:03:31+08:00",
+                "transferTime": "2025-06-17T13:05:23+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -89,9 +113,9 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 7.1,
-                "phenomenonTime": "2025-06-17T12:49:00+08:00",
-                "transferTime": "2025-06-17T12:55:30+08:00",
-                "toBeConfirm": false,
+                "phenomenonTime": "2025-06-17T12:59:00+08:00",
+                "transferTime": "2025-06-17T13:05:28+08:00",
+                "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10005",
                 "townCode": "1000505",
@@ -140,9 +164,9 @@
                 "address": "泉興巷涵洞（原71改點）",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4,
-                "phenomenonTime": "2025-06-17T12:45:00+08:00",
-                "transferTime": "2025-06-17T12:55:36+08:00",
+                "result": 13.6,
+                "phenomenonTime": "2025-06-17T12:55:00+08:00",
+                "transferTime": "2025-06-17T13:05:59+08:00",
                 "toBeConfirm": false,
                 "isCulvert": true,
                 "cityCode": "10002",
@@ -166,9 +190,9 @@
                 "address": "中原路冷泉停車場旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 9.5,
-                "phenomenonTime": "2025-06-17T12:42:00+08:00",
-                "transferTime": "2025-06-17T12:55:42+08:00",
+                "result": 9.1,
+                "phenomenonTime": "2025-06-17T12:52:00+08:00",
+                "transferTime": "2025-06-17T13:05:45+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10002",
@@ -238,32 +262,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-404",
-                "stationID": "d53f657b-f453-45af-9617-2f70faaff4ca",
-                "stationName": "民生路、富華街口",
-                "address": "民生路、富華街口(路燈桿號:0301577)",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 1,
-                "phenomenonTime": "2025-06-17T12:45:00+08:00",
-                "transferTime": "2025-06-17T12:55:41+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "68",
-                "townCode": "6800900",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.224576,
-                    24.846517
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-406",
                 "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
                 "stationName": "福興東路",
@@ -284,6 +282,32 @@
                 "coordinates": [
                     121.016461,
                     24.820092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-411",
+                "stationID": "a4df7ea7-8541-4624-8c1a-7a164f7bdb98",
+                "stationName": "田頭村1",
+                "address": "溪北巷",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.1,
+                "phenomenonTime": "2025-06-17T12:55:00+08:00",
+                "transferTime": "2025-06-17T13:05:50+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000725",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4450032,
+                    23.8285483
                 ]
             }
         },
@@ -323,8 +347,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.08,
-                "phenomenonTime": "2025-06-17T12:49:00+08:00",
-                "transferTime": "2025-06-17T12:55:42+08:00",
+                "phenomenonTime": "2025-06-17T12:59:00+08:00",
+                "transferTime": "2025-06-17T13:05:59+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
