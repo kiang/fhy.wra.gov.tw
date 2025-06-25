@@ -62,9 +62,9 @@
                 "address": "寶部里寶部路涵洞",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.7,
-                "phenomenonTime": "2025-06-26T03:37:00+08:00",
-                "transferTime": "2025-06-26T03:45:42+08:00",
+                "result": 4.6,
+                "phenomenonTime": "2025-06-26T03:47:00+08:00",
+                "transferTime": "2025-06-26T03:55:37+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10007",
@@ -88,9 +88,9 @@
                 "address": "延慶街與堯山街129巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 153.739678859711,
-                "phenomenonTime": "2025-06-26T03:40:00+08:00",
-                "transferTime": "2025-06-26T03:45:48+08:00",
+                "result": 153.751480579376,
+                "phenomenonTime": "2025-06-26T03:50:00+08:00",
+                "transferTime": "2025-06-26T03:55:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -115,8 +115,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-06-26T03:35:10+08:00",
-                "transferTime": "2025-06-26T03:45:53+08:00",
+                "phenomenonTime": "2025-06-26T03:50:11+08:00",
+                "transferTime": "2025-06-26T03:55:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -187,40 +187,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-406",
-                "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
-                "stationName": "福興東路",
-                "address": "福興東路",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.018,
-                "phenomenonTime": "2025-06-26T03:35:10+08:00",
-                "transferTime": "2025-06-26T03:45:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10004",
-                "townCode": "1000401",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.016461,
-                    24.820092
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-406",
                 "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
                 "stationName": "光復路與工業四路口",
                 "address": "光復路與工業四路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.012,
-                "phenomenonTime": "2025-06-26T03:35:11+08:00",
-                "transferTime": "2025-06-26T03:45:53+08:00",
+                "result": 0.015,
+                "phenomenonTime": "2025-06-26T03:50:11+08:00",
+                "transferTime": "2025-06-26T03:55:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -232,6 +206,32 @@
                 "coordinates": [
                     121.018357,
                     24.861289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.23,
+                "phenomenonTime": "2025-06-26T03:49:00+08:00",
+                "transferTime": "2025-06-26T03:55:48+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
                 ]
             }
         }
