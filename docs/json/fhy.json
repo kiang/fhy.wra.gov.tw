@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "e600405a-ee81-455e-a057-a10bc3ff0284",
+                "stationName": "CYC102朴子市新寮里新寮社區",
+                "address": "新寮里新寮社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2025-06-26T12:01:36+08:00",
+                "transferTime": "2025-06-26T12:05:12+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001002",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.24125,
+                    23.45013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "1db5fed2-14f0-489f-a031-e09dfa8f2a6c",
                 "stationName": "安南區-本原街一段250巷(編號156)",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-06-26T11:00:00+08:00",
-                "transferTime": "2025-06-26T11:05:49+08:00",
+                "phenomenonTime": "2025-06-26T12:00:00+08:00",
+                "transferTime": "2025-06-26T12:05:33+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -186,32 +212,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-412",
-                "stationID": "09b5436d-204e-41ec-ba10-1671084ef353",
-                "stationName": "龍潭里_龍潭路37號",
-                "address": "龍潭路37號民宅",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.523936749,
-                "phenomenonTime": "2025-06-26T11:54:42+08:00",
-                "transferTime": "2025-06-26T11:55:50+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10009",
-                "townCode": "1000901",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.527891,
-                    23.68995003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-406",
                 "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
                 "stationName": "光復路與工業四路口",
@@ -245,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.08,
-                "phenomenonTime": "2025-06-26T11:49:00+08:00",
-                "transferTime": "2025-06-26T11:55:54+08:00",
+                "phenomenonTime": "2025-06-26T11:59:00+08:00",
+                "transferTime": "2025-06-26T12:05:47+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
