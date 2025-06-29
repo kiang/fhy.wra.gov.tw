@@ -5,14 +5,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "第六河川分署",
-                "stationID": "7edd692b-0f35-452d-9a86-f42734888068",
-                "stationName": "仁德區-保安路一段台鐵涵洞(編號12)",
-                "location": "保安路一段台鐵涵洞",
-                "situation": "仁德區-保安路一段台鐵涵洞(編號12)",
+                "stationID": "6a4d0337-b381-40c2-a603-88360c42ec9b",
+                "stationName": "中正路高速公路涵洞(編號296)",
+                "location": "永康區中正路高速公路下",
+                "situation": "中正路高速公路涵洞(編號296)",
                 "unitOfMeasurement": "cm",
-                "result": 33.7,
-                "phenomenonTime": "2025-06-29T16:50:00",
-                "townCode": "6702700",
+                "result": 10.6,
+                "phenomenonTime": "2025-06-29T17:29:00",
+                "townCode": "6703100",
                 "categoryCode": 1,
                 "sourceCode": 7,
                 "dataSource": "Disaster-Report"
@@ -20,8 +20,60 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.232719,
-                    22.931521
+                    120.249658,
+                    23.031308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-415",
+                "stationID": "df0a63f6-8a0e-4d2a-870c-fa6b6b31f32f",
+                "stationName": "永康區-中正南路316號(編號239)",
+                "address": "中正南路316號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.3,
+                "phenomenonTime": "2025-06-29T17:20:00+08:00",
+                "transferTime": "2025-06-29T17:25:09+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6703100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2267,
+                    23.031347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-415",
+                "stationID": "66dfacfc-dd08-4df2-9017-80a2398be555",
+                "stationName": "永康區-南工街347號(編號251)",
+                "address": "南工街347號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-06-29T17:20:00+08:00",
+                "transferTime": "2025-06-29T17:25:27+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6703100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.236333,
+                    23.013944
                 ]
             }
         },
@@ -48,32 +100,6 @@
                 "coordinates": [
                     120.197907,
                     23.055217
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-415",
-                "stationID": "ba022dc5-7302-445e-9726-0491b9d2e3be",
-                "stationName": "永康區-永明街42號前(編號321)",
-                "address": "永明街42號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 4.5,
-                "phenomenonTime": "2025-06-29T17:10:00+08:00",
-                "transferTime": "2025-06-29T17:15:57+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6703100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.259368,
-                    23.025749
                 ]
             }
         },
@@ -164,9 +190,9 @@
                 "address": "保安路一段台鐵涵洞",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 32.6,
-                "phenomenonTime": "2025-06-29T17:10:00+08:00",
-                "transferTime": "2025-06-29T17:16:05+08:00",
+                "result": 19.7,
+                "phenomenonTime": "2025-06-29T17:20:00+08:00",
+                "transferTime": "2025-06-29T17:25:38+08:00",
                 "toBeConfirm": false,
                 "isCulvert": true,
                 "cityCode": "67",
@@ -217,8 +243,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-06-29T17:09:00+08:00",
-                "transferTime": "2025-06-29T17:16:09+08:00",
+                "phenomenonTime": "2025-06-29T17:19:00+08:00",
+                "transferTime": "2025-06-29T17:25:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -242,9 +268,9 @@
                 "address": "東大機車地下道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.7,
-                "phenomenonTime": "2025-06-29T17:10:00+08:00",
-                "transferTime": "2025-06-29T17:16:08+08:00",
+                "result": 5.6,
+                "phenomenonTime": "2025-06-29T17:20:00+08:00",
+                "transferTime": "2025-06-29T17:25:40+08:00",
                 "toBeConfirm": false,
                 "isCulvert": true,
                 "cityCode": "10018",
@@ -268,9 +294,9 @@
                 "address": "東港鎮共和街1號",
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
-                "result": 1.1,
-                "phenomenonTime": "2025-06-29T17:10:42+08:00",
-                "transferTime": "2025-06-29T17:16:08+08:00",
+                "result": 1,
+                "phenomenonTime": "2025-06-29T17:21:13+08:00",
+                "transferTime": "2025-06-29T17:25:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10013",
