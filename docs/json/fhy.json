@@ -4,6 +4,30 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第六河川分署",
+                "stationID": "7edd692b-0f35-452d-9a86-f42734888068",
+                "stationName": "仁德區-保安路一段台鐵涵洞(編號12)",
+                "location": "保安路一段台鐵涵洞",
+                "situation": "仁德區-保安路一段台鐵涵洞(編號12)",
+                "unitOfMeasurement": "cm",
+                "result": 26.4,
+                "phenomenonTime": "2025-06-29T16:50:00",
+                "townCode": "6702700",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.232719,
+                    22.931521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-404",
                 "stationID": "940cf7cb-760c-424a-b891-a566828eafd4",
                 "stationName": "東豐路133巷",
@@ -11,8 +35,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-06-29T16:25:00+08:00",
-                "transferTime": "2025-06-29T16:35:25+08:00",
+                "phenomenonTime": "2025-06-29T16:35:00+08:00",
+                "transferTime": "2025-06-29T16:45:33+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "68",
@@ -50,6 +74,32 @@
                 "coordinates": [
                     120.197907,
                     23.055217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-415",
+                "stationID": "2cd7a2f2-5791-4bab-8225-4b66ab6440c1",
+                "stationName": "仁德區-民安路二段德善一、二街口(113之1號前)(編號237)",
+                "address": "民安路二段德善一、二街口（113之1號前)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 8.7,
+                "phenomenonTime": "2025-06-29T16:40:00+08:00",
+                "transferTime": "2025-06-29T16:45:43+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6702700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.255025,
+                    22.951607
                 ]
             }
         },
@@ -134,6 +184,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-415",
+                "stationID": "7edd692b-0f35-452d-9a86-f42734888068",
+                "stationName": "仁德區-保安路一段台鐵涵洞(編號12)",
+                "address": "保安路一段台鐵涵洞",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 9.2,
+                "phenomenonTime": "2025-06-29T16:41:00+08:00",
+                "transferTime": "2025-06-29T16:45:50+08:00",
+                "toBeConfirm": false,
+                "isCulvert": true,
+                "cityCode": "67",
+                "townCode": "6702700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.232719,
+                    22.931521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
                 "stationName": "光復路與工業四路口",
@@ -167,8 +243,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-06-29T16:29:00+08:00",
-                "transferTime": "2025-06-29T16:35:46+08:00",
+                "phenomenonTime": "2025-06-29T16:39:00+08:00",
+                "transferTime": "2025-06-29T16:45:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -186,6 +262,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-415",
+                "stationID": "718092d3-b582-4acd-9bd9-3e378b35235a",
+                "stationName": "仁德區-忠義二街27號(編號236)",
+                "address": "忠義二街27號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 9.6,
+                "phenomenonTime": "2025-06-29T16:40:00+08:00",
+                "transferTime": "2025-06-29T16:45:49+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6702700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.257477,
+                    22.977842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-7",
                 "stationID": "1bc5476e-5552-4219-a663-6005449d4c2f",
                 "stationName": "東港鎮_東南宮",
@@ -193,8 +295,8 @@
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-06-29T16:30:41+08:00",
-                "transferTime": "2025-06-29T16:35:46+08:00",
+                "phenomenonTime": "2025-06-29T16:40:43+08:00",
+                "transferTime": "2025-06-29T16:45:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10013",
