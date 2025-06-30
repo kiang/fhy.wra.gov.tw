@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "2a8ed768-a9ff-4622-bc7f-128ef835fa4e",
+                "stationName": "布袋鎮樹林里",
+                "address": "縣道161與170交會口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-06-30T11:01:28+08:00",
+                "transferTime": "2025-06-30T11:05:22+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.21691,
+                    23.41688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "1db5fed2-14f0-489f-a031-e09dfa8f2a6c",
                 "stationName": "安南區-本原街一段250巷(編號156)",
@@ -24,32 +50,6 @@
                 "coordinates": [
                     120.197907,
                     23.055217
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-412",
-                "stationID": "f75823bd-7c87-4935-a905-81d3868c5da1",
-                "stationName": "松西村_尼爾魔幻藝術",
-                "address": "尼爾魔幻藝術",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 30.0138765,
-                "phenomenonTime": "2025-06-30T10:54:44+08:00",
-                "transferTime": "2025-06-30T10:55:36+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10009",
-                "townCode": "1000920",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.224772,
-                    23.516394
                 ]
             }
         },
@@ -114,9 +114,9 @@
                 "address": "蚵寮村中華街250號",
                 "sensorType": "超音波式",
                 "unitOfMeasurement": "cm",
-                "result": 0.8,
-                "phenomenonTime": "2025-06-30T10:00:00+08:00",
-                "transferTime": "2025-06-30T10:05:52+08:00",
+                "result": 0.6,
+                "phenomenonTime": "2025-06-30T11:00:00+08:00",
+                "transferTime": "2025-06-30T11:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -167,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.15,
-                "phenomenonTime": "2025-06-30T10:49:00+08:00",
-                "transferTime": "2025-06-30T10:55:43+08:00",
+                "phenomenonTime": "2025-06-30T10:59:00+08:00",
+                "transferTime": "2025-06-30T11:05:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -180,6 +180,32 @@
                 "coordinates": [
                     121.1014,
                     22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-7",
+                "stationID": "1bc5476e-5552-4219-a663-6005449d4c2f",
+                "stationName": "東港鎮_東南宮",
+                "address": "東港鎮共和街1號",
+                "sensorType": "雷達波",
+                "unitOfMeasurement": "cm",
+                "result": 1.4,
+                "phenomenonTime": "2025-06-30T11:01:01+08:00",
+                "transferTime": "2025-06-30T11:05:51+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10013",
+                "townCode": "1001303",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.45,
+                    22.4618
                 ]
             }
         }
