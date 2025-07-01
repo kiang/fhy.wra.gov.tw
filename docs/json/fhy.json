@@ -10,9 +10,9 @@
                 "address": "台子村_地藏庵",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 26.5506983,
-                "phenomenonTime": "2025-07-01T11:14:11+08:00",
-                "transferTime": "2025-07-01T11:15:46+08:00",
+                "result": 28.0646063,
+                "phenomenonTime": "2025-07-01T11:24:12+08:00",
+                "transferTime": "2025-07-01T11:25:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-07-01T11:05:08+08:00",
-                "transferTime": "2025-07-01T11:15:49+08:00",
+                "phenomenonTime": "2025-07-01T11:20:08+08:00",
+                "transferTime": "2025-07-01T11:25:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -82,6 +82,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
+                "stationName": "福興東路",
+                "address": "福興東路",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.018,
+                "phenomenonTime": "2025-07-01T11:20:08+08:00",
+                "transferTime": "2025-07-01T11:25:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.016461,
+                    24.820092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-5",
                 "stationID": "871de3ce-6dec-444b-9cf3-8b173733ce62",
                 "stationName": "107P006口湖蚵寮村箔子寮",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.03,
-                "phenomenonTime": "2025-07-01T11:05:09+08:00",
-                "transferTime": "2025-07-01T11:15:49+08:00",
+                "phenomenonTime": "2025-07-01T11:20:09+08:00",
+                "transferTime": "2025-07-01T11:25:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -140,9 +166,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.08,
-                "phenomenonTime": "2025-07-01T11:09:00+08:00",
-                "transferTime": "2025-07-01T11:15:49+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-07-01T11:19:00+08:00",
+                "transferTime": "2025-07-01T11:25:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -154,32 +180,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-7",
-                "stationID": "1bc5476e-5552-4219-a663-6005449d4c2f",
-                "stationName": "東港鎮_東南宮",
-                "address": "東港鎮共和街1號",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 2380,
-                "phenomenonTime": "2025-07-01T11:10:32+08:00",
-                "transferTime": "2025-07-01T11:15:49+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10013",
-                "townCode": "1001303",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.45,
-                    22.4618
                 ]
             }
         }
