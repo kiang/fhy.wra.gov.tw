@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-408",
+                "stationID": "f49e2120-1a4a-4108-b1f2-8857852d04ba",
+                "stationName": "北區雙十路二段與錦中街交叉口",
+                "address": "雙十路二段與錦中街交叉口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4,
+                "phenomenonTime": "2025-07-04T15:27:00+08:00",
+                "transferTime": "2025-07-04T15:35:33+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6600500",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.689639,
+                    24.154861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "4189824a-daa4-491d-95db-7fd93c149f4e",
                 "stationName": "下營區-南58線頂角橋旁(編號93)",
@@ -102,32 +128,6 @@
                 "coordinates": [
                     121.018357,
                     24.861289
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-422",
-                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
-                "stationName": "十股排水-路面淹水",
-                "address": "賓朗路163號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.08,
-                "phenomenonTime": "2025-07-04T15:19:00+08:00",
-                "transferTime": "2025-07-04T15:25:44+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10014",
-                "townCode": "1001404",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.1014,
-                    22.796
                 ]
             }
         }
