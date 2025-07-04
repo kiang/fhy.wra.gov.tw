@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-412",
+                "stationID": "d279572b-6847-470e-ba07-62bd58333929",
+                "stationName": "北港鎮_中正路文化路交叉路口",
+                "address": "中正路文化路交叉路口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.1416316,
+                "phenomenonTime": "2025-07-04T10:04:43+08:00",
+                "transferTime": "2025-07-04T10:05:47+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000906",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.301821,
+                    23.569647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
                 "stationID": "f798b1c5-f4ab-4431-9de7-04c1660f666b",
                 "stationName": "民雄鄉中樂村民雄",
                 "address": "保安宮騎虎王廟旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-07-04T09:53:46+08:00",
-                "transferTime": "2025-07-04T09:55:45+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-07-04T10:02:46+08:00",
+                "transferTime": "2025-07-04T10:05:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -24,32 +50,6 @@
                 "coordinates": [
                     120.42971,
                     23.5529
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "a9c94823-2100-42a5-9ce2-36fb392f15d4",
-                "stationName": "CYC135民雄鄉寮頂村富義新村",
-                "address": "寮頂村富義新村",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-07-04T09:54:02+08:00",
-                "transferTime": "2025-07-04T09:55:48+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001005",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4338291,
-                    23.5635323
                 ]
             }
         },
@@ -141,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-07-04T09:00:00+08:00",
-                "transferTime": "2025-07-04T09:05:54+08:00",
+                "phenomenonTime": "2025-07-04T10:00:00+08:00",
+                "transferTime": "2025-07-04T10:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -193,8 +193,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.15,
-                "phenomenonTime": "2025-07-04T09:49:00+08:00",
-                "transferTime": "2025-07-04T09:55:49+08:00",
+                "phenomenonTime": "2025-07-04T09:59:00+08:00",
+                "transferTime": "2025-07-04T10:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
