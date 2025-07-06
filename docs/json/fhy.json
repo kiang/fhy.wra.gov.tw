@@ -4,30 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "第六河川分署",
-                "stationID": "a605c33d-9f65-4d95-8b87-bb8a167ce51e",
-                "stationName": "成功二路(台糖物流園區前)",
-                "location": "成功二路(台糖物流園區前)",
-                "situation": "成功二路(台糖物流園區前)",
-                "unitOfMeasurement": "cm",
-                "result": 11.8,
-                "phenomenonTime": "2025-07-06T14:14:00",
-                "townCode": "6400900",
-                "categoryCode": 1,
-                "sourceCode": 7,
-                "dataSource": "Disaster-Report"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.304371,
-                    22.59716
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "b13fc1f1-7343-43dd-93ea-05e4ea307f27",
                 "stationName": "下營區-下橋頭仔站(編號66)",
@@ -54,41 +30,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
-                "stationName": "六腳鄉潭墘村",
-                "address": "潭墘村34-1號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-07-06T13:10:50+08:00",
-                "transferTime": "2025-07-06T13:15:11+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001008",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.27771,
-                    23.50609
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-417",
                 "stationID": "a2035b5e-cd69-4406-83d2-62fcfeb9d4cf",
                 "stationName": "鼓山二路137號",
                 "address": "鼓山二路137號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2025-07-06T13:53:00+08:00",
-                "transferTime": "2025-07-06T14:05:27+08:00",
+                "result": 3.6,
+                "phenomenonTime": "2025-07-06T14:00:00+08:00",
+                "transferTime": "2025-07-06T14:15:13+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -106,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "f9ef5e70-ab0b-4955-ba72-6deaf20e8597",
+                "stationName": "海光鋼鐵廠前北上機車道",
+                "address": "海光鋼鐵廠前北上機車道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 9.5,
+                "phenomenonTime": "2025-07-06T14:09:00+08:00",
+                "transferTime": "2025-07-06T14:15:10+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.35887,
+                    22.55901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-412",
                 "stationID": "fa80ab95-1a81-4286-80ae-bd8388289061",
                 "stationName": "義民里_義民路",
                 "address": "義民里_北港橋頭",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.11291409,
-                "phenomenonTime": "2025-07-06T14:04:41+08:00",
-                "transferTime": "2025-07-06T14:05:26+08:00",
+                "result": 1.13998652,
+                "phenomenonTime": "2025-07-06T14:10:43+08:00",
+                "transferTime": "2025-07-06T14:15:20+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -139,8 +115,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-07-06T13:50:00+08:00",
-                "transferTime": "2025-07-06T14:05:33+08:00",
+                "phenomenonTime": "2025-07-06T14:00:00+08:00",
+                "transferTime": "2025-07-06T14:15:26+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -152,6 +128,32 @@
                 "coordinates": [
                     121.1239,
                     22.7736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-417",
+                "stationID": "a605c33d-9f65-4d95-8b87-bb8a167ce51e",
+                "stationName": "成功二路(台糖物流園區前)",
+                "address": "成功二路(台糖物流園區前)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 11.8,
+                "phenomenonTime": "2025-07-06T14:14:00+08:00",
+                "transferTime": "2025-07-06T14:15:24+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6400900",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.304371,
+                    22.59716
                 ]
             }
         },
@@ -243,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2025-07-06T13:00:00+08:00",
-                "transferTime": "2025-07-06T13:15:58+08:00",
+                "phenomenonTime": "2025-07-06T14:00:00+08:00",
+                "transferTime": "2025-07-06T14:15:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -256,32 +258,6 @@
                 "coordinates": [
                     120.114814,
                     23.098769
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "f6369228-4640-4475-929f-646077afa7aa",
-                "stationName": "CYC146鹿草鄉鹿草村鹿草市區",
-                "address": "鹿草村鹿草市區",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-07-06T14:03:47+08:00",
-                "transferTime": "2025-07-06T14:05:52+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.3101796,
-                    23.4124308
                 ]
             }
         },
