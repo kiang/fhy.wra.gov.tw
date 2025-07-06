@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "f9ef5e70-ab0b-4955-ba72-6deaf20e8597",
+                "stationName": "海光鋼鐵廠前北上機車道",
+                "address": "海光鋼鐵廠前北上機車道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-07-06T11:50:00+08:00",
+                "transferTime": "2025-07-06T11:55:18+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.35887,
+                    22.55901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-412",
                 "stationID": "fa80ab95-1a81-4286-80ae-bd8388289061",
                 "stationName": "義民里_義民路",
                 "address": "義民里_北港橋頭",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.08995438,
-                "phenomenonTime": "2025-07-06T11:40:41+08:00",
-                "transferTime": "2025-07-06T11:45:33+08:00",
+                "result": 1.0661602,
+                "phenomenonTime": "2025-07-06T11:50:41+08:00",
+                "transferTime": "2025-07-06T11:55:33+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-07-06T11:40:00+08:00",
-                "transferTime": "2025-07-06T11:45:34+08:00",
+                "phenomenonTime": "2025-07-06T11:50:00+08:00",
+                "transferTime": "2025-07-06T11:55:34+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -50,32 +76,6 @@
                 "coordinates": [
                     121.1239,
                     22.7736
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "366b9edb-b48e-404c-9fab-7f41c278516c",
-                "stationName": "布袋鎮過溝東安里",
-                "address": "東安里24-2號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-07-06T11:43:19+08:00",
-                "transferTime": "2025-07-06T11:45:29+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18134,
-                    23.41583
                 ]
             }
         },
