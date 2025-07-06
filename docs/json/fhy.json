@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "f9ef5e70-ab0b-4955-ba72-6deaf20e8597",
+                "stationName": "海光鋼鐵廠前北上機車道",
+                "address": "海光鋼鐵廠前北上機車道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2025-07-06T18:28:00+08:00",
+                "transferTime": "2025-07-06T18:45:15+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.35887,
+                    22.55901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-412",
                 "stationID": "fa80ab95-1a81-4286-80ae-bd8388289061",
                 "stationName": "義民里_義民路",
                 "address": "義民里_北港橋頭",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.13096237,
-                "phenomenonTime": "2025-07-06T18:29:39+08:00",
-                "transferTime": "2025-07-06T18:35:41+08:00",
+                "result": 1.10963583,
+                "phenomenonTime": "2025-07-06T18:40:41+08:00",
+                "transferTime": "2025-07-06T18:45:29+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -24,32 +50,6 @@
                 "coordinates": [
                     120.302195,
                     23.566666
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-420",
-                "stationID": "21b47527-528c-4418-afb6-6238469d80fc",
-                "stationName": "冬山鄉三堵二路",
-                "address": "三堵二路",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 4.1,
-                "phenomenonTime": "2025-07-06T18:24:00+08:00",
-                "transferTime": "2025-07-06T18:35:42+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10002",
-                "townCode": "1000208",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.801828,
-                    24.657438
                 ]
             }
         },
@@ -218,10 +218,10 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.61,
-                "phenomenonTime": "2025-07-06T18:29:00+08:00",
-                "transferTime": "2025-07-06T18:35:58+08:00",
-                "toBeConfirm": false,
+                "result": 0.23,
+                "phenomenonTime": "2025-07-06T18:39:00+08:00",
+                "transferTime": "2025-07-06T18:45:51+08:00",
+                "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
                 "townCode": "1001404",
