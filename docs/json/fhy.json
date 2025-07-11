@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
+                "stationName": "鹿草鄉松竹村",
+                "address": "農田旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-07-11T21:42:48+08:00",
+                "transferTime": "2025-07-11T21:45:46+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001011",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.28908,
+                    23.39764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-3",
                 "stationID": "36a6ff6c-0304-4c50-ae17-f32d15d16899",
                 "stationName": "東山路排水與貓羅溪匯流口",
                 "address": "東山路排水與貓羅溪匯流口",
                 "sensorType": "雷達波式",
                 "unitOfMeasurement": "cm",
-                "result": 7.6,
-                "phenomenonTime": "2025-07-11T21:20:00+08:00",
-                "transferTime": "2025-07-11T21:35:29+08:00",
+                "result": 7.5,
+                "phenomenonTime": "2025-07-11T21:30:00+08:00",
+                "transferTime": "2025-07-11T21:45:34+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10008",
@@ -167,8 +193,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.2,
-                "phenomenonTime": "2025-07-11T21:25:00+08:00",
-                "transferTime": "2025-07-11T21:35:38+08:00",
+                "phenomenonTime": "2025-07-11T21:35:00+08:00",
+                "transferTime": "2025-07-11T21:45:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "67",
@@ -245,8 +271,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-07-11T21:29:00+08:00",
-                "transferTime": "2025-07-11T21:35:44+08:00",
+                "phenomenonTime": "2025-07-11T21:39:00+08:00",
+                "transferTime": "2025-07-11T21:45:47+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
