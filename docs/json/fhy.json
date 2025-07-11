@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-07-11T15:50:00+08:00",
-                "transferTime": "2025-07-11T15:55:17+08:00",
+                "phenomenonTime": "2025-07-11T16:00:00+08:00",
+                "transferTime": "2025-07-11T16:05:15+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -63,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-07-11T15:45:09+08:00",
-                "transferTime": "2025-07-11T15:56:00+08:00",
+                "phenomenonTime": "2025-07-11T16:00:10+08:00",
+                "transferTime": "2025-07-11T16:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -141,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.009,
-                "phenomenonTime": "2025-07-11T15:45:10+08:00",
-                "transferTime": "2025-07-11T15:55:51+08:00",
+                "phenomenonTime": "2025-07-11T16:00:10+08:00",
+                "transferTime": "2025-07-11T16:05:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -167,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.009,
-                "phenomenonTime": "2025-07-11T15:45:10+08:00",
-                "transferTime": "2025-07-11T15:56:02+08:00",
+                "phenomenonTime": "2025-07-11T16:00:10+08:00",
+                "transferTime": "2025-07-11T16:05:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -186,15 +186,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "fdc76202-40eb-4383-8ecc-d352f5e3cdf5",
+                "stationName": "CYC147中埔鄉隆興村",
+                "address": "隆興村中埔鄉隆興村",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-07-11T16:04:18+08:00",
+                "transferTime": "2025-07-11T16:05:51+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001013",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.52337,
+                    23.4402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-07-11T15:49:00+08:00",
-                "transferTime": "2025-07-11T15:56:02+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-07-11T15:59:00+08:00",
+                "transferTime": "2025-07-11T16:05:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -206,32 +232,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-5",
-                "stationID": "71524110-5dec-4462-8b99-0bb19e024a70",
-                "stationName": "108P061口湖水井村",
-                "address": "水井村",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 11.7,
-                "phenomenonTime": "2025-07-11T15:52:47+08:00",
-                "transferTime": "2025-07-11T15:56:02+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10009",
-                "townCode": "1000919",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18524,
-                    23.532223
                 ]
             }
         }
