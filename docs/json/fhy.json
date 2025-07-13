@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-419",
+                "stationID": "1e591711-57d0-408e-8620-0c81e4338bf4",
+                "stationName": "中林路全聯門口",
+                "address": "中林路285號",
+                "sensorType": "雷達波",
+                "unitOfMeasurement": "cm",
+                "result": 24.34,
+                "phenomenonTime": "2025-07-13T10:02:00+08:00",
+                "transferTime": "2025-07-13T10:05:43+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10013",
+                "townCode": "1001319",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.51948,
+                    22.438543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "484b5806-9073-4c4b-91cc-480b8891933d",
                 "stationName": "鹽水區-三和里竹圍仔(編號231)",
@@ -50,32 +76,6 @@
                 "coordinates": [
                     120.2002878,
                     23.2619832
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-4",
-                "stationID": "79a033df-e743-43f9-80a6-0957bb97bdf3",
-                "stationName": "員林彰基淹水感測",
-                "address": "員林基督教醫院旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 9.9,
-                "phenomenonTime": "2025-07-13T09:46:00+08:00",
-                "transferTime": "2025-07-13T09:55:55+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10007",
-                "townCode": "1000710",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.567229,
-                    23.962316
                 ]
             }
         },
@@ -140,9 +140,9 @@
                 "address": "南57線高速公路下涵洞",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.3,
-                "phenomenonTime": "2025-07-13T09:00:00+08:00",
-                "transferTime": "2025-07-13T09:05:44+08:00",
+                "result": 1.1,
+                "phenomenonTime": "2025-07-13T10:00:00+08:00",
+                "transferTime": "2025-07-13T10:05:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "67",
@@ -218,9 +218,9 @@
                 "address": "惠安街77巷1號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.9,
-                "phenomenonTime": "2025-07-13T09:53:45+08:00",
-                "transferTime": "2025-07-13T09:55:54+08:00",
+                "result": 4.1,
+                "phenomenonTime": "2025-07-13T10:02:45+08:00",
+                "transferTime": "2025-07-13T10:05:47+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -245,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.08,
-                "phenomenonTime": "2025-07-13T09:49:00+08:00",
-                "transferTime": "2025-07-13T09:55:55+08:00",
+                "phenomenonTime": "2025-07-13T09:59:00+08:00",
+                "transferTime": "2025-07-13T10:05:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -258,32 +258,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-7",
-                "stationID": "1bc5476e-5552-4219-a663-6005449d4c2f",
-                "stationName": "東港鎮_東南宮",
-                "address": "東港鎮共和街1號",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 3.9,
-                "phenomenonTime": "2025-07-13T09:50:00+08:00",
-                "transferTime": "2025-07-13T09:55:54+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10013",
-                "townCode": "1001303",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.45,
-                    22.4618
                 ]
             }
         }
