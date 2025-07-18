@@ -4,15 +4,65 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第六河川分署",
+                "stationID": "44753631-7a26-4da5-a7cb-0b6475bd7dc8",
+                "stationName": "青海路美術東八街口",
+                "location": "青海路美術東八街口",
+                "situation": "青海路美術東八街口",
+                "unitOfMeasurement": "cm",
+                "result": 10,
+                "phenomenonTime": "2025-07-18T15:18:00",
+                "townCode": "6400200",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.291066,
+                    22.651315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-417",
+                "stationID": "a2035b5e-cd69-4406-83d2-62fcfeb9d4cf",
+                "stationName": "鼓山二路137號",
+                "address": "鼓山二路137號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.5,
+                "phenomenonTime": "2025-07-18T15:07:00+08:00",
+                "transferTime": "2025-07-18T15:15:28+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6400200",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.280483,
+                    22.637569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-408",
                 "stationID": "f9e82715-f815-4bce-992f-53bca242e0e8",
                 "stationName": "霧峰區吉峰路170巷12號",
                 "address": "吉峰東路170巷12號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.7,
-                "phenomenonTime": "2025-07-18T14:57:00+08:00",
-                "transferTime": "2025-07-18T15:05:03+08:00",
+                "result": 5.4,
+                "phenomenonTime": "2025-07-18T15:07:00+08:00",
+                "transferTime": "2025-07-18T15:15:07+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -30,32 +80,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-417",
-                "stationID": "f9ef5e70-ab0b-4955-ba72-6deaf20e8597",
-                "stationName": "海光鋼鐵廠前北上機車道",
-                "address": "海光鋼鐵廠前北上機車道",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-07-18T15:00:00+08:00",
-                "transferTime": "2025-07-18T15:05:06+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6401100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.35887,
-                    22.55901
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-412",
                 "stationID": "9dc04b6d-ebed-4cc4-a69e-8f0f2a0cf44c",
                 "stationName": "定安村_定安宮管理委員會",
@@ -63,8 +87,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 14.8,
-                "phenomenonTime": "2025-07-18T15:04:41+08:00",
-                "transferTime": "2025-07-18T15:05:23+08:00",
+                "phenomenonTime": "2025-07-18T15:14:41+08:00",
+                "transferTime": "2025-07-18T15:15:38+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -82,26 +106,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-5",
-                "stationID": "627fd035-3d68-4076-9a86-eea27ffbd803",
-                "stationName": "108Q033鹿草豐稠村鹿草焚化爐",
-                "address": "豐稠村鹿草焚化爐",
+                "authority": "Operator-417",
+                "stationID": "8157b65e-0863-43e7-95db-f4894e14ea4a",
+                "stationName": "七賢三路250號前",
+                "address": "七賢三路250號前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 11.1,
-                "phenomenonTime": "2025-07-18T15:02:50+08:00",
-                "transferTime": "2025-07-18T15:05:37+08:00",
-                "toBeConfirm": true,
+                "result": 3,
+                "phenomenonTime": "2025-07-18T15:08:00+08:00",
+                "transferTime": "2025-07-18T15:15:52+08:00",
+                "toBeConfirm": false,
                 "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
+                "cityCode": "64",
+                "townCode": "6400100",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.277656,
-                    23.448678
+                    120.284517,
+                    22.630253
                 ]
             }
         },
@@ -218,9 +242,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.23,
-                "phenomenonTime": "2025-07-18T14:59:00+08:00",
-                "transferTime": "2025-07-18T15:05:44+08:00",
+                "result": 0.53,
+                "phenomenonTime": "2025-07-18T15:09:00+08:00",
+                "transferTime": "2025-07-18T15:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
