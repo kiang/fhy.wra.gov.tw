@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 7,
-                "phenomenonTime": "2025-07-20T19:45:00+08:00",
-                "transferTime": "2025-07-20T19:55:14+08:00",
+                "phenomenonTime": "2025-07-20T19:55:00+08:00",
+                "transferTime": "2025-07-20T20:05:13+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "68",
@@ -36,9 +36,9 @@
                 "address": "蚵寮路267號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.2,
-                "phenomenonTime": "2025-07-20T19:47:00+08:00",
-                "transferTime": "2025-07-20T19:55:16+08:00",
+                "result": 4.8,
+                "phenomenonTime": "2025-07-20T19:57:00+08:00",
+                "transferTime": "2025-07-20T20:05:23+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -63,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-07-20T19:43:00+08:00",
-                "transferTime": "2025-07-20T19:45:10+08:00",
+                "phenomenonTime": "2025-07-20T19:53:00+08:00",
+                "transferTime": "2025-07-20T20:05:14+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -88,9 +88,9 @@
                 "address": "光華街(烏日啤酒廠)",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.7,
-                "phenomenonTime": "2025-07-20T19:46:00+08:00",
-                "transferTime": "2025-07-20T19:55:40+08:00",
+                "result": 4.5,
+                "phenomenonTime": "2025-07-20T19:56:00+08:00",
+                "transferTime": "2025-07-20T20:05:33+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -166,9 +166,9 @@
                 "address": "東英二街與長福路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.9,
-                "phenomenonTime": "2025-07-20T19:47:00+08:00",
-                "transferTime": "2025-07-20T19:55:56+08:00",
+                "result": 7,
+                "phenomenonTime": "2025-07-20T19:57:00+08:00",
+                "transferTime": "2025-07-20T20:05:45+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -180,6 +180,32 @@
                 "coordinates": [
                     120.704076,
                     24.135194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
+                "stationID": "eb749ea6-43bb-48fc-a937-cd07a5839342",
+                "stationName": "達生街與民族路口",
+                "address": "達生街與民族路口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.012,
+                "phenomenonTime": "2025-07-20T20:00:08+08:00",
+                "transferTime": "2025-07-20T20:05:49+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000405",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.045734,
+                    24.903357
                 ]
             }
         },
@@ -219,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.006,
-                "phenomenonTime": "2025-07-20T19:45:10+08:00",
-                "transferTime": "2025-07-20T19:55:52+08:00",
+                "phenomenonTime": "2025-07-20T20:00:09+08:00",
+                "transferTime": "2025-07-20T20:05:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -232,58 +258,6 @@
                 "coordinates": [
                     121.016461,
                     24.820092
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-406",
-                "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
-                "stationName": "光復路與工業四路口",
-                "address": "光復路與工業四路口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.006,
-                "phenomenonTime": "2025-07-20T19:45:10+08:00",
-                "transferTime": "2025-07-20T19:55:55+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10004",
-                "townCode": "1000405",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.018357,
-                    24.861289
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-422",
-                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
-                "stationName": "十股排水-路面淹水",
-                "address": "賓朗路163號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-07-20T19:49:00+08:00",
-                "transferTime": "2025-07-20T19:55:56+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10014",
-                "townCode": "1001404",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.1014,
-                    22.796
                 ]
             }
         },
