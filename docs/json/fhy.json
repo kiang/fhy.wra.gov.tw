@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "4a5b9fd1-d2a3-40ac-9aad-8cc18748d358",
+                "stationName": "朴子市佳禾里苦瓜寮",
+                "address": "佳禾里28-1號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 15.2,
+                "phenomenonTime": "2025-07-23T15:12:04+08:00",
+                "transferTime": "2025-07-23T15:15:42+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001002",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.25838,
+                    23.44925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-4",
                 "stationID": "79a033df-e743-43f9-80a6-0957bb97bdf3",
                 "stationName": "員林彰基淹水感測",
@@ -140,9 +166,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.31,
-                "phenomenonTime": "2025-07-23T14:59:00+08:00",
-                "transferTime": "2025-07-23T15:05:48+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-07-23T15:09:00+08:00",
+                "transferTime": "2025-07-23T15:15:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
