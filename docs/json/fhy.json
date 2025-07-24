@@ -10,9 +10,9 @@
                 "address": "長興路四段60巷-3",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-07-25T01:00:00+08:00",
-                "transferTime": "2025-07-25T01:05:17+08:00",
+                "result": 2,
+                "phenomenonTime": "2025-07-25T01:05:00+08:00",
+                "transferTime": "2025-07-25T01:15:37+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "68",
@@ -50,32 +50,6 @@
                 "coordinates": [
                     120.2002878,
                     23.2619832
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "742262ac-43f7-4079-964b-1fd3b42ecf8c",
-                "stationName": "CYC133新港鄉西庄村西庄社區",
-                "address": "西庄村西庄社區",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-07-25T01:03:59+08:00",
-                "transferTime": "2025-07-25T01:05:42+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001007",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.37764,
-                    23.5638619
                 ]
             }
         },
@@ -180,6 +154,32 @@
                 "coordinates": [
                     121.016461,
                     24.820092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.23,
+                "phenomenonTime": "2025-07-25T01:09:00+08:00",
+                "transferTime": "2025-07-25T01:16:18+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
                 ]
             }
         }
