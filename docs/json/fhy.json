@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-5",
+                "stationID": "a7eecccc-b72c-4bc0-ba2b-c55b69f980e8",
+                "stationName": "107Q002新港南崙村溪底寮",
+                "address": "南崙村南崙村崙子177-5號附近",
+                "sensorType": "超音波式",
+                "unitOfMeasurement": "cm",
+                "result": 12.7713938,
+                "phenomenonTime": "2025-07-24T11:51:05+08:00",
+                "transferTime": "2025-07-24T11:55:32+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001007",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.343544,
+                    23.581772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-404",
                 "stationID": "802ca7a7-34fc-40df-adc4-287491f98615",
                 "stationName": "桃鶯路昆明路",
                 "address": "桃鶯路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1,
-                "phenomenonTime": "2025-07-24T11:35:00+08:00",
-                "transferTime": "2025-07-24T11:45:42+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-07-24T11:45:00+08:00",
+                "transferTime": "2025-07-24T11:55:34+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "68",
@@ -50,6 +76,32 @@
                 "coordinates": [
                     120.2002878,
                     23.2619832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-412",
+                "stationID": "c184ad51-10e4-48aa-8885-6e9e80061654",
+                "stationName": "龍岩村_無名早餐店",
+                "address": "無名早餐店",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.86567278,
+                "phenomenonTime": "2025-07-24T11:54:45+08:00",
+                "transferTime": "2025-07-24T11:55:37+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000917",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.318598,
+                    23.6228553
                 ]
             }
         },
@@ -141,8 +193,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-07-24T11:35:00+08:00",
-                "transferTime": "2025-07-24T11:45:49+08:00",
+                "phenomenonTime": "2025-07-24T11:45:00+08:00",
+                "transferTime": "2025-07-24T11:55:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "68",
@@ -166,9 +218,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.08,
-                "phenomenonTime": "2025-07-24T11:39:00+08:00",
-                "transferTime": "2025-07-24T11:45:49+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-07-24T11:49:00+08:00",
+                "transferTime": "2025-07-24T11:55:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
