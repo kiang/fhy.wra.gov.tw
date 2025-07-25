@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-411",
+                "stationID": "02fdf307-4f52-4c65-a82c-3ceb63e1b0ef",
+                "stationName": "瓦窯天清宮",
+                "address": "光明路二段79號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 9,
+                "phenomenonTime": "2025-07-25T15:39:00+08:00",
+                "transferTime": "2025-07-25T15:45:46+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000714",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4744971,
+                    24.0110799
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "eb749ea6-43bb-48fc-a937-cd07a5839342",
                 "stationName": "達生街與民族路口",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.15,
-                "phenomenonTime": "2025-07-25T15:29:00+08:00",
-                "transferTime": "2025-07-25T15:35:45+08:00",
+                "phenomenonTime": "2025-07-25T15:39:00+08:00",
+                "transferTime": "2025-07-25T15:45:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-412",
-                "stationID": "ebd5bb0e-cebe-4a56-9b28-7e8829819682",
-                "stationName": "西平里_山子腳",
-                "address": "西平里_山子腳",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 28.9049864,
-                "phenomenonTime": "2025-07-25T15:34:41+08:00",
-                "transferTime": "2025-07-25T15:35:45+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10009",
-                "townCode": "1000905",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.349644,
-                    23.712486
                 ]
             }
         }
