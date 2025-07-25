@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-412",
+                "stationID": "6c0feabc-8905-4731-9f40-24df973d35f4",
+                "stationName": "興安村_土地公廟",
+                "address": "土地公廟",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 32.53729,
+                "phenomenonTime": "2025-07-25T14:44:11+08:00",
+                "transferTime": "2025-07-25T14:45:19+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000908",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3926619,
+                    23.6245651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-411",
                 "stationID": "c78cff41-6abc-45b9-a955-1a7cca809263",
                 "stationName": "四塊厝排水",
                 "address": "四塊厝排水",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.9,
-                "phenomenonTime": "2025-07-25T14:30:00+08:00",
-                "transferTime": "2025-07-25T14:35:20+08:00",
+                "result": 4.7,
+                "phenomenonTime": "2025-07-25T14:37:00+08:00",
+                "transferTime": "2025-07-25T14:45:21+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -140,9 +166,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-07-25T14:29:00+08:00",
-                "transferTime": "2025-07-25T14:35:46+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-07-25T14:39:00+08:00",
+                "transferTime": "2025-07-25T14:45:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -154,32 +180,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-412",
-                "stationID": "3edd8215-21e0-4e85-b7dd-e06a399c304f",
-                "stationName": "西鎮村_南邊村落",
-                "address": "西鎮村",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 2.456666946,
-                "phenomenonTime": "2025-07-25T14:30:50+08:00",
-                "transferTime": "2025-07-25T14:35:49+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10009",
-                "townCode": "1000908",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.3816108,
-                    23.6183839
                 ]
             }
         }
