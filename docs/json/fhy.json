@@ -5,12 +5,36 @@
             "type": "Feature",
             "properties": {
                 "authority": "第三河川分署",
+                "stationID": "1a49f5e9-5641-4efa-9e4b-796f28651c07",
+                "stationName": "三民路三段131巷8號前",
+                "location": "三民路三段131巷8號前",
+                "situation": "三民路三段131巷8號前",
+                "unitOfMeasurement": "cm",
+                "result": 16.6,
+                "phenomenonTime": "2025-07-28T02:06:00",
+                "townCode": "6600500",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.68404,
+                    24.151003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "第三河川分署",
                 "stationID": "e2ac0882-93af-4aa9-b3f3-0227a8eed56f",
                 "stationName": "大慶街二段98巷",
                 "location": "大慶街二段98巷",
                 "situation": "大慶街二段98巷",
                 "unitOfMeasurement": "cm",
-                "result": 14,
+                "result": 14.7,
                 "phenomenonTime": "2025-07-30T08:04:00",
                 "townCode": "6600300",
                 "categoryCode": 1,
@@ -28,15 +52,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "第四河川分署",
-                "stationID": "395b7054-c29f-44ac-9b0a-a5466d52d587",
-                "stationName": "寶部路涵洞",
-                "location": "寶部里寶部路涵洞",
-                "situation": "寶部路涵洞",
+                "authority": "第三河川分署",
+                "stationID": "c7673326-db98-4735-bedc-e9b60d609965",
+                "stationName": "錦祥里育樂街",
+                "location": "錦祥里育樂街39號",
+                "situation": "錦祥里育樂街",
                 "unitOfMeasurement": "cm",
-                "result": 21.2,
-                "phenomenonTime": "2025-07-30T07:44:00",
-                "townCode": "1000701",
+                "result": 13.3,
+                "phenomenonTime": "2025-07-30T08:15:00",
+                "townCode": "6600500",
                 "categoryCode": 1,
                 "sourceCode": 7,
                 "dataSource": "Disaster-Report"
@@ -44,8 +68,34 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.5566947,
-                    24.1008777
+                    120.6927444,
+                    24.1573634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-408",
+                "stationID": "02092f9b-8893-4619-ab2a-6fbd6a5cb9ed",
+                "stationName": "大里區日新路648號",
+                "address": "日新路648號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.8,
+                "phenomenonTime": "2025-07-30T08:20:00+08:00",
+                "transferTime": "2025-07-30T08:25:17+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6602800",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.692561,
+                    24.1202
                 ]
             }
         },
@@ -58,9 +108,9 @@
                 "address": "公園路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.8,
-                "phenomenonTime": "2025-07-30T08:10:00+08:00",
-                "transferTime": "2025-07-30T08:15:03+08:00",
+                "result": 7,
+                "phenomenonTime": "2025-07-30T08:21:00+08:00",
+                "transferTime": "2025-07-30T08:25:10+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -78,15 +128,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "b18a1099-0d83-4770-83d3-66035798d099",
+                "stationName": "六腳鄉古林村",
+                "address": "166縣道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.4,
+                "phenomenonTime": "2025-07-30T08:23:36+08:00",
+                "transferTime": "2025-07-30T08:25:17+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22261,
+                    23.48574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-408",
                 "stationID": "c7673326-db98-4735-bedc-e9b60d609965",
                 "stationName": "錦祥里育樂街",
                 "address": "錦祥里育樂街39號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8,
-                "phenomenonTime": "2025-07-30T08:05:00+08:00",
-                "transferTime": "2025-07-30T08:15:18+08:00",
+                "result": 13.3,
+                "phenomenonTime": "2025-07-30T08:15:00+08:00",
+                "transferTime": "2025-07-30T08:25:19+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -104,26 +180,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-408",
-                "stationID": "f9e82715-f815-4bce-992f-53bca242e0e8",
-                "stationName": "霧峰區吉峰路170巷12號",
-                "address": "吉峰東路170巷12號",
+                "authority": "Operator-411",
+                "stationID": "c78cff41-6abc-45b9-a955-1a7cca809263",
+                "stationName": "四塊厝排水",
+                "address": "四塊厝排水",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4,
+                "result": 5.5,
                 "phenomenonTime": "2025-07-30T08:10:00+08:00",
-                "transferTime": "2025-07-30T08:15:39+08:00",
-                "toBeConfirm": false,
+                "transferTime": "2025-07-30T08:25:22+08:00",
+                "toBeConfirm": true,
                 "isCulvert": false,
-                "cityCode": "66",
-                "townCode": "6602600",
+                "cityCode": "10007",
+                "townCode": "1000711",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.71426,
-                    24.076648
+                    120.488929,
+                    23.9678243
                 ]
             }
         },
@@ -136,9 +212,9 @@
                 "address": "新吉里活動中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.9,
-                "phenomenonTime": "2025-07-30T08:04:03+08:00",
-                "transferTime": "2025-07-30T08:15:16+08:00",
+                "result": 4.8,
+                "phenomenonTime": "2025-07-30T08:14:03+08:00",
+                "transferTime": "2025-07-30T08:25:19+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -163,8 +239,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 4.9,
-                "phenomenonTime": "2025-07-30T08:05:00+08:00",
-                "transferTime": "2025-07-30T08:15:38+08:00",
+                "phenomenonTime": "2025-07-30T08:15:00+08:00",
+                "transferTime": "2025-07-30T08:25:41+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -188,9 +264,9 @@
                 "address": "臺南市白河區河東里糞箕湖153-1號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-07-30T08:10:00+08:00",
-                "transferTime": "2025-07-30T08:15:49+08:00",
+                "result": 3.2,
+                "phenomenonTime": "2025-07-30T08:20:00+08:00",
+                "transferTime": "2025-07-30T08:25:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -234,26 +310,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-408",
-                "stationID": "104223f6-dbc6-4b70-9d3a-7a4b2e6a8bf8",
-                "stationName": "東區和平街‧台中路口",
-                "address": "和平街‧台中路口",
-                "sensorType": "壓力式",
+                "authority": "Operator-3",
+                "stationID": "36a6ff6c-0304-4c50-ae17-f32d15d16899",
+                "stationName": "東山路排水與貓羅溪匯流口",
+                "address": "東山路排水與貓羅溪匯流口",
+                "sensorType": "雷達波式",
                 "unitOfMeasurement": "cm",
-                "result": 5.2,
-                "phenomenonTime": "2025-07-30T08:12:00+08:00",
-                "transferTime": "2025-07-30T08:15:40+08:00",
+                "result": 4.5,
+                "phenomenonTime": "2025-07-30T08:16:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
-                "cityCode": "66",
-                "townCode": "6600200",
+                "cityCode": "10008",
+                "townCode": "1000801",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.683629,
-                    24.133181
+                    120.697,
+                    23.9151
                 ]
             }
         },
@@ -266,9 +342,9 @@
                 "address": "錦祥街與育強街交叉口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-07-30T08:09:00+08:00",
-                "transferTime": "2025-07-30T08:15:46+08:00",
+                "result": 9.4,
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:46+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -292,9 +368,9 @@
                 "address": "大慶街二段98巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 14,
-                "phenomenonTime": "2025-07-30T08:04:00+08:00",
-                "transferTime": "2025-07-30T08:15:38+08:00",
+                "result": 14.7,
+                "phenomenonTime": "2025-07-30T08:14:00+08:00",
+                "transferTime": "2025-07-30T08:25:36+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -306,32 +382,6 @@
                 "coordinates": [
                     120.650722,
                     24.117235
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-408",
-                "stationID": "b8995db9-51cd-4d41-8c69-3ff8a3bc1ea7",
-                "stationName": "中區民權路‧柳川西路口(中油得利站)",
-                "address": "民權路‧柳川西路口(中油得利站)",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 5.1,
-                "phenomenonTime": "2025-07-30T08:08:00+08:00",
-                "transferTime": "2025-07-30T08:15:49+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "66",
-                "townCode": "6600100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.675339,
-                    24.141787
                 ]
             }
         },
@@ -371,8 +421,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 999.9,
-                "phenomenonTime": "2025-07-30T07:21:13+08:00",
-                "transferTime": "2025-07-30T07:26:02+08:00",
+                "phenomenonTime": "2025-07-30T08:21:13+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -391,51 +441,25 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-408",
-                "stationID": "7a4c8ebc-27cd-4bbd-8cc0-89e81e17851b",
-                "stationName": "中區精武路40巷與進德路口",
-                "address": "精武路40巷與進德路口",
+                "stationID": "499c7974-732a-4964-af52-d61140f45aba",
+                "stationName": "太平區中山路三段與富宜路交叉口",
+                "address": "中山路三段與富宜路交叉口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.1,
-                "phenomenonTime": "2025-07-30T08:09:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 4,
+                "phenomenonTime": "2025-07-30T08:16:00+08:00",
+                "transferTime": "2025-07-30T08:25:46+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
-                "townCode": "6600100",
+                "townCode": "6602700",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.692513,
-                    24.146274
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-411",
-                "stationID": "395b7054-c29f-44ac-9b0a-a5466d52d587",
-                "stationName": "寶部路涵洞",
-                "address": "寶部里寶部路涵洞",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 21.2,
-                "phenomenonTime": "2025-07-30T07:54:00+08:00",
-                "transferTime": "2025-07-30T08:05:49+08:00",
-                "toBeConfirm": false,
-                "isCulvert": true,
-                "cityCode": "10007",
-                "townCode": "1000701",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.5566947,
-                    24.1008777
+                    120.71868,
+                    24.14885
                 ]
             }
         },
@@ -474,9 +498,9 @@
                 "address": "新興路一段31巷31號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.3,
-                "phenomenonTime": "2025-07-30T08:10:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 5.4,
+                "phenomenonTime": "2025-07-30T08:20:00+08:00",
+                "transferTime": "2025-07-30T08:25:53+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -488,32 +512,6 @@
                 "coordinates": [
                     120.70905,
                     24.198804
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "eb153798-dc41-4322-99d8-8705ad93292d",
-                "stationName": "民雄鄉菁埔村菁埔",
-                "address": "菁埔村152-2號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2025-07-30T05:44:14+08:00",
-                "transferTime": "2025-07-30T05:45:45+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001005",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.39902,
-                    23.55589
                 ]
             }
         },
@@ -598,6 +596,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-408",
+                "stationID": "d4d78b16-a786-43fe-97d5-7a8bc88271f5",
+                "stationName": "西區自由路一段75號(光明國中)",
+                "address": "自由路一段75號(光明國中)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.9,
+                "phenomenonTime": "2025-07-30T08:15:00+08:00",
+                "transferTime": "2025-07-30T08:25:53+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6600400",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.67325,
+                    24.132042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
                 "stationName": "福興東路",
@@ -625,25 +649,25 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-408",
-                "stationID": "67b9d572-2b76-43bf-9f08-3a55af301d98",
-                "stationName": "南屯區東興路一段與文心南七路交叉口",
-                "address": "東興路一段與文心南七路交叉口",
+                "stationID": "75804381-3d7a-4037-a181-cd5bb77ec450",
+                "stationName": "神岡區大甲溪豐洲堤防",
+                "address": "豐洲堤防",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.1,
-                "phenomenonTime": "2025-07-30T08:12:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 5.2,
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
-                "townCode": "6600700",
+                "townCode": "6601600",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.653238,
-                    24.12944
+                    120.694292,
+                    24.279584
                 ]
             }
         },
@@ -656,9 +680,9 @@
                 "address": "西湖路219巷168號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.6,
-                "phenomenonTime": "2025-07-30T08:09:00+08:00",
-                "transferTime": "2025-07-30T08:15:55+08:00",
+                "result": 6.2,
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -682,9 +706,9 @@
                 "address": "三民路三段131巷8號前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.1,
-                "phenomenonTime": "2025-07-30T08:05:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 16.6,
+                "phenomenonTime": "2025-07-30T08:15:00+08:00",
+                "transferTime": "2025-07-30T08:25:55+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -708,9 +732,9 @@
                 "address": "樹義五巷19之1~6號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-07-30T08:02:00+08:00",
-                "transferTime": "2025-07-30T08:05:50+08:00",
+                "result": 7,
+                "phenomenonTime": "2025-07-30T08:22:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -722,6 +746,32 @@
                 "coordinates": [
                     120.655754,
                     24.109236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-408",
+                "stationID": "a4d1ecbd-444a-48d0-a40e-81c12504d6cf",
+                "stationName": "成功路381巷15弄1號",
+                "address": "成功路381巷15弄1號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.3,
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6602700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.725375,
+                    24.129772
                 ]
             }
         },
@@ -761,8 +811,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 6.3,
-                "phenomenonTime": "2025-07-30T07:49:00+08:00",
-                "transferTime": "2025-07-30T07:55:47+08:00",
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -786,9 +836,9 @@
                 "address": "夏田里國中路十股巷218號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.1,
-                "phenomenonTime": "2025-07-30T08:04:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 4.3,
+                "phenomenonTime": "2025-07-30T08:21:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -806,15 +856,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-408",
+                "stationID": "3da640ed-70ac-4f97-9749-adcc8f076877",
+                "stationName": "東區進化路230之4號",
+                "address": "進化路230之4號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 5.2,
+                "phenomenonTime": "2025-07-30T08:13:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6600200",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.6945,
+                    24.1498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.22,
-                "phenomenonTime": "2025-07-30T08:09:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
+                "result": 1.15,
+                "phenomenonTime": "2025-07-30T08:19:00+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -832,26 +908,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-408",
-                "stationID": "90f7913e-7277-4c77-ba42-40f8b59be6cb",
-                "stationName": "南區興大路301巷62號",
-                "address": "興大路301巷62號",
+                "authority": "Operator-414",
+                "stationID": "9a291794-945e-4f68-9721-e598ab8e2bec",
+                "stationName": "朴子市大葛里大?榔社區",
+                "address": "大?榔社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4,
-                "phenomenonTime": "2025-07-30T08:12:00+08:00",
-                "transferTime": "2025-07-30T08:15:56+08:00",
-                "toBeConfirm": false,
+                "result": 3,
+                "phenomenonTime": "2025-07-30T08:22:05+08:00",
+                "transferTime": "2025-07-30T08:25:54+08:00",
+                "toBeConfirm": true,
                 "isCulvert": false,
-                "cityCode": "66",
-                "townCode": "6600300",
+                "cityCode": "10010",
+                "townCode": "1001002",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.672917,
-                    24.117077
+                    120.264856,
+                    23.457819
                 ]
             }
         }
