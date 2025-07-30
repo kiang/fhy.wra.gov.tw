@@ -29,36 +29,12 @@
             "type": "Feature",
             "properties": {
                 "authority": "第三河川分署",
-                "stationID": "f6cda132-9dbe-4863-bcef-2519216c6fe9",
-                "stationName": "三和里南投縣議會前中興路及美芳路口",
-                "location": "三和里南投縣議會前中興路及美芳路口",
-                "situation": "三和里南投縣議會前中興路及美芳路口",
-                "unitOfMeasurement": "cm",
-                "result": 16.6,
-                "phenomenonTime": "2025-07-30T09:53:00",
-                "townCode": "1000801",
-                "categoryCode": 1,
-                "sourceCode": 7,
-                "dataSource": "Disaster-Report"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.691,
-                    23.9032
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "第三河川分署",
                 "stationID": "9fa1951f-d5a6-4c04-a02f-5c3db80e7f8a",
                 "stationName": "漳興里華陽路至貓羅溪環河道路間",
                 "location": "南營路434號前",
                 "situation": "漳興里華陽路至貓羅溪環河道路間",
                 "unitOfMeasurement": "cm",
-                "result": 25.3,
+                "result": 28,
                 "phenomenonTime": "2025-07-30T10:19:00",
                 "townCode": "1000801",
                 "categoryCode": 1,
@@ -76,26 +52,52 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-408",
-                "stationID": "2a297fed-f489-4990-99fa-0ceae199cb3a",
-                "stationName": "東園里溪南路一段",
-                "address": "東園里溪南路一段460巷256號",
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.9,
-                "phenomenonTime": "2025-07-30T10:27:00+08:00",
-                "transferTime": "2025-07-30T10:35:24+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-07-30T10:43:24+08:00",
+                "transferTime": "2025-07-30T10:45:08+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
-                "cityCode": "66",
-                "townCode": "6602300",
+                "cityCode": "10010",
+                "townCode": "1001008",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.639958,
-                    24.083029
+                    120.27771,
+                    23.50609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-411",
+                "stationID": "c78cff41-6abc-45b9-a955-1a7cca809263",
+                "stationName": "四塊厝排水",
+                "address": "四塊厝排水",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4,
+                "phenomenonTime": "2025-07-30T10:41:00+08:00",
+                "transferTime": "2025-07-30T10:45:24+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000711",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.488929,
+                    23.9678243
                 ]
             }
         },
@@ -108,9 +110,9 @@
                 "address": "新吉里活動中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.2,
-                "phenomenonTime": "2025-07-30T10:04:03+08:00",
-                "transferTime": "2025-07-30T10:35:21+08:00",
+                "result": 5.3,
+                "phenomenonTime": "2025-07-30T10:34:03+08:00",
+                "transferTime": "2025-07-30T10:45:26+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -154,41 +156,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
-                "stationName": "鹿草鄉松竹村",
-                "address": "農田旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-07-30T10:32:46+08:00",
-                "transferTime": "2025-07-30T10:35:40+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.28908,
-                    23.39764
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-3",
                 "stationID": "36a6ff6c-0304-4c50-ae17-f32d15d16899",
                 "stationName": "東山路排水與貓羅溪匯流口",
                 "address": "東山路排水與貓羅溪匯流口",
                 "sensorType": "雷達波式",
                 "unitOfMeasurement": "cm",
-                "result": 12.1,
-                "phenomenonTime": "2025-07-30T10:28:00+08:00",
-                "transferTime": "2025-07-30T10:35:43+08:00",
+                "result": 10.5,
+                "phenomenonTime": "2025-07-30T10:38:00+08:00",
+                "transferTime": "2025-07-30T10:45:43+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10008",
@@ -200,32 +176,6 @@
                 "coordinates": [
                     120.697,
                     23.9151
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-3",
-                "stationID": "f6cda132-9dbe-4863-bcef-2519216c6fe9",
-                "stationName": "三和里南投縣議會前中興路及美芳路口",
-                "address": "三和里南投縣議會前中興路及美芳路口",
-                "sensorType": "雷達波式",
-                "unitOfMeasurement": "cm",
-                "result": 13.1,
-                "phenomenonTime": "2025-07-30T10:23:00+08:00",
-                "transferTime": "2025-07-30T10:35:41+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10008",
-                "townCode": "1000801",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.691,
-                    23.9032
                 ]
             }
         },
@@ -290,9 +240,9 @@
                 "address": "新興路一段31巷31號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.3,
-                "phenomenonTime": "2025-07-30T10:30:00+08:00",
-                "transferTime": "2025-07-30T10:35:53+08:00",
+                "result": 5.5,
+                "phenomenonTime": "2025-07-30T10:40:00+08:00",
+                "transferTime": "2025-07-30T10:45:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -415,40 +365,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-3",
-                "stationID": "09b3dd09-2661-4aff-9ef3-2ff3f2fe38dd",
-                "stationName": "南龍排水與樟平溪匯流點",
-                "address": "南龍排水與樟平溪匯流點",
-                "sensorType": "雷達波式",
-                "unitOfMeasurement": "cm",
-                "result": 201,
-                "phenomenonTime": "2025-07-30T10:25:00+08:00",
-                "transferTime": "2025-07-30T10:35:53+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10008",
-                "townCode": "1000801",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.698,
-                    23.9218
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-3",
                 "stationID": "9fa1951f-d5a6-4c04-a02f-5c3db80e7f8a",
                 "stationName": "漳興里華陽路至貓羅溪環河道路間",
                 "address": "南營路434號前",
                 "sensorType": "雷達波式",
                 "unitOfMeasurement": "cm",
-                "result": 25.3,
-                "phenomenonTime": "2025-07-30T10:29:00+08:00",
-                "transferTime": "2025-07-30T10:35:53+08:00",
+                "result": 28,
+                "phenomenonTime": "2025-07-30T10:39:00+08:00",
+                "transferTime": "2025-07-30T10:45:53+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10008",
@@ -498,9 +422,9 @@
                 "address": "沙田路與福至路150巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 13.4,
-                "phenomenonTime": "2025-07-30T10:29:00+08:00",
-                "transferTime": "2025-07-30T10:35:54+08:00",
+                "result": 12.9,
+                "phenomenonTime": "2025-07-30T10:39:00+08:00",
+                "transferTime": "2025-07-30T10:45:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -524,9 +448,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.61,
-                "phenomenonTime": "2025-07-30T10:29:00+08:00",
-                "transferTime": "2025-07-30T10:35:53+08:00",
+                "result": 0.84,
+                "phenomenonTime": "2025-07-30T10:39:00+08:00",
+                "transferTime": "2025-07-30T10:45:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
