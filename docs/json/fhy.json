@@ -10,9 +10,9 @@
                 "address": "新吉里活動中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.1,
-                "phenomenonTime": "2025-08-01T00:42:03+08:00",
-                "transferTime": "2025-08-01T00:55:20+08:00",
+                "result": 5,
+                "phenomenonTime": "2025-08-01T01:02:03+08:00",
+                "transferTime": "2025-08-01T01:15:30+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -114,9 +114,9 @@
                 "address": "西庄村西庄社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.3,
-                "phenomenonTime": "2025-08-01T01:04:19+08:00",
-                "transferTime": "2025-08-01T01:05:54+08:00",
+                "result": 4.2,
+                "phenomenonTime": "2025-08-01T01:13:19+08:00",
+                "transferTime": "2025-08-01T01:16:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -218,9 +218,9 @@
                 "address": "內溪村民生社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.1,
-                "phenomenonTime": "2025-08-01T01:03:52+08:00",
-                "transferTime": "2025-08-01T01:06:02+08:00",
+                "result": 5.2,
+                "phenomenonTime": "2025-08-01T01:12:52+08:00",
+                "transferTime": "2025-08-01T01:16:22+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -258,6 +258,58 @@
                 "coordinates": [
                     121.018357,
                     24.861289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.23,
+                "phenomenonTime": "2025-08-01T01:09:00+08:00",
+                "transferTime": "2025-08-01T01:16:18+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "9a291794-945e-4f68-9721-e598ab8e2bec",
+                "stationName": "朴子市大葛里大?榔社區",
+                "address": "大?榔社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-08-01T01:13:41+08:00",
+                "transferTime": "2025-08-01T01:16:22+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001002",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.264856,
+                    23.457819
                 ]
             }
         }
