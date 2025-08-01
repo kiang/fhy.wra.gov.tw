@@ -4,32 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
-                "stationName": "六腳鄉潭墘村",
-                "address": "潭墘村34-1號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-08-01T11:12:17+08:00",
-                "transferTime": "2025-08-01T11:15:07+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001008",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.27771,
-                    23.50609
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "217c117b-3721-47c9-9c2d-83851ecc0a0c",
                 "stationName": "安定區-新吉活動中心(編號149)",
@@ -56,26 +30,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-419",
-                "stationID": "4c818207-dc94-4e1c-a6ab-f745e18309d2",
-                "stationName": "屏科大",
-                "address": "中林路與農專街路口",
-                "sensorType": "雷達波",
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.3,
-                "phenomenonTime": "2025-08-01T11:15:00+08:00",
-                "transferTime": "2025-08-01T11:15:29+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10013",
-                "townCode": "1001313",
+                "result": 0.006,
+                "phenomenonTime": "2025-08-01T11:18:08+08:00",
+                "transferTime": "2025-08-01T11:25:35+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.5957,
-                    22.64153
+                    121.017721,
+                    24.87112
                 ]
             }
         },
@@ -114,9 +88,9 @@
                 "address": "中洲路223前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.53351545,
-                "phenomenonTime": "2025-08-01T11:14:43+08:00",
-                "transferTime": "2025-08-01T11:15:43+08:00",
+                "result": 6.425238,
+                "phenomenonTime": "2025-08-01T11:24:44+08:00",
+                "transferTime": "2025-08-01T11:25:39+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -128,32 +102,6 @@
                 "coordinates": [
                     120.46482,
                     22.83931
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-415",
-                "stationID": "ba022dc5-7302-445e-9726-0491b9d2e3be",
-                "stationName": "永康區-永明街42號前(編號321)",
-                "address": "永明街42號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-08-01T11:10:00+08:00",
-                "transferTime": "2025-08-01T11:15:31+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6703100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.259368,
-                    23.025749
                 ]
             }
         },
@@ -219,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-08-01T11:03:43+08:00",
-                "transferTime": "2025-08-01T11:05:52+08:00",
+                "phenomenonTime": "2025-08-01T11:18:08+08:00",
+                "transferTime": "2025-08-01T11:25:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -264,15 +212,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "60707a3e-9884-435e-8a32-4a8b57dbc2fa",
+                "stationName": "東石鄉網寮村鹽田寮",
+                "address": "鹽田聖金壇旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-08-01T11:23:31+08:00",
+                "transferTime": "2025-08-01T11:25:50+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.1664,
+                    23.43618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
                 "stationName": "福興東路",
                 "address": "福興東路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.003,
-                "phenomenonTime": "2025-08-01T11:03:43+08:00",
-                "transferTime": "2025-08-01T11:05:57+08:00",
+                "result": 0.006,
+                "phenomenonTime": "2025-08-01T11:18:08+08:00",
+                "transferTime": "2025-08-01T11:25:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -284,32 +258,6 @@
                 "coordinates": [
                     121.016461,
                     24.820092
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-3",
-                "stationID": "3bd62f59-bde3-4b9b-913a-b9aab25e28f7",
-                "stationName": "草屯鎮北投里碧興路二段(往芬園方向)",
-                "address": "北投里碧興路二段(往芬園方向)",
-                "sensorType": "雷達波式",
-                "unitOfMeasurement": "cm",
-                "result": 25.5,
-                "phenomenonTime": "2025-08-01T10:41:00+08:00",
-                "transferTime": "2025-08-01T10:55:34+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10008",
-                "townCode": "1000803",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.649,
-                    23.9917
                 ]
             }
         },
@@ -348,9 +296,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.69,
-                "phenomenonTime": "2025-08-01T11:09:00+08:00",
-                "transferTime": "2025-08-01T11:15:46+08:00",
+                "result": 0.92,
+                "phenomenonTime": "2025-08-01T11:19:00+08:00",
+                "transferTime": "2025-08-01T11:25:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
