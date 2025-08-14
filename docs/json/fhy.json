@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "8ead08e9-7fbb-4429-9014-158be763c7d6",
+                "stationName": "國道末端-大型貨車道(3972500FL0038)",
+                "address": "國道末端大型貨專用道北上入口轉角處",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.5,
+                "phenomenonTime": "2025-08-14T16:10:00+08:00",
+                "transferTime": "2025-08-14T16:25:32+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6400900",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.324655,
+                    22.576542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "217c117b-3721-47c9-9c2d-83851ecc0a0c",
                 "stationName": "安定區-新吉活動中心(編號149)",
@@ -24,32 +50,6 @@
                 "coordinates": [
                     120.21227,
                     23.08466
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-406",
-                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
-                "stationName": "工研路地下道",
-                "address": "工研路地下道",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.009,
-                "phenomenonTime": "2025-08-14T16:09:11+08:00",
-                "transferTime": "2025-08-14T16:15:19+08:00",
-                "toBeConfirm": true,
-                "isCulvert": true,
-                "cityCode": "10004",
-                "townCode": "1000402",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.017721,
-                    24.87112
                 ]
             }
         },
@@ -102,32 +102,6 @@
                 "coordinates": [
                     120.2002878,
                     23.2619832
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-419",
-                "stationID": "bfee750c-30ef-4116-b190-83552e219179",
-                "stationName": "新惠宮",
-                "address": "新園鄉平和路291號",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 3.81999999999998,
-                "phenomenonTime": "2025-08-14T16:14:00+08:00",
-                "transferTime": "2025-08-14T16:15:47+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10013",
-                "townCode": "1001317",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4531648,
-                    22.5270025
                 ]
             }
         },
@@ -218,9 +192,9 @@
                 "address": "光復路與工業四路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.021,
-                "phenomenonTime": "2025-08-14T16:09:10+08:00",
-                "transferTime": "2025-08-14T16:15:47+08:00",
+                "result": 0.015,
+                "phenomenonTime": "2025-08-14T16:15:11+08:00",
+                "transferTime": "2025-08-14T16:26:07+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
