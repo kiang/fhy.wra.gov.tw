@@ -30,26 +30,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
-                "stationName": "鹿草鄉松竹村",
-                "address": "農田旁",
+                "authority": "Operator-415",
+                "stationID": "5f240cfd-8522-499e-8106-87db04d248d7",
+                "stationName": "麻豆區-麻豆養護中心前(編號207)",
+                "address": "私立麻豆養護中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-08-16T18:53:51+08:00",
-                "transferTime": "2025-08-16T18:55:43+08:00",
+                "result": 4,
+                "phenomenonTime": "2025-08-16T19:06:03+08:00",
+                "transferTime": "2025-08-16T19:15:26+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
+                "cityCode": "67",
+                "townCode": "6700700",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.28908,
-                    23.39764
+                    120.245207,
+                    23.14352
                 ]
             }
         },
@@ -244,9 +244,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-08-16T18:49:00+08:00",
-                "transferTime": "2025-08-16T18:55:52+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-08-16T19:09:00+08:00",
+                "transferTime": "2025-08-16T19:15:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -258,6 +258,32 @@
                 "coordinates": [
                     121.1014,
                     22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-421",
+                "stationID": "4d737be9-806b-457e-923d-3862174e992c",
+                "stationName": "花蓮市_中原路地下道",
+                "address": "中原路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.1761198,
+                "phenomenonTime": "2025-08-16T19:00:31+08:00",
+                "transferTime": "2025-08-16T19:05:45+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10015",
+                "townCode": "1001501",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.592714,
+                    23.976367
                 ]
             }
         }
