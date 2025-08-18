@@ -30,41 +30,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-419",
-                "stationID": "77fbff75-3620-45cd-9ab2-38a13716c0e3",
-                "stationName": "涵洞",
-                "address": "鐵路橋涵洞",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-08-18T20:05:00+08:00",
-                "transferTime": "2025-08-18T20:05:11+08:00",
-                "toBeConfirm": true,
-                "isCulvert": true,
-                "cityCode": "10013",
-                "townCode": "1001301",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4455,
-                    22.6619
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "5f240cfd-8522-499e-8106-87db04d248d7",
                 "stationName": "麻豆區-麻豆養護中心前(編號207)",
                 "address": "私立麻豆養護中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.2,
-                "phenomenonTime": "2025-08-18T19:51:03+08:00",
-                "transferTime": "2025-08-18T20:05:23+08:00",
+                "result": 4.3,
+                "phenomenonTime": "2025-08-18T20:01:03+08:00",
+                "transferTime": "2025-08-18T20:15:29+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -206,6 +180,32 @@
                 "coordinates": [
                     121.018357,
                     24.861289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.23,
+                "phenomenonTime": "2025-08-18T20:09:00+08:00",
+                "transferTime": "2025-08-18T20:15:48+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
                 ]
             }
         }
