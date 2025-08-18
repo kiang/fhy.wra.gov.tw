@@ -4,32 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "81829055-66b9-44ad-a9f6-30f3f6a8446d",
-                "stationName": "東石鄉三家村三塊厝",
-                "address": "三家村130號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-08-18T09:24:20+08:00",
-                "transferTime": "2025-08-18T09:25:13+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.16992,
-                    23.47123
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "217c117b-3721-47c9-9c2d-83851ecc0a0c",
                 "stationName": "安定區-新吉活動中心(編號149)",
@@ -76,6 +50,32 @@
                 "coordinates": [
                     120.245207,
                     23.14352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.003,
+                "phenomenonTime": "2025-08-18T09:32:08+08:00",
+                "transferTime": "2025-08-18T09:35:22+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.017721,
+                    24.87112
                 ]
             }
         },
@@ -141,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-08-18T09:17:00+08:00",
-                "transferTime": "2025-08-18T09:25:47+08:00",
+                "phenomenonTime": "2025-08-18T09:32:08+08:00",
+                "transferTime": "2025-08-18T09:35:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -192,9 +192,9 @@
                 "address": "福興東路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.015,
-                "phenomenonTime": "2025-08-18T09:17:01+08:00",
-                "transferTime": "2025-08-18T09:25:51+08:00",
+                "result": 0.021,
+                "phenomenonTime": "2025-08-18T09:32:08+08:00",
+                "transferTime": "2025-08-18T09:35:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -245,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.018,
-                "phenomenonTime": "2025-08-18T09:17:01+08:00",
-                "transferTime": "2025-08-18T09:25:51+08:00",
+                "phenomenonTime": "2025-08-18T09:32:08+08:00",
+                "transferTime": "2025-08-18T09:35:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
