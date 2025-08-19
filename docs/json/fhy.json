@@ -31,6 +31,58 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-415",
+                "stationID": "5f240cfd-8522-499e-8106-87db04d248d7",
+                "stationName": "麻豆區-麻豆養護中心前(編號207)",
+                "address": "私立麻豆養護中心",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4,
+                "phenomenonTime": "2025-08-19T22:33:03+08:00",
+                "transferTime": "2025-08-19T22:35:28+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6700700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.245207,
+                    23.14352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.003,
+                "phenomenonTime": "2025-08-19T22:30:43+08:00",
+                "transferTime": "2025-08-19T22:35:30+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-415",
                 "stationID": "36ac9d4b-c2be-47da-8376-aa6a6adad6af",
                 "stationName": "安平區-漁光路146號(編號147)",
                 "address": "漁光路146號",
@@ -62,9 +114,9 @@
                 "address": "延慶街與堯山街129巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 7.37317800521851,
-                "phenomenonTime": "2025-08-19T22:15:00+08:00",
-                "transferTime": "2025-08-19T22:25:43+08:00",
+                "result": 7.10184574127197,
+                "phenomenonTime": "2025-08-19T22:30:00+08:00",
+                "transferTime": "2025-08-19T22:35:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -89,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.003,
-                "phenomenonTime": "2025-08-19T22:17:37+08:00",
-                "transferTime": "2025-08-19T22:25:44+08:00",
+                "phenomenonTime": "2025-08-19T22:30:42+08:00",
+                "transferTime": "2025-08-19T22:35:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -134,32 +186,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-406",
-                "stationID": "fb4b0aa3-344e-45a1-ac1a-1258b599cd4e",
-                "stationName": "福興東路",
-                "address": "福興東路",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.021,
-                "phenomenonTime": "2025-08-19T22:17:38+08:00",
-                "transferTime": "2025-08-19T22:25:45+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10004",
-                "townCode": "1000401",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.016461,
-                    24.820092
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-404",
                 "stationID": "c632b86c-2be8-4289-b4cd-0d1683d39ca0",
                 "stationName": "環北路中福路口",
@@ -193,8 +219,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.021,
-                "phenomenonTime": "2025-08-19T22:17:38+08:00",
-                "transferTime": "2025-08-19T22:25:44+08:00",
+                "phenomenonTime": "2025-08-19T22:30:43+08:00",
+                "transferTime": "2025-08-19T22:35:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -218,9 +244,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.31,
-                "phenomenonTime": "2025-08-19T22:19:00+08:00",
-                "transferTime": "2025-08-19T22:25:45+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-08-19T22:29:00+08:00",
+                "transferTime": "2025-08-19T22:35:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
