@@ -36,9 +36,9 @@
                 "address": "私立麻豆養護中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.9,
-                "phenomenonTime": "2025-08-19T16:55:03+08:00",
-                "transferTime": "2025-08-19T17:05:26+08:00",
+                "result": 4.8,
+                "phenomenonTime": "2025-08-19T17:05:03+08:00",
+                "transferTime": "2025-08-19T17:15:30+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -76,6 +76,32 @@
                 "coordinates": [
                     120.1539152,
                     22.9849722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "c45e6839-7c20-4d9d-a76b-ec0d7894b1ad",
+                "stationName": "CYC152大林鎮西結里",
+                "address": "西結里大林鎮西結里",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2025-08-19T17:13:31+08:00",
+                "transferTime": "2025-08-19T17:15:49+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001004",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.416873,
+                    23.621604
                 ]
             }
         },
@@ -218,9 +244,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.23,
-                "phenomenonTime": "2025-08-19T16:59:00+08:00",
-                "transferTime": "2025-08-19T17:05:47+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-08-19T17:09:00+08:00",
+                "transferTime": "2025-08-19T17:15:59+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -232,32 +258,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-419",
-                "stationID": "91c04e2c-cc5a-4595-aefe-e9058fd3d7c3",
-                "stationName": "福灣",
-                "address": "大鵬路100號",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 2.35999999999999,
-                "phenomenonTime": "2025-08-19T17:04:00+08:00",
-                "transferTime": "2025-08-19T17:05:46+08:00",
-                "toBeConfirm": false,
-                "isCulvert": false,
-                "cityCode": "10013",
-                "townCode": "1001303",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4816,
-                    22.4591
                 ]
             }
         }
