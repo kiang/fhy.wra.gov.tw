@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-401",
+                "stationID": "edc28095-9a3b-42b3-a1aa-05140d443447",
+                "stationName": "信義區東明里東信路3巷",
+                "address": "東信路3巷",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 8.7,
+                "phenomenonTime": "2025-08-20T14:47:00+08:00",
+                "transferTime": "2025-08-20T15:26:03+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10017",
+                "townCode": "1001707",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.7673389,
+                    25.1268618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "217c117b-3721-47c9-9c2d-83851ecc0a0c",
                 "stationName": "安定區-新吉活動中心(編號149)",
@@ -36,9 +62,9 @@
                 "address": "私立麻豆養護中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.5,
-                "phenomenonTime": "2025-08-20T14:33:03+08:00",
-                "transferTime": "2025-08-20T14:45:27+08:00",
+                "result": 5,
+                "phenomenonTime": "2025-08-20T15:13:03+08:00",
+                "transferTime": "2025-08-20T15:26:09+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -50,32 +76,6 @@
                 "coordinates": [
                     120.245207,
                     23.14352
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-406",
-                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
-                "stationName": "工研路地下道",
-                "address": "工研路地下道",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.003,
-                "phenomenonTime": "2025-08-20T14:31:38+08:00",
-                "transferTime": "2025-08-20T14:35:37+08:00",
-                "toBeConfirm": true,
-                "isCulvert": true,
-                "cityCode": "10004",
-                "townCode": "1000402",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.017721,
-                    24.87112
                 ]
             }
         },
