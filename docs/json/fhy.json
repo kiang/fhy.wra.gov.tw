@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-08-27T12:00:00+08:00",
-                "transferTime": "2025-08-27T12:15:12+08:00",
+                "phenomenonTime": "2025-08-27T12:10:00+08:00",
+                "transferTime": "2025-08-27T12:25:18+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -56,6 +56,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-419",
+                "stationID": "4c818207-dc94-4e1c-a6ab-f745e18309d2",
+                "stationName": "屏科大",
+                "address": "中林路與農專街路口",
+                "sensorType": "雷達波",
+                "unitOfMeasurement": "cm",
+                "result": 1.1,
+                "phenomenonTime": "2025-08-27T12:19:00+08:00",
+                "transferTime": "2025-08-27T12:25:32+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10013",
+                "townCode": "1001313",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.5957,
+                    22.64153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
                 "stationName": "工研路地下道",
@@ -76,6 +102,32 @@
                 "coordinates": [
                     121.017721,
                     24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-4",
+                "stationID": "caae5de8-1022-4e55-a106-f4f0da521304",
+                "stationName": "線西番雅溝淹水感知器",
+                "address": "下犁村番雅溝旁(和樂路)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.11,
+                "phenomenonTime": "2025-08-27T12:20:00+08:00",
+                "transferTime": "2025-08-27T12:25:21+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000704",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.466,
+                    24.1096
                 ]
             }
         },
@@ -212,32 +264,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-4",
-                "stationID": "f669ef49-8d0f-4e39-9c6e-d71244c14c8d",
-                "stationName": "和美地政事務所淹水感知器",
-                "address": "頭前里德美路515號地政事務所附近",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 4,
-                "phenomenonTime": "2025-08-27T12:10:00+08:00",
-                "transferTime": "2025-08-27T12:15:52+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10007",
-                "townCode": "1000703",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4984,
-                    24.1178
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-406",
                 "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
                 "stationName": "光復路與工業四路口",
@@ -270,9 +296,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-08-27T12:09:00+08:00",
-                "transferTime": "2025-08-27T12:15:52+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-08-27T12:19:00+08:00",
+                "transferTime": "2025-08-27T12:25:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
