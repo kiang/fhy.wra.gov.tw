@@ -167,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2025-08-28T15:22:02+08:00",
-                "transferTime": "2025-08-28T15:25:48+08:00",
+                "phenomenonTime": "2025-08-28T15:34:02+08:00",
+                "transferTime": "2025-08-28T15:35:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -296,9 +296,9 @@
                 "address": "鹿草村鹿草市區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-08-28T15:22:40+08:00",
-                "transferTime": "2025-08-28T15:25:49+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-08-28T15:34:40+08:00",
+                "transferTime": "2025-08-28T15:35:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -375,8 +375,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-08-28T15:19:00+08:00",
-                "transferTime": "2025-08-28T15:25:48+08:00",
+                "phenomenonTime": "2025-08-28T15:29:00+08:00",
+                "transferTime": "2025-08-28T15:35:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -421,14 +421,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "9b0a08d2-e0ce-4e4d-a058-e6fe389157b0",
+                "stationName": "CYC165新港南崙村溪底寮",
+                "address": "南崙村溪底寮",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2025-08-28T15:33:02+08:00",
+                "transferTime": "2025-08-28T15:35:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001007",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.34354,
+                    23.581772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "d5b6dfc2-d2e5-422e-8664-401e67f933d7",
                 "stationName": "CYC176鹿草鄉三角村2",
                 "address": "三角村2",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.4,
-                "phenomenonTime": "2025-08-28T15:24:02+08:00",
-                "transferTime": "2025-08-28T15:25:49+08:00",
+                "phenomenonTime": "2025-08-28T15:33:02+08:00",
+                "transferTime": "2025-08-28T15:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -440,32 +466,6 @@
                 "coordinates": [
                     120.343736,
                     23.403968
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "75b0569f-efbd-4583-8849-f931d64eb653",
-                "stationName": "CYC184東石下揖村警察朴子分下揖派出所",
-                "address": "下揖村警察朴子分下揖派出所",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.3,
-                "phenomenonTime": "2025-08-28T15:24:02+08:00",
-                "transferTime": "2025-08-28T15:25:49+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.19644,
-                    23.487039
                 ]
             }
         }
