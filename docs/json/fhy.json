@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-408",
+                "stationID": "d9479f41-328b-4401-a37d-0b7785d86fc2",
+                "stationName": "豐原區豐勢路一段圓環東路口",
+                "address": "豐勢路一段圓環東路口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 5.1,
+                "phenomenonTime": "2025-09-01T02:01:00+08:00",
+                "transferTime": "2025-09-01T02:15:29+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6600900",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.729608,
+                    24.257203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
                 "stationName": "博愛街204號",
@@ -166,9 +192,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.23,
-                "phenomenonTime": "2025-09-01T01:59:00+08:00",
-                "transferTime": "2025-09-01T02:06:06+08:00",
+                "result": 0.31,
+                "phenomenonTime": "2025-09-01T02:09:00+08:00",
+                "transferTime": "2025-09-01T02:16:12+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -206,32 +232,6 @@
                 "coordinates": [
                     121.592714,
                     23.976367
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "b5dae3ac-e2e2-4468-9a5e-3a525cee6908",
-                "stationName": "天祥二路61巷4號前",
-                "address": "天祥二路與天祥二路61巷口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 2,
-                "phenomenonTime": "2025-09-01T02:01:17+08:00",
-                "transferTime": "2025-09-01T02:06:07+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6400300",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.31455,
-                    22.66896
                 ]
             }
         }
