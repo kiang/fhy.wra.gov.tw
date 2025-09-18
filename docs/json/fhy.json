@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-412",
+                "stationID": "3cea61b4-7263-43df-9d73-6628a54521f5",
+                "stationName": "油車村_文化路",
+                "address": "油車村_文化路135號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.02345848,
+                "phenomenonTime": "2025-09-18T18:40:18+08:00",
+                "transferTime": "2025-09-18T18:45:22+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000911",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.387221,
+                    23.795273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "23776ffb-30cd-470a-940a-39f6a0d77b20",
                 "stationName": "南區-喜樹路252巷5號前(編號52)",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-09-18T18:20:00+08:00",
-                "transferTime": "2025-09-18T18:35:03+08:00",
+                "phenomenonTime": "2025-09-18T18:30:00+08:00",
+                "transferTime": "2025-09-18T18:45:15+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -232,32 +258,6 @@
                 "coordinates": [
                     121.018357,
                     24.861289
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-422",
-                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
-                "stationName": "十股排水-路面淹水",
-                "address": "賓朗路163號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.08,
-                "phenomenonTime": "2025-09-18T18:29:00+08:00",
-                "transferTime": "2025-09-18T18:35:44+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10014",
-                "townCode": "1001404",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.1014,
-                    22.796
                 ]
             }
         },
