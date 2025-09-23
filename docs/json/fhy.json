@@ -28,15 +28,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-09-24T00:31:12+08:00",
+                "transferTime": "2025-09-24T00:35:35+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27771,
+                    23.50609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-9",
                 "stationID": "8237baea-2907-4137-b1f8-640db3526c4c",
                 "stationName": "光復鄉大華村-大華街107巷白鷺橋",
                 "address": "大華村大華街107巷白鷺橋",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 24,
-                "phenomenonTime": "2025-09-24T00:12:00+08:00",
-                "transferTime": "2025-09-24T00:15:08+08:00",
+                "result": 24.8,
+                "phenomenonTime": "2025-09-24T00:22:00+08:00",
+                "transferTime": "2025-09-24T00:35:05+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -86,10 +112,10 @@
                 "address": "共和村退輔會農場旁水尺",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.6,
-                "phenomenonTime": "2025-09-24T00:24:00+08:00",
-                "transferTime": "2025-09-24T00:25:35+08:00",
-                "toBeConfirm": true,
+                "result": 7,
+                "phenomenonTime": "2025-09-24T00:34:00+08:00",
+                "transferTime": "2025-09-24T00:35:33+08:00",
+                "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
                 "townCode": "1001506",
@@ -112,9 +138,9 @@
                 "address": "復興里和平路山腳路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.45,
-                "phenomenonTime": "2025-09-24T00:20:00+08:00",
-                "transferTime": "2025-09-24T00:25:17+08:00",
+                "result": 8.27,
+                "phenomenonTime": "2025-09-24T00:30:00+08:00",
+                "transferTime": "2025-09-24T00:35:20+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -164,9 +190,9 @@
                 "address": "明里村近福德祠水尺",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 30.1,
-                "phenomenonTime": "2025-09-24T00:17:00+08:00",
-                "transferTime": "2025-09-24T00:25:55+08:00",
+                "result": 28.9,
+                "phenomenonTime": "2025-09-24T00:27:00+08:00",
+                "transferTime": "2025-09-24T00:35:56+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -242,10 +268,10 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.69,
-                "phenomenonTime": "2025-09-24T00:19:00+08:00",
-                "transferTime": "2025-09-24T00:25:58+08:00",
-                "toBeConfirm": false,
+                "result": 0.46,
+                "phenomenonTime": "2025-09-24T00:29:00+08:00",
+                "transferTime": "2025-09-24T00:35:58+08:00",
+                "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
                 "townCode": "1001404",
@@ -256,6 +282,32 @@
                 "coordinates": [
                     121.1014,
                     22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-421",
+                "stationID": "4d737be9-806b-457e-923d-3862174e992c",
+                "stationName": "花蓮市_中原路地下道",
+                "address": "中原路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 6.949413,
+                "phenomenonTime": "2025-09-24T00:34:32+08:00",
+                "transferTime": "2025-09-24T00:35:59+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10015",
+                "townCode": "1001501",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.592714,
+                    23.976367
                 ]
             }
         }
