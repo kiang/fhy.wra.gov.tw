@@ -10,9 +10,9 @@
                 "address": "喜樹路252巷5號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2025-09-23T11:07:32+08:00",
-                "transferTime": "2025-09-23T11:15:28+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2025-09-23T12:07:32+08:00",
+                "transferTime": "2025-09-23T12:15:31+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-09-23T11:30:00+08:00",
-                "transferTime": "2025-09-23T11:45:17+08:00",
+                "phenomenonTime": "2025-09-23T12:00:00+08:00",
+                "transferTime": "2025-09-23T12:15:17+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -62,9 +62,9 @@
                 "address": "共和村退輔會農場旁水尺",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.9,
-                "phenomenonTime": "2025-09-23T11:34:00+08:00",
-                "transferTime": "2025-09-23T11:45:38+08:00",
+                "result": 4.1,
+                "phenomenonTime": "2025-09-23T12:04:00+08:00",
+                "transferTime": "2025-09-23T12:15:31+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -82,15 +82,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "804ffb57-1ccc-4ea9-878b-632b8a5ebd7e",
+                "stationName": "和平路二段199巷",
+                "address": "和平路二段199巷",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.2,
+                "phenomenonTime": "2025-09-23T12:10:00+08:00",
+                "transferTime": "2025-09-23T12:15:40+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401600",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.360056,
+                    22.722778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-9",
                 "stationID": "d6ed2544-e7a0-4627-b3fb-8317db1841ad",
                 "stationName": "富里鄉明里村-近福德祠水尺",
                 "address": "明里村近福德祠水尺",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.7,
-                "phenomenonTime": "2025-09-23T11:40:00+08:00",
-                "transferTime": "2025-09-23T11:45:55+08:00",
+                "result": 8.9,
+                "phenomenonTime": "2025-09-23T12:10:00+08:00",
+                "transferTime": "2025-09-23T12:15:50+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -114,9 +140,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.06,
-                "phenomenonTime": "2025-09-23T11:39:00+08:00",
-                "transferTime": "2025-09-23T11:45:57+08:00",
+                "result": 3.36,
+                "phenomenonTime": "2025-09-23T12:09:00+08:00",
+                "transferTime": "2025-09-23T12:15:48+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -128,6 +154,32 @@
                 "coordinates": [
                     121.1014,
                     22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-421",
+                "stationID": "4d737be9-806b-457e-923d-3862174e992c",
+                "stationName": "花蓮市_中原路地下道",
+                "address": "中原路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 7.791877,
+                "phenomenonTime": "2025-09-23T12:14:32+08:00",
+                "transferTime": "2025-09-23T12:15:54+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10015",
+                "townCode": "1001501",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.592714,
+                    23.976367
                 ]
             }
         }
