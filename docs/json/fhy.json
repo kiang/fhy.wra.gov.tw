@@ -4,24 +4,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "第九河川分署",
-                "stationID": "d6ed2544-e7a0-4627-b3fb-8317db1841ad",
-                "stationName": "富里鄉明里村-近福德祠水尺",
-                "location": "明里村近福德祠水尺",
-                "situation": "富里鄉明里村-近福德祠水尺",
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
+                "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 61.2,
-                "phenomenonTime": "2025-09-24T11:24:00",
-                "townCode": "1001510",
-                "categoryCode": 1,
-                "sourceCode": 7,
-                "dataSource": "Disaster-Report"
+                "result": 3,
+                "phenomenonTime": "2025-09-24T18:54:04+08:00",
+                "transferTime": "2025-09-24T18:55:24+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    121.25713,
-                    23.19971
+                    120.27771,
+                    23.50609
                 ]
             }
         },
@@ -34,9 +36,9 @@
                 "address": "大華村大華街107巷白鷺橋",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.6,
-                "phenomenonTime": "2025-09-24T18:32:00+08:00",
-                "transferTime": "2025-09-24T18:45:06+08:00",
+                "result": 8.3,
+                "phenomenonTime": "2025-09-24T18:42:00+08:00",
+                "transferTime": "2025-09-24T18:55:06+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -80,15 +82,67 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-422",
+                "stationID": "7787f37e-fe27-43c0-852a-f943503efea3",
+                "stationName": "日光橋-路面淹水",
+                "address": "連航路150號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 1,
+                "phenomenonTime": "2025-09-24T18:40:00+08:00",
+                "transferTime": "2025-09-24T18:55:14+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1239,
+                    22.7736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.6,
+                "phenomenonTime": "2025-09-24T18:47:52+08:00",
+                "transferTime": "2025-09-24T18:55:37+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-9",
                 "stationID": "d6ed2544-e7a0-4627-b3fb-8317db1841ad",
                 "stationName": "富里鄉明里村-近福德祠水尺",
                 "address": "明里村近福德祠水尺",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 12.3,
-                "phenomenonTime": "2025-09-24T18:33:00+08:00",
-                "transferTime": "2025-09-24T18:45:50+08:00",
+                "result": 8.3,
+                "phenomenonTime": "2025-09-24T18:53:00+08:00",
+                "transferTime": "2025-09-24T18:55:53+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10015",
@@ -100,6 +154,32 @@
                 "coordinates": [
                     121.25713,
                     23.19971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.67,
+                "phenomenonTime": "2025-09-24T18:49:00+08:00",
+                "transferTime": "2025-09-24T18:55:58+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
                 ]
             }
         }
