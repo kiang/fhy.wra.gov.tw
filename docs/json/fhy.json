@@ -1,4 +1,109 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-415",
+                "stationID": "23776ffb-30cd-470a-940a-39f6a0d77b20",
+                "stationName": "南區-喜樹路252巷5號前(編號52)",
+                "address": "喜樹路252巷5號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.1,
+                "phenomenonTime": "2025-09-24T23:07:05+08:00",
+                "transferTime": "2025-09-24T23:15:32+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6703300",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.177862,
+                    22.94063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "7787f37e-fe27-43c0-852a-f943503efea3",
+                "stationName": "日光橋-路面淹水",
+                "address": "連航路150號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 1,
+                "phenomenonTime": "2025-09-24T23:40:00+08:00",
+                "transferTime": "2025-09-24T23:55:08+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1239,
+                    22.7736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "fdc76202-40eb-4383-8ecc-d352f5e3cdf5",
+                "stationName": "CYC147中埔鄉隆興村",
+                "address": "隆興村中埔鄉隆興村",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-09-24T23:53:06+08:00",
+                "transferTime": "2025-09-24T23:56:20+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001013",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.52337,
+                    23.4402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-421",
+                "stationID": "4d737be9-806b-457e-923d-3862174e992c",
+                "stationName": "花蓮市_中原路地下道",
+                "address": "中原路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.24165916,
+                "phenomenonTime": "2025-09-24T23:01:49+08:00",
+                "transferTime": "2025-09-24T23:05:46+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10015",
+                "townCode": "1001501",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.592714,
+                    23.976367
+                ]
+            }
+        }
+    ]
 }
