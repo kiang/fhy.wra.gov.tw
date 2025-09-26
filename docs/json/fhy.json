@@ -30,26 +30,52 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
-                "stationName": "鹿草鄉松竹村",
-                "address": "農田旁",
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-09-26T19:33:04+08:00",
-                "transferTime": "2025-09-26T19:35:35+08:00",
+                "result": 0.3,
+                "phenomenonTime": "2025-09-26T19:44:22+08:00",
+                "transferTime": "2025-09-26T19:45:36+08:00",
                 "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.28908,
-                    23.39764
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-412",
+                "stationID": "5d8550f6-66f3-4042-b161-4e450e55b69f",
+                "stationName": "光華村_村落1",
+                "address": "光華村_3鄰27號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.061103,
+                "phenomenonTime": "2025-09-26T19:40:28+08:00",
+                "transferTime": "2025-09-26T19:45:44+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000916",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.210796,
+                    23.693211
                 ]
             }
         },
@@ -62,9 +88,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-09-26T19:29:00+08:00",
-                "transferTime": "2025-09-26T19:35:47+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-09-26T19:39:00+08:00",
+                "transferTime": "2025-09-26T19:45:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
