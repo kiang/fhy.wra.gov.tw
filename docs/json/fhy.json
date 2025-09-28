@@ -10,9 +10,9 @@
                 "address": "江山里活動中心前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.1,
-                "phenomenonTime": "2025-09-28T14:12:32+08:00",
-                "transferTime": "2025-09-28T14:15:18+08:00",
+                "result": 4,
+                "phenomenonTime": "2025-09-28T14:21:32+08:00",
+                "transferTime": "2025-09-28T14:25:13+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2025-09-28T14:24:23+08:00",
+                "transferTime": "2025-09-28T14:25:44+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
                 "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
                 "stationName": "布袋鎮振寮里後壁寮B站",
                 "address": "振寮里後壁寮2號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2025-09-28T14:14:16+08:00",
-                "transferTime": "2025-09-28T14:15:46+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-09-28T14:23:16+08:00",
+                "transferTime": "2025-09-28T14:25:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-09-28T14:09:00+08:00",
-                "transferTime": "2025-09-28T14:15:52+08:00",
+                "phenomenonTime": "2025-09-28T14:19:00+08:00",
+                "transferTime": "2025-09-28T14:26:00+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -135,40 +161,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "996702db-00b0-48fb-a75c-59a0a1dac7dc",
-                "stationName": "東石鄉副瀨村新結庄",
-                "address": "寶港宮附近",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-09-28T14:12:01+08:00",
-                "transferTime": "2025-09-28T14:15:52+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.15658,
-                    23.48936
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
                 "stationID": "d5b6dfc2-d2e5-422e-8664-401e67f933d7",
                 "stationName": "CYC176鹿草鄉三角村2",
                 "address": "三角村2",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2025-09-28T14:12:02+08:00",
-                "transferTime": "2025-09-28T14:15:52+08:00",
+                "phenomenonTime": "2025-09-28T14:24:02+08:00",
+                "transferTime": "2025-09-28T14:26:00+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
