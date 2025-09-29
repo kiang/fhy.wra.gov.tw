@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "021aa96e-3a1f-415e-ac6d-995f3e90d836",
+                "stationName": "布袋鎮江山里",
+                "address": "江山里活動中心前",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.2,
+                "phenomenonTime": "2025-09-29T19:11:33+08:00",
+                "transferTime": "2025-09-29T19:15:10+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19971,
+                    23.38255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "23776ffb-30cd-470a-940a-39f6a0d77b20",
                 "stationName": "南區-喜樹路252巷5號前(編號52)",
                 "address": "喜樹路252巷5號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-09-29T18:06:38+08:00",
-                "transferTime": "2025-09-29T18:15:28+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2025-09-29T19:06:38+08:00",
+                "transferTime": "2025-09-29T19:15:35+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -30,32 +56,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-419",
-                "stationID": "77fbff75-3620-45cd-9ab2-38a13716c0e3",
-                "stationName": "涵洞",
-                "address": "鐵路橋涵洞",
-                "sensorType": "雷達波",
-                "unitOfMeasurement": "cm",
-                "result": 0.3,
-                "phenomenonTime": "2025-09-29T18:57:00+08:00",
-                "transferTime": "2025-09-29T19:05:36+08:00",
-                "toBeConfirm": true,
-                "isCulvert": true,
-                "cityCode": "10013",
-                "townCode": "1001301",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4455,
-                    22.6619
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
@@ -63,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.31,
-                "phenomenonTime": "2025-09-29T18:59:00+08:00",
-                "transferTime": "2025-09-29T19:05:54+08:00",
+                "phenomenonTime": "2025-09-29T19:09:00+08:00",
+                "transferTime": "2025-09-29T19:15:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
