@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.8,
-                "phenomenonTime": "2025-09-29T14:22:30+08:00",
-                "transferTime": "2025-09-29T14:25:08+08:00",
+                "phenomenonTime": "2025-09-29T14:31:30+08:00",
+                "transferTime": "2025-09-29T14:35:05+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -31,14 +31,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "7054315b-337b-47e2-b46b-1a496e495248",
+                "stationName": "東石鄉圍潭村",
+                "address": "圍潭村25號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-09-29T14:32:49+08:00",
+                "transferTime": "2025-09-29T14:35:36+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19854,
+                    23.46228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
                 "stationName": "布袋鎮振寮里後壁寮B站",
                 "address": "振寮里後壁寮2號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2025-09-29T14:24:11+08:00",
-                "transferTime": "2025-09-29T14:25:50+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-09-29T14:33:11+08:00",
+                "transferTime": "2025-09-29T14:35:34+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -62,9 +88,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.15,
-                "phenomenonTime": "2025-09-29T14:19:00+08:00",
-                "transferTime": "2025-09-29T14:25:59+08:00",
+                "result": 0.23,
+                "phenomenonTime": "2025-09-29T14:29:00+08:00",
+                "transferTime": "2025-09-29T14:35:39+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -76,32 +102,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "4de5fee4-de80-4268-94fc-e451c427e055",
-                "stationName": "CYC101朴子市永和里福山社區",
-                "address": "永和里福山社區",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-09-29T14:22:32+08:00",
-                "transferTime": "2025-09-29T14:25:57+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001002",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.229215,
-                    23.45231
                 ]
             }
         }
