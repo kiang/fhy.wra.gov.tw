@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.9,
+                "phenomenonTime": "2025-10-01T17:39:10+08:00",
+                "transferTime": "2025-10-01T17:45:41+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10004",
+                "townCode": "1000402",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-4",
                 "stationID": "06b20051-13fa-490a-b010-54bcb8053b47",
                 "stationName": "彰化小天台淹水感知器",
@@ -11,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 16.32,
-                "phenomenonTime": "2025-10-01T17:30:00+08:00",
-                "transferTime": "2025-10-01T17:35:53+08:00",
+                "phenomenonTime": "2025-10-01T17:40:00+08:00",
+                "transferTime": "2025-10-01T17:45:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-10-01T17:29:00+08:00",
-                "transferTime": "2025-10-01T17:35:52+08:00",
+                "phenomenonTime": "2025-10-01T17:39:00+08:00",
+                "transferTime": "2025-10-01T17:45:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -50,6 +76,32 @@
                 "coordinates": [
                     121.1014,
                     22.796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-7",
+                "stationID": "92408075-5353-46bc-9d29-e7bc92a60131",
+                "stationName": "枋寮鄉_枋寮高中",
+                "address": "義和路4-8前",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 12.1829867,
+                "phenomenonTime": "2025-10-01T17:44:32+08:00",
+                "transferTime": "2025-10-01T17:45:50+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10013",
+                "townCode": "1001316",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.59133,
+                    22.36977
                 ]
             }
         }
