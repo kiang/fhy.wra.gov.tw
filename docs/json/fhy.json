@@ -4,15 +4,67 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-415",
+                "stationID": "23776ffb-30cd-470a-940a-39f6a0d77b20",
+                "stationName": "南區-喜樹路252巷5號前(編號52)",
+                "address": "喜樹路252巷5號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-10-01T10:06:38+08:00",
+                "transferTime": "2025-10-01T10:15:32+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6703300",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.177862,
+                    22.94063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-412",
+                "stationID": "5ad42433-ef67-4918-86ea-fbcc8886b19e",
+                "stationName": "榴中里_光復路75巷",
+                "address": "光復路75巷前電線桿",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 21.1268187,
+                "phenomenonTime": "2025-10-01T10:14:54+08:00",
+                "transferTime": "2025-10-01T10:15:40+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000901",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.58678,
+                    23.72319999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-4",
                 "stationID": "06b20051-13fa-490a-b010-54bcb8053b47",
                 "stationName": "彰化小天台淹水感知器",
                 "address": "向陽里崙平南路(小天台)中央路223巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 16.46,
-                "phenomenonTime": "2025-10-01T10:00:00+08:00",
-                "transferTime": "2025-10-01T10:06:04+08:00",
+                "result": 16.45,
+                "phenomenonTime": "2025-10-01T10:10:00+08:00",
+                "transferTime": "2025-10-01T10:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -30,32 +82,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
-                "stationName": "布袋鎮振寮里後壁寮B站",
-                "address": "振寮里後壁寮2號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-10-01T10:04:13+08:00",
-                "transferTime": "2025-10-01T10:05:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18217,
-                    23.38423
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.15,
-                "phenomenonTime": "2025-10-01T09:59:00+08:00",
-                "transferTime": "2025-10-01T10:06:02+08:00",
+                "phenomenonTime": "2025-10-01T10:09:00+08:00",
+                "transferTime": "2025-10-01T10:15:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
