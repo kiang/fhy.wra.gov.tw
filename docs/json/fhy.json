@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 15,
-                "phenomenonTime": "2025-10-04T12:00:00+08:00",
-                "transferTime": "2025-10-04T12:05:53+08:00",
+                "phenomenonTime": "2025-10-04T12:10:00+08:00",
+                "transferTime": "2025-10-04T12:15:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -63,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-10-04T12:01:24+08:00",
-                "transferTime": "2025-10-04T12:05:45+08:00",
+                "phenomenonTime": "2025-10-04T12:13:24+08:00",
+                "transferTime": "2025-10-04T12:15:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -89,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.2,
-                "phenomenonTime": "2025-10-04T12:02:49+08:00",
-                "transferTime": "2025-10-04T12:05:48+08:00",
+                "phenomenonTime": "2025-10-04T12:14:49+08:00",
+                "transferTime": "2025-10-04T12:15:48+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -115,8 +115,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-10-04T12:03:11+08:00",
-                "transferTime": "2025-10-04T12:05:53+08:00",
+                "phenomenonTime": "2025-10-04T12:12:11+08:00",
+                "transferTime": "2025-10-04T12:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -134,41 +134,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-406",
-                "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
-                "stationName": "光復路與工業四路口",
-                "address": "光復路與工業四路口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.9,
-                "phenomenonTime": "2025-10-04T11:54:09+08:00",
-                "transferTime": "2025-10-04T11:55:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10004",
-                "townCode": "1000405",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.018357,
-                    24.861289
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.23,
-                "phenomenonTime": "2025-10-04T11:59:00+08:00",
-                "transferTime": "2025-10-04T12:05:51+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-10-04T12:09:00+08:00",
+                "transferTime": "2025-10-04T12:15:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -180,32 +154,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "996702db-00b0-48fb-a75c-59a0a1dac7dc",
-                "stationName": "東石鄉副瀨村新結庄",
-                "address": "寶港宮附近",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-10-04T12:02:30+08:00",
-                "transferTime": "2025-10-04T12:05:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.15658,
-                    23.48936
                 ]
             }
         },
@@ -239,14 +187,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "a13ade6b-1627-49bd-be5d-0d3eb9af97d6",
+                "stationName": "CYC170新港西庄村嘉75-1縣道",
+                "address": "西庄村嘉75-1縣道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.6,
+                "phenomenonTime": "2025-10-04T12:12:02+08:00",
+                "transferTime": "2025-10-04T12:15:50+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001007",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.18005,
+                    23.482347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "d5b6dfc2-d2e5-422e-8664-401e67f933d7",
                 "stationName": "CYC176鹿草鄉三角村2",
                 "address": "三角村2",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.9,
-                "phenomenonTime": "2025-10-04T12:03:02+08:00",
-                "transferTime": "2025-10-04T12:05:53+08:00",
+                "phenomenonTime": "2025-10-04T12:12:02+08:00",
+                "transferTime": "2025-10-04T12:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -265,14 +239,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "b9b0ef99-f7a4-4867-b10a-9a73c8231e23",
+                "stationName": "CYC178梅山鄉梅東村萬應廟",
+                "address": "梅東村萬應廟",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.6,
+                "phenomenonTime": "2025-10-04T12:12:02+08:00",
+                "transferTime": "2025-10-04T12:15:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001015",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.410241,
+                    23.452243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "4e1d899d-67b9-4102-bd1e-f7fe4b3dd96d",
                 "stationName": "CYC204民雄交流道",
                 "address": "民雄交流道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.7,
-                "phenomenonTime": "2025-10-04T12:03:02+08:00",
-                "transferTime": "2025-10-04T12:05:53+08:00",
+                "phenomenonTime": "2025-10-04T12:12:02+08:00",
+                "transferTime": "2025-10-04T12:15:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
