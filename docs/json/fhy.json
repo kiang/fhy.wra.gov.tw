@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 15,
-                "phenomenonTime": "2025-10-05T10:50:00+08:00",
-                "transferTime": "2025-10-05T10:55:43+08:00",
+                "phenomenonTime": "2025-10-05T11:00:00+08:00",
+                "transferTime": "2025-10-05T11:05:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -56,32 +56,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "a9c94823-2100-42a5-9ce2-36fb392f15d4",
-                "stationName": "CYC135民雄鄉寮頂村富義新村",
-                "address": "寮頂村富義新村",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-10-05T10:54:12+08:00",
-                "transferTime": "2025-10-05T10:55:49+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001005",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4338291,
-                    23.5635323
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
@@ -89,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.23,
-                "phenomenonTime": "2025-10-05T10:49:00+08:00",
-                "transferTime": "2025-10-05T10:55:54+08:00",
+                "phenomenonTime": "2025-10-05T10:59:00+08:00",
+                "transferTime": "2025-10-05T11:05:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -135,14 +109,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "d5b6dfc2-d2e5-422e-8664-401e67f933d7",
+                "stationName": "CYC176鹿草鄉三角村2",
+                "address": "三角村2",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-10-05T11:03:02+08:00",
+                "transferTime": "2025-10-05T11:05:48+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001011",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.343736,
+                    23.403968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "4e1d899d-67b9-4102-bd1e-f7fe4b3dd96d",
                 "stationName": "CYC204民雄交流道",
                 "address": "民雄交流道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.8,
-                "phenomenonTime": "2025-10-05T10:51:02+08:00",
-                "transferTime": "2025-10-05T10:55:54+08:00",
+                "phenomenonTime": "2025-10-05T11:03:02+08:00",
+                "transferTime": "2025-10-05T11:05:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -154,6 +154,32 @@
                 "coordinates": [
                     120.415942,
                     23.553344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "9911e0a9-1556-4883-beef-43599d33097a",
+                "stationName": "CYC229太保後庄里",
+                "address": "後庄里",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2025-10-05T11:03:02+08:00",
+                "transferTime": "2025-10-05T11:05:49+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001001",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.32604,
+                    23.470318
                 ]
             }
         }
