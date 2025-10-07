@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 15,
-                "phenomenonTime": "2025-10-07T13:00:00+08:00",
-                "transferTime": "2025-10-07T13:05:48+08:00",
+                "phenomenonTime": "2025-10-07T13:20:00+08:00",
+                "transferTime": "2025-10-07T13:26:05+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -62,9 +62,9 @@
                 "address": "圍潭村25號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-10-07T13:02:01+08:00",
-                "transferTime": "2025-10-07T13:05:51+08:00",
+                "result": 3.2,
+                "phenomenonTime": "2025-10-07T13:23:51+08:00",
+                "transferTime": "2025-10-07T13:26:02+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -88,9 +88,9 @@
                 "address": "振寮里後壁寮2號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.3,
-                "phenomenonTime": "2025-10-07T13:01:27+08:00",
-                "transferTime": "2025-10-07T13:05:43+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-10-07T13:22:27+08:00",
+                "transferTime": "2025-10-07T13:26:02+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -102,6 +102,32 @@
                 "coordinates": [
                     120.18217,
                     23.38423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-422",
+                "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
+                "stationName": "十股排水-路面淹水",
+                "address": "賓朗路163號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.15,
+                "phenomenonTime": "2025-10-07T13:19:00+08:00",
+                "transferTime": "2025-10-07T13:26:05+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10014",
+                "townCode": "1001404",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.1014,
+                    22.796
                 ]
             }
         },
@@ -140,9 +166,9 @@
                 "address": "鹿草村新安宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.7,
-                "phenomenonTime": "2025-10-07T13:03:04+08:00",
-                "transferTime": "2025-10-07T13:05:51+08:00",
+                "result": 4,
+                "phenomenonTime": "2025-10-07T13:24:19+08:00",
+                "transferTime": "2025-10-07T13:26:05+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -154,32 +180,6 @@
                 "coordinates": [
                     120.31153,
                     23.415121
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "d5b6dfc2-d2e5-422e-8664-401e67f933d7",
-                "stationName": "CYC176鹿草鄉三角村2",
-                "address": "三角村2",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-10-07T13:03:02+08:00",
-                "transferTime": "2025-10-07T13:05:51+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.343736,
-                    23.403968
                 ]
             }
         }
