@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "81829055-66b9-44ad-a9f6-30f3f6a8446d",
+                "stationName": "東石鄉三家村三塊厝",
+                "address": "三家村130號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-10-08T10:22:57+08:00",
+                "transferTime": "2025-10-08T10:25:29+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.16992,
+                    23.47123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-7",
                 "stationID": "793129ff-c127-4696-b65e-2ffadc843497",
                 "stationName": "佳冬鄉_中油加油站",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 15,
-                "phenomenonTime": "2025-10-08T10:10:00+08:00",
-                "transferTime": "2025-10-08T10:15:47+08:00",
+                "phenomenonTime": "2025-10-08T10:20:00+08:00",
+                "transferTime": "2025-10-08T10:25:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -50,32 +76,6 @@
                 "coordinates": [
                     120.5097,
                     23.8964
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
-                "stationName": "布袋鎮振寮里後壁寮B站",
-                "address": "振寮里後壁寮2號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2025-10-08T10:13:27+08:00",
-                "transferTime": "2025-10-08T10:15:46+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18217,
-                    23.38423
                 ]
             }
         },
@@ -114,9 +114,9 @@
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.08,
-                "phenomenonTime": "2025-10-08T10:09:00+08:00",
-                "transferTime": "2025-10-08T10:15:55+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-10-08T10:19:00+08:00",
+                "transferTime": "2025-10-08T10:25:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -154,32 +154,6 @@
                 "coordinates": [
                     120.59133,
                     22.36977
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "4e1d899d-67b9-4102-bd1e-f7fe4b3dd96d",
-                "stationName": "CYC204民雄交流道",
-                "address": "民雄交流道",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.3,
-                "phenomenonTime": "2025-10-08T10:12:02+08:00",
-                "transferTime": "2025-10-08T10:15:55+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001005",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.415942,
-                    23.553344
                 ]
             }
         }
