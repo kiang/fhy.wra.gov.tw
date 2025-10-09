@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-10-09T22:10:00+08:00",
-                "transferTime": "2025-10-09T22:25:15+08:00",
+                "phenomenonTime": "2025-10-09T22:20:00+08:00",
+                "transferTime": "2025-10-09T22:35:16+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2025-10-09T22:07:16+08:00",
-                "transferTime": "2025-10-09T22:15:39+08:00",
+                "phenomenonTime": "2025-10-09T22:32:41+08:00",
+                "transferTime": "2025-10-09T22:35:28+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
@@ -82,15 +82,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "a52384e5-714c-4bfc-a084-6a5dc2a46ef1",
+                "stationName": "光復路與工業四路口",
+                "address": "光復路與工業四路口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2025-10-09T22:32:41+08:00",
+                "transferTime": "2025-10-09T22:35:45+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000405",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.018357,
+                    24.861289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-422",
                 "stationID": "3e21c8a6-1771-4255-be8e-e34295674141",
                 "stationName": "十股排水-路面淹水",
                 "address": "賓朗路163號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.31,
-                "phenomenonTime": "2025-10-09T22:19:00+08:00",
-                "transferTime": "2025-10-09T22:25:53+08:00",
+                "result": 0.15,
+                "phenomenonTime": "2025-10-09T22:29:00+08:00",
+                "transferTime": "2025-10-09T22:35:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
