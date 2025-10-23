@@ -4,6 +4,54 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第一河川分署",
+                "stationID": "fd9e5e3a-20c5-4bf0-aaf8-bdc3a7115ccb",
+                "stationName": "利澤西路27巷",
+                "location": "利澤西路27巷",
+                "situation": "利澤西路27巷",
+                "unitOfMeasurement": "cm",
+                "result": 46.9,
+                "phenomenonTime": "2025-10-22T18:18:00",
+                "townCode": "1000209",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.8164921,
+                    24.6567438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "第一河川分署",
+                "stationID": "75b6db9c-ac7c-472c-9c00-df8ccc3ab6aa",
+                "stationName": "五十二甲橋附近",
+                "location": "五十二甲橋附近",
+                "situation": "五十二甲橋附近",
+                "unitOfMeasurement": "cm",
+                "result": 52.6,
+                "phenomenonTime": "2025-10-22T18:28:00",
+                "townCode": "1000209",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.818553,
+                    24.666313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-422",
                 "stationID": "7787f37e-fe27-43c0-852a-f943503efea3",
                 "stationName": "日光橋-路面淹水",
@@ -11,8 +59,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-10-23T16:40:00+08:00",
-                "transferTime": "2025-10-23T16:55:14+08:00",
+                "phenomenonTime": "2025-10-23T16:50:00+08:00",
+                "transferTime": "2025-10-23T17:05:13+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -24,6 +72,32 @@
                 "coordinates": [
                     121.1239,
                     22.7736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-404",
+                "stationID": "7d8c9b02-e470-4447-8d6c-897d70833190",
+                "stationName": "長興路四段60巷-3",
+                "address": "長興路四段60巷-3",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 1,
+                "phenomenonTime": "2025-10-23T17:00:00+08:00",
+                "transferTime": "2025-10-23T17:05:38+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "68",
+                "townCode": "6800500",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.268623,
+                    25.070753
                 ]
             }
         },
@@ -56,15 +130,67 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-404",
+                "stationID": "363a071a-30f4-4b5b-be74-52cce7b9dc56",
+                "stationName": "延平路、樹仁二街口",
+                "address": "樹仁二街258號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 7,
+                "phenomenonTime": "2025-10-23T17:00:00+08:00",
+                "transferTime": "2025-10-23T17:05:43+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "68",
+                "townCode": "6800100",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3146,
+                    24.977471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "aeec44f2-2597-4f6b-830a-2512a82a04d2",
+                "stationName": "CYC145鹿草鄉竹山村龜佛山社區",
+                "address": "竹山村龜佛山社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-10-23T17:03:05+08:00",
+                "transferTime": "2025-10-23T17:05:47+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001011",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27278,
+                    23.394883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-420",
                 "stationID": "75b6db9c-ac7c-472c-9c00-df8ccc3ab6aa",
                 "stationName": "五結鄉五十二甲橋附近",
                 "address": "五十二甲橋附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 28.4,
-                "phenomenonTime": "2025-10-23T16:48:00+08:00",
-                "transferTime": "2025-10-23T16:55:50+08:00",
+                "result": 28.5,
+                "phenomenonTime": "2025-10-23T16:58:00+08:00",
+                "transferTime": "2025-10-23T17:05:48+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10002",
@@ -88,9 +214,9 @@
                 "address": "利澤西路27巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 24,
-                "phenomenonTime": "2025-10-23T16:48:00+08:00",
-                "transferTime": "2025-10-23T16:55:52+08:00",
+                "result": 23.7,
+                "phenomenonTime": "2025-10-23T16:58:00+08:00",
+                "transferTime": "2025-10-23T17:05:50+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10002",
@@ -115,8 +241,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.31,
-                "phenomenonTime": "2025-10-23T16:49:00+08:00",
-                "transferTime": "2025-10-23T16:55:51+08:00",
+                "phenomenonTime": "2025-10-23T16:59:00+08:00",
+                "transferTime": "2025-10-23T17:05:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -140,9 +266,9 @@
                 "address": "鹿草村新安宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.4,
-                "phenomenonTime": "2025-10-23T16:52:44+08:00",
-                "transferTime": "2025-10-23T16:55:52+08:00",
+                "result": 3.5,
+                "phenomenonTime": "2025-10-23T17:04:59+08:00",
+                "transferTime": "2025-10-23T17:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -166,9 +292,9 @@
                 "address": "東勢里東和宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-10-23T16:54:02+08:00",
-                "transferTime": "2025-10-23T16:55:52+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2025-10-23T17:03:02+08:00",
+                "transferTime": "2025-10-23T17:05:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
