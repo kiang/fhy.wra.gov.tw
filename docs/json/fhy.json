@@ -4,6 +4,54 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "第一河川分署",
+                "stationID": "fd9e5e3a-20c5-4bf0-aaf8-bdc3a7115ccb",
+                "stationName": "利澤西路27巷",
+                "location": "利澤西路27巷",
+                "situation": "利澤西路27巷",
+                "unitOfMeasurement": "cm",
+                "result": 46.9,
+                "phenomenonTime": "2025-10-22T18:18:00",
+                "townCode": "1000209",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.8164921,
+                    24.6567438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "第一河川分署",
+                "stationID": "75b6db9c-ac7c-472c-9c00-df8ccc3ab6aa",
+                "stationName": "五十二甲橋附近",
+                "location": "五十二甲橋附近",
+                "situation": "五十二甲橋附近",
+                "unitOfMeasurement": "cm",
+                "result": 52.6,
+                "phenomenonTime": "2025-10-22T18:28:00",
+                "townCode": "1000209",
+                "categoryCode": 1,
+                "sourceCode": 7,
+                "dataSource": "Disaster-Report"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.818553,
+                    24.666313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-422",
                 "stationID": "7787f37e-fe27-43c0-852a-f943503efea3",
                 "stationName": "日光橋-路面淹水",
@@ -11,8 +59,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2025-10-23T09:50:00+08:00",
-                "transferTime": "2025-10-23T10:05:12+08:00",
+                "phenomenonTime": "2025-10-23T10:00:00+08:00",
+                "transferTime": "2025-10-23T10:15:17+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -37,8 +85,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2025-10-23T09:54:10+08:00",
-                "transferTime": "2025-10-23T09:55:46+08:00",
+                "phenomenonTime": "2025-10-23T10:09:10+08:00",
+                "transferTime": "2025-10-23T10:15:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
@@ -56,15 +104,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
+                "stationName": "布袋鎮振寮里後壁寮B站",
+                "address": "振寮里後壁寮2號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-10-23T10:13:24+08:00",
+                "transferTime": "2025-10-23T10:15:44+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.18217,
+                    23.38423
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-420",
                 "stationID": "75b6db9c-ac7c-472c-9c00-df8ccc3ab6aa",
                 "stationName": "五結鄉五十二甲橋附近",
                 "address": "五十二甲橋附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 38.3,
-                "phenomenonTime": "2025-10-23T10:00:00+08:00",
-                "transferTime": "2025-10-23T10:05:47+08:00",
+                "result": 38.7,
+                "phenomenonTime": "2025-10-23T10:10:00+08:00",
+                "transferTime": "2025-10-23T10:15:50+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10002",
@@ -89,8 +163,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2025-10-23T09:54:10+08:00",
-                "transferTime": "2025-10-23T09:55:53+08:00",
+                "phenomenonTime": "2025-10-23T10:09:09+08:00",
+                "transferTime": "2025-10-23T10:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -114,9 +188,9 @@
                 "address": "利澤西路27巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 32.4,
-                "phenomenonTime": "2025-10-23T09:58:00+08:00",
-                "transferTime": "2025-10-23T10:05:50+08:00",
+                "result": 32.6,
+                "phenomenonTime": "2025-10-23T10:06:00+08:00",
+                "transferTime": "2025-10-23T10:15:52+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10002",
@@ -141,8 +215,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.31,
-                "phenomenonTime": "2025-10-23T09:59:00+08:00",
-                "transferTime": "2025-10-23T10:05:50+08:00",
+                "phenomenonTime": "2025-10-23T10:09:00+08:00",
+                "transferTime": "2025-10-23T10:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10014",
@@ -167,8 +241,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2025-10-23T10:03:02+08:00",
-                "transferTime": "2025-10-23T10:05:50+08:00",
+                "phenomenonTime": "2025-10-23T10:12:02+08:00",
+                "transferTime": "2025-10-23T10:15:52+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
