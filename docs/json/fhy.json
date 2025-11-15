@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 5,
-                "phenomenonTime": "2025-11-15T13:52:03+08:00",
-                "transferTime": "2025-11-15T13:55:45+08:00",
+                "phenomenonTime": "2025-11-15T14:02:03+08:00",
+                "transferTime": "2025-11-15T14:05:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -56,6 +56,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-405",
+                "stationID": "74c7234f-fdf1-4166-9da7-60d0055204da",
+                "stationName": "西大地下道",
+                "address": "西大地下道",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 5.5,
+                "phenomenonTime": "2025-11-15T14:03:00+08:00",
+                "transferTime": "2025-11-15T14:05:55+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "10018",
+                "townCode": "1001801",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.9679736,
+                    24.7990388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
                 "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
                 "stationName": "布袋鎮振寮里後壁寮B站",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-11-15T13:54:23+08:00",
-                "transferTime": "2025-11-15T13:55:52+08:00",
+                "phenomenonTime": "2025-11-15T14:03:23+08:00",
+                "transferTime": "2025-11-15T14:06:03+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -76,32 +102,6 @@
                 "coordinates": [
                     120.18217,
                     23.38423
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "aeec44f2-2597-4f6b-830a-2512a82a04d2",
-                "stationName": "CYC145鹿草鄉竹山村龜佛山社區",
-                "address": "竹山村龜佛山社區",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-11-15T13:54:40+08:00",
-                "transferTime": "2025-11-15T13:55:57+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.27278,
-                    23.394883
                 ]
             }
         },
