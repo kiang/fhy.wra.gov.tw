@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-11-20T17:02:04+08:00",
-                "transferTime": "2025-11-20T17:05:40+08:00",
+                "phenomenonTime": "2025-11-20T17:11:04+08:00",
+                "transferTime": "2025-11-20T17:15:32+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -56,26 +56,52 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "8675ec12-a5e7-40ae-a8dc-6bdde1507693",
-                "stationName": "東石鄉溪下村農場",
-                "address": "溪下村36號旁",
+                "authority": "Operator-405",
+                "stationID": "74c7234f-fdf1-4166-9da7-60d0055204da",
+                "stationName": "西大地下道",
+                "address": "西大地下道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-11-20T17:03:44+08:00",
-                "transferTime": "2025-11-20T17:05:56+08:00",
+                "result": 5.3,
+                "phenomenonTime": "2025-11-20T17:11:00+08:00",
+                "transferTime": "2025-11-20T17:15:57+08:00",
                 "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
+                "isCulvert": true,
+                "cityCode": "10018",
+                "townCode": "1001801",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.19023,
-                    23.49512
+                    120.9679736,
+                    24.7990388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "aeec44f2-2597-4f6b-830a-2512a82a04d2",
+                "stationName": "CYC145鹿草鄉竹山村龜佛山社區",
+                "address": "竹山村龜佛山社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-11-20T17:11:46+08:00",
+                "transferTime": "2025-11-20T17:15:55+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001011",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27278,
+                    23.394883
                 ]
             }
         },
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2025-11-20T17:03:02+08:00",
-                "transferTime": "2025-11-20T17:06:07+08:00",
+                "phenomenonTime": "2025-11-20T17:12:02+08:00",
+                "transferTime": "2025-11-20T17:15:57+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     120.31037,
                     23.466961
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "ea9f277e-0dbe-4404-95db-18b75e07a748",
-                "stationName": "CYC231太保梅埔里梅子厝保福宮",
-                "address": "太保梅埔里梅子厝保福宮",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.3,
-                "phenomenonTime": "2025-11-20T17:02:04+08:00",
-                "transferTime": "2025-11-20T17:06:08+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001001",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.34123,
-                    23.439647
                 ]
             }
         }
