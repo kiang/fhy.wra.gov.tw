@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-11-21T14:03:19+08:00",
+                "transferTime": "2025-11-21T14:05:46+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27771,
+                    23.50609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
                 "stationName": "工研路地下道",
@@ -11,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2025-11-21T13:45:09+08:00",
-                "transferTime": "2025-11-21T13:55:44+08:00",
+                "phenomenonTime": "2025-11-21T14:00:08+08:00",
+                "transferTime": "2025-11-21T14:05:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
@@ -30,26 +56,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-405",
-                "stationID": "74c7234f-fdf1-4166-9da7-60d0055204da",
-                "stationName": "西大地下道",
-                "address": "西大地下道",
+                "authority": "Operator-414",
+                "stationID": "38533eb3-a7e3-4548-93bb-66ca2cf5884f",
+                "stationName": "大林鎮平林里(地下道)",
+                "address": "中正路324巷60號附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.4,
-                "phenomenonTime": "2025-11-21T13:49:00+08:00",
-                "transferTime": "2025-11-21T13:55:56+08:00",
+                "result": 3,
+                "phenomenonTime": "2025-11-21T14:02:19+08:00",
+                "transferTime": "2025-11-21T14:05:42+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
-                "cityCode": "10018",
-                "townCode": "1001801",
+                "cityCode": "10010",
+                "townCode": "1001004",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.9679736,
-                    24.7990388
+                    120.45264,
+                    23.59834
                 ]
             }
         },
@@ -83,40 +109,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "70d454b2-307d-4466-b2e2-b801a1b0987d",
-                "stationName": "CYC226太保東勢里東和宮",
-                "address": "東勢里東和宮",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.3,
-                "phenomenonTime": "2025-11-21T13:54:02+08:00",
-                "transferTime": "2025-11-21T13:55:56+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001001",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.31037,
-                    23.466961
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
                 "stationID": "ea9f277e-0dbe-4404-95db-18b75e07a748",
                 "stationName": "CYC231太保梅埔里梅子厝保福宮",
                 "address": "太保梅埔里梅子厝保福宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.4,
-                "phenomenonTime": "2025-11-21T13:53:39+08:00",
-                "transferTime": "2025-11-21T13:55:56+08:00",
+                "phenomenonTime": "2025-11-21T14:02:49+08:00",
+                "transferTime": "2025-11-21T14:06:07+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -128,32 +128,6 @@
                 "coordinates": [
                     120.34123,
                     23.439647
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "585130c3-62fc-4925-91a8-88c04f2ebf33",
-                "stationName": "福興街111號前",
-                "address": "福興街111號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 11,
-                "phenomenonTime": "2025-11-21T13:50:00+08:00",
-                "transferTime": "2025-11-21T13:55:56+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6400400",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.28369,
-                    22.71649
                 ]
             }
         }
