@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-11-21T14:03:19+08:00",
-                "transferTime": "2025-11-21T14:05:46+08:00",
+                "phenomenonTime": "2025-11-21T14:12:19+08:00",
+                "transferTime": "2025-11-21T14:15:34+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -56,26 +56,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "38533eb3-a7e3-4548-93bb-66ca2cf5884f",
-                "stationName": "大林鎮平林里(地下道)",
-                "address": "中正路324巷60號附近",
+                "authority": "Operator-405",
+                "stationID": "74c7234f-fdf1-4166-9da7-60d0055204da",
+                "stationName": "西大地下道",
+                "address": "西大地下道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-11-21T14:02:19+08:00",
-                "transferTime": "2025-11-21T14:05:42+08:00",
+                "result": 5.4,
+                "phenomenonTime": "2025-11-21T14:09:00+08:00",
+                "transferTime": "2025-11-21T14:15:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
-                "cityCode": "10010",
-                "townCode": "1001004",
+                "cityCode": "10018",
+                "townCode": "1001801",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.45264,
-                    23.59834
+                    120.9679736,
+                    24.7990388
                 ]
             }
         },
@@ -109,14 +109,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "70d454b2-307d-4466-b2e2-b801a1b0987d",
+                "stationName": "CYC226太保東勢里東和宮",
+                "address": "東勢里東和宮",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 1.5,
+                "phenomenonTime": "2025-11-21T14:12:02+08:00",
+                "transferTime": "2025-11-21T14:15:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001001",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31037,
+                    23.466961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "ea9f277e-0dbe-4404-95db-18b75e07a748",
                 "stationName": "CYC231太保梅埔里梅子厝保福宮",
                 "address": "太保梅埔里梅子厝保福宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.4,
-                "phenomenonTime": "2025-11-21T14:02:49+08:00",
-                "transferTime": "2025-11-21T14:06:07+08:00",
+                "result": 3.7,
+                "phenomenonTime": "2025-11-21T14:11:54+08:00",
+                "transferTime": "2025-11-21T14:15:53+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -128,6 +154,32 @@
                 "coordinates": [
                     120.34123,
                     23.439647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-417",
+                "stationID": "415dc815-9663-4cc5-9d81-54a64e13231d",
+                "stationName": "宏毅二路與後昌路口",
+                "address": "宏毅二路與後昌路口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 7,
+                "phenomenonTime": "2025-11-21T14:07:00+08:00",
+                "transferTime": "2025-11-21T14:15:53+08:00",
+                "toBeConfirm": true,
+                "isCulvert": true,
+                "cityCode": "64",
+                "townCode": "6400400",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.306796,
+                    22.70869
                 ]
             }
         }
