@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-03T14:43:33+08:00",
-                "transferTime": "2025-12-03T14:45:26+08:00",
+                "phenomenonTime": "2025-12-03T15:01:33+08:00",
+                "transferTime": "2025-12-03T15:05:32+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -30,26 +30,52 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "38533eb3-a7e3-4548-93bb-66ca2cf5884f",
-                "stationName": "大林鎮平林里(地下道)",
-                "address": "中正路324巷60號附近",
+                "authority": "Operator-406",
+                "stationID": "2ed847e7-b1b6-4f4f-a153-5cacc1a132b0",
+                "stationName": "工研路地下道",
+                "address": "工研路地下道",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-12-03T14:53:19+08:00",
-                "transferTime": "2025-12-03T14:55:42+08:00",
+                "result": 0.6,
+                "phenomenonTime": "2025-12-03T15:00:31+08:00",
+                "transferTime": "2025-12-03T15:05:33+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
-                "cityCode": "10010",
-                "townCode": "1001004",
+                "cityCode": "10004",
+                "townCode": "1000402",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.45264,
-                    23.59834
+                    121.017721,
+                    24.87112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a4e8d6e4-e92b-4a2d-9b09-df989b8d2d8e",
+                "stationName": "六腳鄉崩山村",
+                "address": "崩山村12號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-03T15:04:36+08:00",
+                "transferTime": "2025-12-03T15:05:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22646,
+                    23.50381
                 ]
             }
         },
@@ -83,25 +109,51 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "4fc2e06b-da4d-49cf-b2e1-1e05bdd0da44",
-                "stationName": "朴子市新庄里",
-                "address": "新庄里54號",
+                "stationID": "996702db-00b0-48fb-a75c-59a0a1dac7dc",
+                "stationName": "東石鄉副瀨村新結庄",
+                "address": "寶港宮附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-03T14:52:06+08:00",
-                "transferTime": "2025-12-03T14:56:03+08:00",
+                "phenomenonTime": "2025-12-03T15:03:27+08:00",
+                "transferTime": "2025-12-03T15:05:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001002",
+                "townCode": "1001009",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.2649,
-                    23.4234
+                    120.15658,
+                    23.48936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "e6b008f7-8009-417b-bb38-fb8da3efb58f",
+                "stationName": "CYC212布袋樹林里樹林頭",
+                "address": "樹林里樹林頭",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2025-12-03T15:03:02+08:00",
+                "transferTime": "2025-12-03T15:05:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2174,
+                    23.41599
                 ]
             }
         },
