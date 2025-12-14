@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2025-12-14T11:00:12+08:00",
-                "transferTime": "2025-12-14T11:05:46+08:00",
+                "phenomenonTime": "2025-12-14T11:15:07+08:00",
+                "transferTime": "2025-12-14T11:25:42+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
@@ -31,14 +31,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "8675ec12-a5e7-40ae-a8dc-6bdde1507693",
+                "stationName": "東石鄉溪下村農場",
+                "address": "溪下村36號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-14T11:21:21+08:00",
+                "transferTime": "2025-12-14T11:25:29+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19023,
+                    23.49512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "58e4516f-0dc1-423f-82ff-e2827c8002d7",
                 "stationName": "東石鄉網寮村網寮",
                 "address": "慈誠公園附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-14T11:13:17+08:00",
-                "transferTime": "2025-12-14T11:15:51+08:00",
+                "phenomenonTime": "2025-12-14T11:22:17+08:00",
+                "transferTime": "2025-12-14T11:25:57+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -50,32 +76,6 @@
                 "coordinates": [
                     120.15099,
                     23.43562
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-411",
-                "stationID": "c6add169-4c3b-469d-8cb0-d6b74177dc51",
-                "stationName": "社頭村1",
-                "address": "三民路128巷203號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 7.9,
-                "phenomenonTime": "2025-12-14T11:02:00+08:00",
-                "transferTime": "2025-12-14T11:15:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10007",
-                "townCode": "1000717",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.5878108,
-                    23.9070775
                 ]
             }
         },
@@ -102,32 +102,6 @@
                 "coordinates": [
                     121.1014,
                     22.796
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "e6b008f7-8009-417b-bb38-fb8da3efb58f",
-                "stationName": "CYC212布袋樹林里樹林頭",
-                "address": "樹林里樹林頭",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.3,
-                "phenomenonTime": "2025-12-14T11:12:02+08:00",
-                "transferTime": "2025-12-14T11:15:57+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.2174,
-                    23.41599
                 ]
             }
         }
