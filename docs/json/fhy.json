@@ -10,9 +10,9 @@
                 "address": "三豐村過湖排水",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1.2,
-                "phenomenonTime": "2025-12-20T15:00:00+08:00",
-                "transferTime": "2025-12-20T15:05:21+08:00",
+                "result": 0.9,
+                "phenomenonTime": "2025-12-20T15:10:00+08:00",
+                "transferTime": "2025-12-20T15:15:23+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2025-12-20T15:00:00+08:00",
-                "transferTime": "2025-12-20T15:05:38+08:00",
+                "phenomenonTime": "2025-12-20T15:10:00+08:00",
+                "transferTime": "2025-12-20T15:15:41+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-20T15:11:24+08:00",
+                "transferTime": "2025-12-20T15:15:03+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27771,
+                    23.50609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-419",
                 "stationID": "77fbff75-3620-45cd-9ab2-38a13716c0e3",
                 "stationName": "涵洞",
                 "address": "鐵路橋涵洞",
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
-                "result": 0.2,
-                "phenomenonTime": "2025-12-20T15:01:00+08:00",
-                "transferTime": "2025-12-20T15:05:21+08:00",
+                "result": 0.3,
+                "phenomenonTime": "2025-12-20T15:11:00+08:00",
+                "transferTime": "2025-12-20T15:15:26+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10013",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2025-12-20T15:00:00+08:00",
-                "transferTime": "2025-12-20T15:05:38+08:00",
+                "phenomenonTime": "2025-12-20T15:10:00+08:00",
+                "transferTime": "2025-12-20T15:15:35+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -134,41 +160,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
-                "stationName": "布袋鎮振寮里後壁寮B站",
-                "address": "振寮里後壁寮2號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-12-20T15:04:07+08:00",
-                "transferTime": "2025-12-20T15:05:59+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18217,
-                    23.38423
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-412",
                 "stationID": "a4e2728e-8ca2-4d61-b863-9b04278b4854",
                 "stationName": "東勢鄉_守密街之電線桿",
                 "address": "守密街之電線桿",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.85550289,
-                "phenomenonTime": "2025-12-20T15:01:00+08:00",
-                "transferTime": "2025-12-20T15:05:59+08:00",
+                "result": 2.82350712,
+                "phenomenonTime": "2025-12-20T15:10:42+08:00",
+                "transferTime": "2025-12-20T15:16:06+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -180,6 +180,32 @@
                 "coordinates": [
                     120.261658,
                     23.665685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a4e8d6e4-e92b-4a2d-9b09-df989b8d2d8e",
+                "stationName": "六腳鄉崩山村",
+                "address": "崩山村12號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-20T15:13:28+08:00",
+                "transferTime": "2025-12-20T15:16:07+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22646,
+                    23.50381
                 ]
             }
         },
