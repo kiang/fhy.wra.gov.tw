@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.9,
-                "phenomenonTime": "2025-12-22T17:20:00+08:00",
-                "transferTime": "2025-12-22T17:25:16+08:00",
+                "phenomenonTime": "2025-12-22T17:30:00+08:00",
+                "transferTime": "2025-12-22T17:35:22+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2025-12-22T17:20:00+08:00",
-                "transferTime": "2025-12-22T17:25:33+08:00",
+                "phenomenonTime": "2025-12-22T17:30:00+08:00",
+                "transferTime": "2025-12-22T17:35:38+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -63,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-22T17:23:07+08:00",
-                "transferTime": "2025-12-22T17:25:05+08:00",
+                "phenomenonTime": "2025-12-22T17:32:07+08:00",
+                "transferTime": "2025-12-22T17:35:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -89,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2025-12-22T17:15:10+08:00",
-                "transferTime": "2025-12-22T17:25:39+08:00",
+                "phenomenonTime": "2025-12-22T17:30:12+08:00",
+                "transferTime": "2025-12-22T17:35:46+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
@@ -108,32 +108,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
-                "stationName": "鹿草鄉松竹村",
-                "address": "農田旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2025-12-22T17:23:23+08:00",
-                "transferTime": "2025-12-22T17:25:42+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.28908,
-                    23.39764
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-4",
                 "stationID": "d9d3d962-24ea-46ea-9293-44ba9f711f43",
                 "stationName": "鹿港公會堂淹水感知器",
@@ -141,8 +115,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2025-12-22T17:20:00+08:00",
-                "transferTime": "2025-12-22T17:25:25+08:00",
+                "phenomenonTime": "2025-12-22T17:30:00+08:00",
+                "transferTime": "2025-12-22T17:35:37+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -167,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-22T17:23:41+08:00",
-                "transferTime": "2025-12-22T17:25:55+08:00",
+                "phenomenonTime": "2025-12-22T17:32:41+08:00",
+                "transferTime": "2025-12-22T17:36:00+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -180,6 +154,58 @@
                 "coordinates": [
                     120.27278,
                     23.394883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
+                "stationName": "東石鄉永屯村屯仔頭",
+                "address": "永靈宮附近",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-22T17:33:05+08:00",
+                "transferTime": "2025-12-22T17:35:59+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17438,
+                    23.46187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a4e8d6e4-e92b-4a2d-9b09-df989b8d2d8e",
+                "stationName": "六腳鄉崩山村",
+                "address": "崩山村12號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2025-12-22T17:33:28+08:00",
+                "transferTime": "2025-12-22T17:36:01+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.22646,
+                    23.50381
                 ]
             }
         },
@@ -219,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2025-12-22T17:22:07+08:00",
-                "transferTime": "2025-12-22T17:26:04+08:00",
+                "phenomenonTime": "2025-12-22T17:34:07+08:00",
+                "transferTime": "2025-12-22T17:36:01+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -244,9 +270,9 @@
                 "address": "下崙村下崙排水民生街148巷",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.7,
-                "phenomenonTime": "2025-12-22T17:20:00+08:00",
-                "transferTime": "2025-12-22T17:26:04+08:00",
+                "result": 5.09,
+                "phenomenonTime": "2025-12-22T17:30:00+08:00",
+                "transferTime": "2025-12-22T17:36:00+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -258,6 +284,32 @@
                 "coordinates": [
                     120.5075,
                     24.0007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-417",
+                "stationID": "730c9310-4cf5-4bb9-83eb-f2f46a7c65a5",
+                "stationName": "仁雄路近曹公新圳",
+                "address": "仁雄路與澄合六街52巷轉角近曹公新圳仁雄路橋旁路燈桿",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 13.3,
+                "phenomenonTime": "2025-12-22T17:28:53+08:00",
+                "transferTime": "2025-12-22T17:36:00+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.350126,
+                    22.680101
                 ]
             }
         }
