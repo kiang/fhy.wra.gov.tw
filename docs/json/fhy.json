@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1.2,
-                "phenomenonTime": "2026-01-13T11:00:00+08:00",
-                "transferTime": "2026-01-13T11:05:15+08:00",
+                "phenomenonTime": "2026-01-13T11:10:00+08:00",
+                "transferTime": "2026-01-13T11:15:18+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2026-01-13T11:00:00+08:00",
-                "transferTime": "2026-01-13T11:05:27+08:00",
+                "phenomenonTime": "2026-01-13T11:10:00+08:00",
+                "transferTime": "2026-01-13T11:15:39+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "b14e81bb-03fc-4a1b-b93c-481150ed01b7",
+                "stationName": "六腳鄉潭墘村",
+                "address": "潭墘村34-1號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-01-13T11:13:42+08:00",
+                "transferTime": "2026-01-13T11:15:04+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.27771,
+                    23.50609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "5f240cfd-8522-499e-8106-87db04d248d7",
                 "stationName": "麻豆區-麻豆養護中心前(編號207)",
                 "address": "私立麻豆養護中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5,
-                "phenomenonTime": "2026-01-13T10:58:03+08:00",
-                "transferTime": "2026-01-13T11:05:31+08:00",
+                "result": 5.1,
+                "phenomenonTime": "2026-01-13T11:08:03+08:00",
+                "transferTime": "2026-01-13T11:15:36+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 6.6,
-                "phenomenonTime": "2026-01-13T10:57:00+08:00",
-                "transferTime": "2026-01-13T11:05:36+08:00",
+                "phenomenonTime": "2026-01-13T11:07:00+08:00",
+                "transferTime": "2026-01-13T11:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10017",
@@ -141,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2.1,
-                "phenomenonTime": "2026-01-13T11:00:00+08:00",
-                "transferTime": "2026-01-13T11:05:26+08:00",
+                "phenomenonTime": "2026-01-13T11:10:00+08:00",
+                "transferTime": "2026-01-13T11:15:29+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -154,6 +180,32 @@
                 "coordinates": [
                     120.4316,
                     24.0573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "93320b82-e00a-49d2-afa1-96e906ba6bed",
+                "stationName": "東石鄉副瀨村副瀨",
+                "address": "副瀨村95-2號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-01-13T11:11:47+08:00",
+                "transferTime": "2026-01-13T11:15:47+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17195,
+                    23.48652
                 ]
             }
         },
@@ -180,32 +232,6 @@
                 "coordinates": [
                     121.000289,
                     24.824244
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "06eec8b7-512e-4c82-950d-95712d0f3519",
-                "stationName": "布袋鎮振寮里後壁寮B站",
-                "address": "振寮里後壁寮2號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-01-13T11:03:27+08:00",
-                "transferTime": "2026-01-13T11:05:54+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001003",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18217,
-                    23.38423
                 ]
             }
         },
@@ -297,8 +323,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-01-13T10:54:02+08:00",
-                "transferTime": "2026-01-13T10:55:58+08:00",
+                "phenomenonTime": "2026-01-13T11:12:02+08:00",
+                "transferTime": "2026-01-13T11:16:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -323,8 +349,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-01-13T11:00:00+08:00",
-                "transferTime": "2026-01-13T11:05:55+08:00",
+                "phenomenonTime": "2026-01-13T11:10:00+08:00",
+                "transferTime": "2026-01-13T11:16:05+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
