@@ -56,6 +56,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-415",
+                "stationID": "23776ffb-30cd-470a-940a-39f6a0d77b20",
+                "stationName": "南區-喜樹路252巷5號前(編號52)",
+                "address": "喜樹路252巷5號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-04-17T06:08:02+08:00",
+                "transferTime": "2026-04-17T06:15:52+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6703300",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.177862,
+                    22.94063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
                 "stationID": "d111ae37-7487-4fe8-92ec-9f98bca28d67",
                 "stationName": "CYC112布袋鎮永安里永安社區",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2026-04-17T06:03:59+08:00",
-                "transferTime": "2026-04-17T06:05:39+08:00",
+                "phenomenonTime": "2026-04-17T06:12:59+08:00",
+                "transferTime": "2026-04-17T06:15:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -76,32 +102,6 @@
                 "coordinates": [
                     120.185928,
                     23.372612
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "d8c9df90-a377-48ab-9a90-06029efed623",
-                "stationName": "鹿草鄉松竹村",
-                "address": "農田旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.3,
-                "phenomenonTime": "2026-04-17T06:03:49+08:00",
-                "transferTime": "2026-04-17T06:05:27+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.28908,
-                    23.39764
                 ]
             }
         },
@@ -166,9 +166,9 @@
                 "address": "竹山村龜佛山社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2026-04-17T06:04:58+08:00",
-                "transferTime": "2026-04-17T06:06:10+08:00",
+                "result": 3,
+                "phenomenonTime": "2026-04-17T06:14:30+08:00",
+                "transferTime": "2026-04-17T06:16:10+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -192,9 +192,9 @@
                 "address": "永靈宮附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2026-04-17T06:03:05+08:00",
-                "transferTime": "2026-04-17T06:06:05+08:00",
+                "result": 3,
+                "phenomenonTime": "2026-04-17T06:12:05+08:00",
+                "transferTime": "2026-04-17T06:16:10+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -218,9 +218,9 @@
                 "address": "隆興村中埔鄉隆興村",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.3,
-                "phenomenonTime": "2026-04-17T06:02:20+08:00",
-                "transferTime": "2026-04-17T06:06:09+08:00",
+                "result": 3.2,
+                "phenomenonTime": "2026-04-17T06:14:20+08:00",
+                "transferTime": "2026-04-17T06:16:10+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -271,8 +271,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-04-17T06:00:00+08:00",
-                "transferTime": "2026-04-17T06:06:09+08:00",
+                "phenomenonTime": "2026-04-17T06:10:00+08:00",
+                "transferTime": "2026-04-17T06:16:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -297,8 +297,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.4,
-                "phenomenonTime": "2026-04-17T06:00:00+08:00",
-                "transferTime": "2026-04-17T06:06:10+08:00",
+                "phenomenonTime": "2026-04-17T06:10:00+08:00",
+                "transferTime": "2026-04-17T06:16:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -323,8 +323,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2026-04-17T06:00:00+08:00",
-                "transferTime": "2026-04-17T06:06:10+08:00",
+                "phenomenonTime": "2026-04-17T06:10:00+08:00",
+                "transferTime": "2026-04-17T06:16:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -349,8 +349,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.4,
-                "phenomenonTime": "2026-04-17T06:00:00+08:00",
-                "transferTime": "2026-04-17T06:06:09+08:00",
+                "phenomenonTime": "2026-04-17T06:10:00+08:00",
+                "transferTime": "2026-04-17T06:16:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
