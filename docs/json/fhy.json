@@ -37,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 5.6,
-                "phenomenonTime": "2026-05-04T13:31:00+08:00",
-                "transferTime": "2026-05-04T13:45:29+08:00",
+                "phenomenonTime": "2026-05-04T13:41:00+08:00",
+                "transferTime": "2026-05-04T13:55:35+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -57,14 +57,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-406",
+                "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
+                "stationName": "博愛街204號",
+                "address": "博愛街204號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-05-04T13:45:09+08:00",
+                "transferTime": "2026-05-04T13:56:05+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.006559,
+                    24.833311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
                 "stationID": "dd8acf38-d154-4f9c-89b8-1a1e61b52f90",
                 "stationName": "興隆路一段199號",
                 "address": "興隆路一段199號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2026-05-04T13:30:13+08:00",
-                "transferTime": "2026-05-04T13:35:56+08:00",
+                "phenomenonTime": "2026-05-04T13:45:09+08:00",
+                "transferTime": "2026-05-04T13:55:55+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     120.18431,
                     23.433458
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "7bc55b99-3c48-4aa5-9544-d25b55d6f37c",
-                "stationName": "右昌街487巷-右昌國中",
-                "address": "右昌街487巷，右昌國中後門路燈燈桿",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 4,
-                "phenomenonTime": "2026-05-04T13:36:00+08:00",
-                "transferTime": "2026-05-04T13:45:56+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6400400",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.286101,
-                    22.71528
                 ]
             }
         },
