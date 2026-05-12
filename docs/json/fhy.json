@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-4",
+                "stationID": "a327a2f8-a15a-4eda-91f6-e2b1bf50ec26",
+                "stationName": "秀水番社排水淹水感知器",
+                "address": "陜西村番社排水(高速公路以東)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 7,
+                "phenomenonTime": "2026-05-12T16:30:00+08:00",
+                "transferTime": "2026-05-12T16:35:37+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000707",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.5119,
+                    24.0073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "217c117b-3721-47c9-9c2d-83851ecc0a0c",
                 "stationName": "安定區-新吉活動中心(編號149)",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 7.3,
-                "phenomenonTime": "2026-05-12T16:21:00+08:00",
-                "transferTime": "2026-05-12T16:26:02+08:00",
+                "phenomenonTime": "2026-05-12T16:31:00+08:00",
+                "transferTime": "2026-05-12T16:36:09+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -114,9 +140,9 @@
                 "address": "瑞八公路103號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5,
-                "phenomenonTime": "2026-05-12T16:20:05+08:00",
-                "transferTime": "2026-05-12T16:25:52+08:00",
+                "result": 4.9,
+                "phenomenonTime": "2026-05-12T16:30:05+08:00",
+                "transferTime": "2026-05-12T16:36:19+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10017",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     121.74675,
                     25.09954
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "af64351e-2212-4c95-8166-592d09456991",
-                "stationName": "CYC188東石鄉西崙村靈慈宮",
-                "address": "東石鄉西崙村靈慈宮",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2026-05-12T16:23:04+08:00",
-                "transferTime": "2026-05-12T16:25:53+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.18431,
-                    23.433458
                 ]
             }
         },
