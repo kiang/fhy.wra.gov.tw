@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-412",
+                "stationID": "ff870ee2-f7dd-43d7-8b1d-5728c71e0558",
+                "stationName": "明昌里_斗南順安堂清水祖師廟",
+                "address": "明昌里_明昌路98號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 2.36393309,
+                "phenomenonTime": "2026-06-01T17:00:41+08:00",
+                "transferTime": "2026-06-01T17:06:35+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000902",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.471107,
+                    23.674935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-406",
                 "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
                 "stationName": "博愛街204號",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.3,
-                "phenomenonTime": "2026-06-01T16:45:15+08:00",
-                "transferTime": "2026-06-01T16:55:50+08:00",
+                "phenomenonTime": "2026-06-01T17:00:11+08:00",
+                "transferTime": "2026-06-01T17:06:15+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -297,8 +323,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-06-01T16:50:00+08:00",
-                "transferTime": "2026-06-01T16:56:51+08:00",
+                "phenomenonTime": "2026-06-01T17:00:00+08:00",
+                "transferTime": "2026-06-01T17:06:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -310,32 +336,6 @@
                 "coordinates": [
                     118.32465,
                     24.46278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-415",
-                "stationID": "791bc2fd-03c7-4274-925a-9eb428925103",
-                "stationName": "安南區-三塊厝大慈宮前(編號343)",
-                "address": "三塊厝大慈宮前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2026-06-01T16:16:00+08:00",
-                "transferTime": "2026-06-01T16:26:38+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6701200",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.21127,
-                    23.050001
                 ]
             }
         }
