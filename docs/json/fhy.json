@@ -4,15 +4,67 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-417",
+                "stationID": "b12bc8f9-0179-41d1-856b-7873730664aa",
+                "stationName": "澄觀路與仁怡街口",
+                "address": "澄觀路與仁怡街口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-06-04T07:03:00+08:00",
+                "transferTime": "2026-06-04T07:15:15+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "64",
+                "townCode": "6401700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.351464,
+                    22.684822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "abf8b6c7-9158-4acd-b701-c35def351b26",
+                "stationName": "六腳鄉灣北村灣內",
+                "address": "灣北村58號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-06-04T07:11:48+08:00",
+                "transferTime": "2026-06-04T07:15:48+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001008",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3065,
+                    23.50079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-419",
                 "stationID": "77fbff75-3620-45cd-9ab2-38a13716c0e3",
                 "stationName": "涵洞",
                 "address": "鐵路橋涵洞",
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
-                "result": 1,
-                "phenomenonTime": "2026-06-04T06:57:00+08:00",
-                "transferTime": "2026-06-04T07:05:31+08:00",
+                "result": 0.8,
+                "phenomenonTime": "2026-06-04T07:07:00+08:00",
+                "transferTime": "2026-06-04T07:15:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10013",
