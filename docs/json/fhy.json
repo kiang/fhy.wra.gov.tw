@@ -110,9 +110,9 @@
                 "address": "疏洪一路\/疏洪四路交叉路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 17.4755359724297,
-                "phenomenonTime": "2026-06-08T18:30:00+08:00",
-                "transferTime": "2026-06-08T18:35:36+08:00",
+                "result": 18.8218867467971,
+                "phenomenonTime": "2026-06-08T18:40:00+08:00",
+                "transferTime": "2026-06-08T18:45:24+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "65",
@@ -136,9 +136,9 @@
                 "address": "疏洪八路\/疏洪一路交叉路口",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 18.7484290393353,
-                "phenomenonTime": "2026-06-08T18:30:00+08:00",
-                "transferTime": "2026-06-08T18:36:10+08:00",
+                "result": 20.5620167962125,
+                "phenomenonTime": "2026-06-08T18:40:00+08:00",
+                "transferTime": "2026-06-08T18:46:05+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "65",
@@ -150,32 +150,6 @@
                 "coordinates": [
                     121.4596805,
                     25.0723201
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-417",
-                "stationID": "4ea58c26-3956-4ce4-ac6f-ef51be5ee2e1",
-                "stationName": "德中路與大學南路交叉口",
-                "address": "德中路與大學南路交叉口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 6.08730018138886,
-                "phenomenonTime": "2026-06-08T18:20:00+08:00",
-                "transferTime": "2026-06-08T18:26:17+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "64",
-                "townCode": "6400400",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.27426,
-                    22.72745
                 ]
             }
         },
@@ -267,8 +241,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-06-08T18:14:16+08:00",
-                "transferTime": "2026-06-08T18:16:17+08:00",
+                "phenomenonTime": "2026-06-08T18:44:16+08:00",
+                "transferTime": "2026-06-08T18:46:49+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -384,6 +358,58 @@
                 "coordinates": [
                     118.32465,
                     24.46278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-425",
+                "stationID": "285f15f2-cc87-4159-b99b-d1f071fabc8a",
+                "stationName": "經武-環島南路",
+                "address": "經武-環島南路",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-06-08T18:40:00+08:00",
+                "transferTime": "2026-06-08T18:47:31+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "9020",
+                "townCode": "902004",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.37654,
+                    24.44415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-425",
+                "stationID": "25cb1781-a1e4-4dc0-a014-c6978e8458ce",
+                "stationName": "家扶中心前",
+                "address": "家扶中心前",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.4,
+                "phenomenonTime": "2026-06-08T18:40:00+08:00",
+                "transferTime": "2026-06-08T18:47:31+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "9020",
+                "townCode": "902004",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.34784,
+                    24.45146
                 ]
             }
         }
