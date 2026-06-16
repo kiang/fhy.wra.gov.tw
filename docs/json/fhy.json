@@ -1,4 +1,109 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a3dd30cd-80ef-43f4-9225-ccae7352bf0c",
+                "stationName": "水上鄉溪州村",
+                "address": "外溪洲549號附近",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.3,
+                "phenomenonTime": "2026-06-16T18:32:01+08:00",
+                "transferTime": "2026-06-16T18:35:59+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001012",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3927306,
+                    23.419736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-406",
+                "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
+                "stationName": "博愛街204號",
+                "address": "博愛街204號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-06-16T18:30:17+08:00",
+                "transferTime": "2026-06-16T18:36:02+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.006559,
+                    24.833311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "fdc76202-40eb-4383-8ecc-d352f5e3cdf5",
+                "stationName": "CYC147中埔鄉隆興村",
+                "address": "隆興村中埔鄉隆興村",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2026-06-16T18:33:50+08:00",
+                "transferTime": "2026-06-16T18:36:17+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001013",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.52337,
+                    23.4402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-425",
+                "stationID": "8777e147-1ad2-4029-8bdb-14b5cafca73e",
+                "stationName": "保安殿周邊",
+                "address": "保安殿周邊",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 1,
+                "phenomenonTime": "2026-06-16T18:30:00+08:00",
+                "transferTime": "2026-06-16T18:36:15+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "9020",
+                "townCode": "902004",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.32465,
+                    24.46278
+                ]
+            }
+        }
+    ]
 }
