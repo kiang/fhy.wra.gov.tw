@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 6,
-                "phenomenonTime": "2026-06-18T22:20:00+08:00",
-                "transferTime": "2026-06-18T22:25:31+08:00",
+                "phenomenonTime": "2026-06-18T22:30:00+08:00",
+                "transferTime": "2026-06-18T22:35:31+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -36,9 +36,9 @@
                 "address": "外溪洲549號附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2026-06-18T22:23:35+08:00",
-                "transferTime": "2026-06-18T22:25:51+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2026-06-18T22:32:35+08:00",
+                "transferTime": "2026-06-18T22:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -82,15 +82,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
+                "stationName": "博愛街204號",
+                "address": "博愛街204號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-06-18T22:30:10+08:00",
+                "transferTime": "2026-06-18T22:35:59+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.006559,
+                    24.833311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "0388a2b0-efdd-41e5-b4c9-ded81c5ec478",
                 "stationName": "新市區-富強路與新港社大道口(編號219)",
                 "address": "富強路(近新港社大道)",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 5.8,
-                "phenomenonTime": "2026-06-18T22:16:03+08:00",
-                "transferTime": "2026-06-18T22:26:02+08:00",
+                "result": 5.9,
+                "phenomenonTime": "2026-06-18T22:26:03+08:00",
+                "transferTime": "2026-06-18T22:36:08+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -115,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-06-18T22:20:00+08:00",
-                "transferTime": "2026-06-18T22:26:10+08:00",
+                "phenomenonTime": "2026-06-18T22:30:00+08:00",
+                "transferTime": "2026-06-18T22:36:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     118.32465,
                     24.46278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-425",
-                "stationID": "25cb1781-a1e4-4dc0-a014-c6978e8458ce",
-                "stationName": "家扶中心前",
-                "address": "家扶中心前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.1,
-                "phenomenonTime": "2026-06-18T22:20:00+08:00",
-                "transferTime": "2026-06-18T22:26:02+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "9020",
-                "townCode": "902004",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    118.34784,
-                    24.45146
                 ]
             }
         }
