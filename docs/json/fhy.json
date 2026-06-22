@@ -4,6 +4,58 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-4",
+                "stationID": "dfde1f63-0776-4e49-9f84-0a74fa616b83",
+                "stationName": "過湖排水淹水感知器",
+                "address": "三豐村過湖排水",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 6,
+                "phenomenonTime": "2026-06-22T11:10:00+08:00",
+                "transferTime": "2026-06-22T11:15:28+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10007",
+                "townCode": "1000724",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.301295,
+                    23.892946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "65674105-a760-449c-8028-ac65f101fbc2",
+                "stationName": "CYC124竹崎鄉鹿滿村鹿滿社區",
+                "address": "鹿滿村鹿滿社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-06-22T11:13:19+08:00",
+                "transferTime": "2026-06-22T11:15:51+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001014",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.540438,
+                    23.509172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
                 "stationID": "f798b1c5-f4ab-4431-9de7-04c1660f666b",
                 "stationName": "民雄鄉中樂村民雄",
@@ -11,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-06-22T11:04:10+08:00",
-                "transferTime": "2026-06-22T11:05:50+08:00",
+                "phenomenonTime": "2026-06-22T11:13:10+08:00",
+                "transferTime": "2026-06-22T11:16:00+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -30,41 +82,15 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "c45e6839-7c20-4d9d-a76b-ec0d7894b1ad",
-                "stationName": "CYC152大林鎮西結里",
-                "address": "西結里大林鎮西結里",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-06-22T11:03:49+08:00",
-                "transferTime": "2026-06-22T11:05:54+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001004",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.416873,
-                    23.621604
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "0388a2b0-efdd-41e5-b4c9-ded81c5ec478",
                 "stationName": "新市區-富強路與新港社大道口(編號219)",
                 "address": "富強路(近新港社大道)",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.9,
-                "phenomenonTime": "2026-06-22T10:56:03+08:00",
-                "transferTime": "2026-06-22T11:06:02+08:00",
+                "result": 6.8,
+                "phenomenonTime": "2026-06-22T11:06:03+08:00",
+                "transferTime": "2026-06-22T11:16:10+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -83,40 +109,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "e716fd0d-d928-4cd0-b75c-9ce26b0cc7db",
-                "stationName": "CYC222水上忠和村新嘉榮橋",
-                "address": "忠和村新嘉榮橋",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 2.6,
-                "phenomenonTime": "2026-06-22T11:03:02+08:00",
-                "transferTime": "2026-06-22T11:06:00+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001012",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.447349,
-                    23.426134
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
                 "stationID": "74fab0d9-39be-43c9-9117-afb73b3199c7",
                 "stationName": "CYC217布袋鎮菜舖里菜鋪社區活動中心",
                 "address": "布袋鎮菜舖里菜鋪社區活動中心",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-06-22T11:03:02+08:00",
-                "transferTime": "2026-06-22T11:06:04+08:00",
+                "phenomenonTime": "2026-06-22T11:12:02+08:00",
+                "transferTime": "2026-06-22T11:16:12+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -134,32 +134,6 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "ea9f277e-0dbe-4404-95db-18b75e07a748",
-                "stationName": "CYC231太保梅埔里梅子厝保福宮",
-                "address": "太保梅埔里梅子厝保福宮",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-06-22T11:03:02+08:00",
-                "transferTime": "2026-06-22T11:06:02+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001001",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.34123,
-                    23.439647
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-415",
                 "stationID": "89159e8e-4975-413b-967a-61f557d613c4",
                 "stationName": "安南區-農場寮神農宮(編號340)",
@@ -167,8 +141,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2026-06-22T11:01:00+08:00",
-                "transferTime": "2026-06-22T11:06:02+08:00",
+                "phenomenonTime": "2026-06-22T11:11:00+08:00",
+                "transferTime": "2026-06-22T11:16:08+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -193,8 +167,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-06-22T11:00:00+08:00",
-                "transferTime": "2026-06-22T11:06:13+08:00",
+                "phenomenonTime": "2026-06-22T11:10:00+08:00",
+                "transferTime": "2026-06-22T11:16:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
