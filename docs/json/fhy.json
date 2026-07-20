@@ -11,8 +11,8 @@
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
                 "result": 1.4,
-                "phenomenonTime": "2026-07-21T00:07:00+08:00",
-                "transferTime": "2026-07-21T00:15:35+08:00",
+                "phenomenonTime": "2026-07-21T00:17:00+08:00",
+                "transferTime": "2026-07-21T00:25:32+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10013",
@@ -30,6 +30,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "2d45b414-d204-4a44-bd01-711356ce7bfe",
+                "stationName": "CYC104東石鄉鰲鼓村四股社區",
+                "address": "鰲鼓村四股社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-07-21T00:22:26+08:00",
+                "transferTime": "2026-07-21T00:26:03+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.160994,
+                    23.508853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-425",
                 "stationID": "7bc5dfd7-7b11-40dc-99c2-5eca3d05e937",
                 "stationName": "西浦頭201號前",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2026-07-21T00:10:00+08:00",
-                "transferTime": "2026-07-21T00:16:07+08:00",
+                "phenomenonTime": "2026-07-21T00:20:00+08:00",
+                "transferTime": "2026-07-21T00:26:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-07-21T00:10:00+08:00",
-                "transferTime": "2026-07-21T00:16:07+08:00",
+                "phenomenonTime": "2026-07-21T00:20:00+08:00",
+                "transferTime": "2026-07-21T00:26:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -89,8 +115,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2026-07-21T00:10:00+08:00",
-                "transferTime": "2026-07-21T00:16:07+08:00",
+                "phenomenonTime": "2026-07-21T00:20:00+08:00",
+                "transferTime": "2026-07-21T00:26:03+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -102,32 +128,6 @@
                 "coordinates": [
                     118.34784,
                     24.45146
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-406",
-                "stationID": "2fe30223-631b-47a4-8fd5-8c753b8fe88a",
-                "stationName": "湖口鄉三元路地下道",
-                "address": "湖口鄉三元路",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.4,
-                "phenomenonTime": "2026-07-21T00:00:57+08:00",
-                "transferTime": "2026-07-21T00:06:02+08:00",
-                "toBeConfirm": true,
-                "isCulvert": true,
-                "cityCode": "10004",
-                "townCode": "1000405",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.021922,
-                    24.889408
                 ]
             }
         }
