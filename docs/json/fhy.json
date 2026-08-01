@@ -187,6 +187,32 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
+                "stationName": "東石鄉永屯村屯仔頭",
+                "address": "永靈宮附近",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2026-08-01T16:34:17+08:00",
+                "transferTime": "2026-08-01T16:36:49+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.17438,
+                    23.46187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "f6369228-4640-4475-929f-646077afa7aa",
                 "stationName": "CYC146鹿草鄉鹿草村鹿草市區",
                 "address": "鹿草村鹿草市區",
@@ -218,9 +244,9 @@
                 "address": "北華村北華",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-08-01T16:12:02+08:00",
-                "transferTime": "2026-08-01T16:16:49+08:00",
+                "result": 2.2,
+                "phenomenonTime": "2026-08-01T16:33:02+08:00",
+                "transferTime": "2026-08-01T16:36:47+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -258,32 +284,6 @@
                 "coordinates": [
                     120.33976,
                     23.399589
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "7413bbe7-6fff-4d04-82bb-8de908529d63",
-                "stationName": "CYC175鹿草鄉施家村施厝寮",
-                "address": "鹿草鄉施家村施厝寮",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 1.1,
-                "phenomenonTime": "2026-08-01T16:12:02+08:00",
-                "transferTime": "2026-08-01T16:16:50+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001011",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.311414,
-                    23.391414
                 ]
             }
         },
