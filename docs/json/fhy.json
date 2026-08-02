@@ -11,8 +11,8 @@
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
                 "result": 1.4,
-                "phenomenonTime": "2026-08-03T04:26:00+08:00",
-                "transferTime": "2026-08-03T04:35:33+08:00",
+                "phenomenonTime": "2026-08-03T04:46:00+08:00",
+                "transferTime": "2026-08-03T04:55:41+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10013",
@@ -31,25 +31,51 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "ca8e8c05-3b6f-4e98-b8ef-eaddb952f493",
-                "stationName": "義竹鄉後鎮村後鎮",
-                "address": "後鎮村83號旁",
+                "stationID": "d111ae37-7487-4fe8-92ec-9f98bca28d67",
+                "stationName": "CYC112布袋鎮永安里永安社區",
+                "address": "永安里永安社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-03T04:34:28+08:00",
-                "transferTime": "2026-08-03T04:35:59+08:00",
+                "phenomenonTime": "2026-08-03T04:52:51+08:00",
+                "transferTime": "2026-08-03T04:55:31+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001010",
+                "townCode": "1001003",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.20765,
-                    23.36566
+                    120.185928,
+                    23.372612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "2d45b414-d204-4a44-bd01-711356ce7bfe",
+                "stationName": "CYC104東石鄉鰲鼓村四股社區",
+                "address": "鰲鼓村四股社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2026-08-03T04:53:03+08:00",
+                "transferTime": "2026-08-03T04:56:06+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.160994,
+                    23.508853
                 ]
             }
         },
@@ -76,32 +102,6 @@
                 "coordinates": [
                     120.237627,
                     23.213855
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "4fe1b853-a341-468d-a4a3-8bd000fc039c",
-                "stationName": "朴子市永和里",
-                "address": "永和里150-16號",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-08-03T04:32:42+08:00",
-                "transferTime": "2026-08-03T04:36:08+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001002",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.22736,
-                    23.45392
                 ]
             }
         },
