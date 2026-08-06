@@ -4,15 +4,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-415",
+                "stationID": "ed27559f-646e-496c-8c82-d9a4bb7a67b0",
+                "stationName": "仁德區-保安路一段56巷口(編號269)",
+                "address": "保安路一段56巷口",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 5.3,
+                "phenomenonTime": "2026-08-07T04:27:00+08:00",
+                "transferTime": "2026-08-07T04:35:03+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "67",
+                "townCode": "6702700",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2254,
+                    22.9244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-5",
                 "stationID": "2c07ff8d-5705-415c-b563-4d2a68b87cb0",
                 "stationName": "108I005東區興村里小天使幼兒園",
                 "address": "興村里小天使幼兒園",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.1127243,
-                "phenomenonTime": "2026-08-07T04:20:09+08:00",
-                "transferTime": "2026-08-07T04:25:27+08:00",
+                "result": 0.121748447,
+                "phenomenonTime": "2026-08-07T04:30:02+08:00",
+                "transferTime": "2026-08-07T04:35:24+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10020",
@@ -37,8 +63,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-07T04:22:52+08:00",
-                "transferTime": "2026-08-07T04:25:35+08:00",
+                "phenomenonTime": "2026-08-07T04:31:52+08:00",
+                "transferTime": "2026-08-07T04:35:31+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -62,9 +88,9 @@
                 "address": "二行里二行一路153巷16弄",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 8.9,
-                "phenomenonTime": "2026-08-07T04:10:00+08:00",
-                "transferTime": "2026-08-07T04:25:35+08:00",
+                "result": 16.3,
+                "phenomenonTime": "2026-08-07T04:25:00+08:00",
+                "transferTime": "2026-08-07T04:35:38+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -83,25 +109,51 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "c45e6839-7c20-4d9d-a76b-ec0d7894b1ad",
-                "stationName": "CYC152大林鎮西結里",
-                "address": "西結里大林鎮西結里",
+                "stationID": "ca8e8c05-3b6f-4e98-b8ef-eaddb952f493",
+                "stationName": "義竹鄉後鎮村後鎮",
+                "address": "後鎮村83號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-07T04:22:59+08:00",
-                "transferTime": "2026-08-07T04:25:58+08:00",
+                "phenomenonTime": "2026-08-07T04:33:06+08:00",
+                "transferTime": "2026-08-07T04:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001004",
+                "townCode": "1001010",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.416873,
-                    23.621604
+                    120.20765,
+                    23.36566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "f5d3dc0d-e075-4e58-b5d6-2993f17c4e20",
+                "stationName": "CYC120太保市安仁里橋子頭社區",
+                "address": "安仁里橋子頭社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-08-07T04:34:07+08:00",
+                "transferTime": "2026-08-07T04:35:46+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001001",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.315505,
+                    23.449703
                 ]
             }
         },
@@ -114,9 +166,9 @@
                 "address": "保安殿周邊",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 1,
-                "phenomenonTime": "2026-08-07T04:20:00+08:00",
-                "transferTime": "2026-08-07T04:25:58+08:00",
+                "result": 1.1,
+                "phenomenonTime": "2026-08-07T04:30:00+08:00",
+                "transferTime": "2026-08-07T04:36:04+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -141,8 +193,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 0.1,
-                "phenomenonTime": "2026-08-07T04:20:00+08:00",
-                "transferTime": "2026-08-07T04:25:58+08:00",
+                "phenomenonTime": "2026-08-07T04:30:00+08:00",
+                "transferTime": "2026-08-07T04:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
