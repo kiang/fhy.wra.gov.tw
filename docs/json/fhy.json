@@ -5,14 +5,66 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-408",
+                "stationID": "02092f9b-8893-4619-ab2a-6fbd6a5cb9ed",
+                "stationName": "大里區日新路648號",
+                "address": "日新路648號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4.7,
+                "phenomenonTime": "2026-08-08T01:33:00+08:00",
+                "transferTime": "2026-08-08T01:35:10+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "66",
+                "townCode": "6602800",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.692561,
+                    24.1202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "ce9c2bb9-5bd3-4f0e-87c2-cd5f8dd2fa9f",
+                "stationName": "溪口鄉游東村",
+                "address": "游東村7號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-08-08T01:34:15+08:00",
+                "transferTime": "2026-08-08T01:35:27+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001006",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4002445,
+                    23.610409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-408",
                 "stationID": "b8995db9-51cd-4d41-8c69-3ff8a3bc1ea7",
                 "stationName": "中區民權路‧柳川西路口(中油得利站)",
                 "address": "民權路‧柳川西路口(中油得利站)",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 8.5,
-                "phenomenonTime": "2026-08-08T01:18:00+08:00",
-                "transferTime": "2026-08-08T01:25:59+08:00",
+                "phenomenonTime": "2026-08-08T01:28:00+08:00",
+                "transferTime": "2026-08-08T01:35:50+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "66",
@@ -76,32 +128,6 @@
                 "coordinates": [
                     120.237627,
                     23.213855
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
-                "stationName": "東石鄉永屯村屯仔頭",
-                "address": "永靈宮附近",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-08-08T01:23:21+08:00",
-                "transferTime": "2026-08-08T01:26:07+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.17438,
-                    23.46187
                 ]
             }
         },
