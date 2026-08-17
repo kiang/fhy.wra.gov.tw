@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-414",
+                "stationID": "65674105-a760-449c-8028-ac65f101fbc2",
+                "stationName": "CYC124竹崎鄉鹿滿村鹿滿社區",
+                "address": "鹿滿村鹿滿社區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2026-08-17T15:43:06+08:00",
+                "transferTime": "2026-08-17T15:45:31+08:00",
+                "toBeConfirm": false,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001014",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.540438,
+                    23.509172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-5",
                 "stationID": "ccdb807d-1fb5-44f5-a7d0-b00144556412",
                 "stationName": "108P014元長後湖村包千宮",
                 "address": "後湖村包千宮",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 26.3917446,
-                "phenomenonTime": "2026-08-17T15:34:46+08:00",
-                "transferTime": "2026-08-17T15:35:41+08:00",
+                "result": 26.4138937,
+                "phenomenonTime": "2026-08-17T15:44:02+08:00",
+                "transferTime": "2026-08-17T15:45:31+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -186,26 +212,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-415",
-                "stationID": "27b31385-e760-4f82-b9b9-b411cb95db85",
-                "stationName": "永康區-永華路與永大一路口(編號128)",
-                "address": "永華路",
+                "authority": "Operator-414",
+                "stationID": "3c1ec664-a512-43f3-aee7-7703f408144e",
+                "stationName": "CYC127水上鄉內溪村民生社區",
+                "address": "內溪村民生社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 9.1,
-                "phenomenonTime": "2026-08-17T15:31:03+08:00",
-                "transferTime": "2026-08-17T15:36:04+08:00",
-                "toBeConfirm": true,
+                "result": 6.7,
+                "phenomenonTime": "2026-08-17T15:42:18+08:00",
+                "transferTime": "2026-08-17T15:45:58+08:00",
+                "toBeConfirm": false,
                 "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6703100",
+                "cityCode": "10010",
+                "townCode": "1001012",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.25772,
-                    23.01722
+                    120.433922,
+                    23.441912
                 ]
             }
         },
@@ -244,9 +270,9 @@
                 "address": "幸福牧場",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6,
-                "phenomenonTime": "2026-08-17T15:33:06+08:00",
-                "transferTime": "2026-08-17T15:36:05+08:00",
+                "result": 5.9,
+                "phenomenonTime": "2026-08-17T15:43:07+08:00",
+                "transferTime": "2026-08-17T15:45:58+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -296,9 +322,9 @@
                 "address": "東石掌潭村掌潭社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.6,
-                "phenomenonTime": "2026-08-17T15:33:02+08:00",
-                "transferTime": "2026-08-17T15:36:06+08:00",
+                "result": 3,
+                "phenomenonTime": "2026-08-17T15:42:02+08:00",
+                "transferTime": "2026-08-17T15:45:58+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -310,32 +336,6 @@
                 "coordinates": [
                     120.17317,
                     23.418444
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "57790337-1e84-4b78-978b-5e2dc5db85a5",
-                "stationName": "CYC240六腳溪厝村溪墘厝",
-                "address": "溪厝村溪墘厝",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-08-17T15:33:02+08:00",
-                "transferTime": "2026-08-17T15:36:03+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001008",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.26639,
-                    23.495929
                 ]
             }
         },
