@@ -30,15 +30,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-5",
+                "stationID": "2c07ff8d-5705-415c-b563-4d2a68b87cb0",
+                "stationName": "108I005東區興村里小天使幼兒園",
+                "address": "興村里小天使幼兒園",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.111079216,
+                "phenomenonTime": "2026-08-22T06:01:01+08:00",
+                "transferTime": "2026-08-22T06:05:31+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10020",
+                "townCode": "1002001",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4540362,
+                    23.4514954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "ba022dc5-7302-445e-9726-0491b9d2e3be",
                 "stationName": "永康區-永明街42號前(編號321)",
                 "address": "永明街42號前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.9,
-                "phenomenonTime": "2026-08-22T05:40:00+08:00",
-                "transferTime": "2026-08-22T05:55:47+08:00",
+                "result": 10.9,
+                "phenomenonTime": "2026-08-22T05:45:00+08:00",
+                "transferTime": "2026-08-22T06:05:50+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -63,8 +89,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1.5,
-                "phenomenonTime": "2026-08-22T05:54:41+08:00",
-                "transferTime": "2026-08-22T05:55:43+08:00",
+                "phenomenonTime": "2026-08-22T06:00:07+08:00",
+                "transferTime": "2026-08-22T06:05:38+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -82,26 +108,52 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-414",
-                "stationID": "c45e6839-7c20-4d9d-a76b-ec0d7894b1ad",
-                "stationName": "CYC152大林鎮西結里",
-                "address": "西結里大林鎮西結里",
+                "authority": "Operator-415",
+                "stationID": "4a74ed2a-d3c6-45df-9ece-233679c2f4dd",
+                "stationName": "仁德區-二行里行大街172巷17號(編號234)",
+                "address": "二行里行大街172巷17號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-22T05:52:27+08:00",
-                "transferTime": "2026-08-22T05:55:42+08:00",
-                "toBeConfirm": true,
+                "phenomenonTime": "2026-08-22T05:43:00+08:00",
+                "transferTime": "2026-08-22T06:06:04+08:00",
+                "toBeConfirm": false,
                 "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001004",
+                "cityCode": "67",
+                "townCode": "6702700",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.416873,
-                    23.621604
+                    120.218892,
+                    22.915411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a9c94823-2100-42a5-9ce2-36fb392f15d4",
+                "stationName": "CYC135民雄鄉寮頂村富義新村",
+                "address": "寮頂村富義新村",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-08-22T06:03:19+08:00",
+                "transferTime": "2026-08-22T06:06:11+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001005",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4338291,
+                    23.5635323
                 ]
             }
         },
@@ -141,8 +193,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3.1,
-                "phenomenonTime": "2026-08-22T05:53:48+08:00",
-                "transferTime": "2026-08-22T05:56:00+08:00",
+                "phenomenonTime": "2026-08-22T06:02:48+08:00",
+                "transferTime": "2026-08-22T06:06:09+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -193,8 +245,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2,
-                "phenomenonTime": "2026-08-22T05:01:11+08:00",
-                "transferTime": "2026-08-22T05:06:10+08:00",
+                "phenomenonTime": "2026-08-22T06:02:16+08:00",
+                "transferTime": "2026-08-22T06:06:11+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -245,8 +297,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1.6,
-                "phenomenonTime": "2026-08-22T05:03:23+08:00",
-                "transferTime": "2026-08-22T05:06:09+08:00",
+                "phenomenonTime": "2026-08-22T06:00:04+08:00",
+                "transferTime": "2026-08-22T06:06:10+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10020",
