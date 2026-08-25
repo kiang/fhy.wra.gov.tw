@@ -11,8 +11,8 @@
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
                 "result": 7.05999999999999,
-                "phenomenonTime": "2026-08-26T03:57:00+08:00",
-                "transferTime": "2026-08-26T04:05:16+08:00",
+                "phenomenonTime": "2026-08-26T04:07:00+08:00",
+                "transferTime": "2026-08-26T04:15:18+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10013",
@@ -88,9 +88,9 @@
                 "address": "後厝村_後厝48之1號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 2.43868847,
-                "phenomenonTime": "2026-08-26T04:00:42+08:00",
-                "transferTime": "2026-08-26T04:05:42+08:00",
+                "result": 2.437866,
+                "phenomenonTime": "2026-08-26T04:11:01+08:00",
+                "transferTime": "2026-08-26T04:16:02+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10009",
@@ -102,6 +102,32 @@
                 "coordinates": [
                     120.19708,
                     23.547004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-419",
+                "stationID": "25ce1dbf-bc46-49d7-88e4-1cb0d89958de",
+                "stationName": "平和路",
+                "address": "平和路18號",
+                "sensorType": "雷達波",
+                "unitOfMeasurement": "cm",
+                "result": 10.7,
+                "phenomenonTime": "2026-08-26T04:07:00+08:00",
+                "transferTime": "2026-08-26T04:15:43+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10013",
+                "townCode": "1001318",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.4778,
+                    22.5055
                 ]
             }
         },
@@ -135,25 +161,25 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "2d45b414-d204-4a44-bd01-711356ce7bfe",
-                "stationName": "CYC104東石鄉鰲鼓村四股社區",
-                "address": "鰲鼓村四股社區",
+                "stationID": "98b2562d-4b84-497e-b410-5b7916e118e2",
+                "stationName": "CYC111布袋鎮菜舖里新吉庄社區",
+                "address": "菜舖里新吉庄社區",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-26T04:02:22+08:00",
-                "transferTime": "2026-08-26T04:05:42+08:00",
+                "phenomenonTime": "2026-08-26T04:14:08+08:00",
+                "transferTime": "2026-08-26T04:15:45+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001009",
+                "townCode": "1001003",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.160994,
-                    23.508853
+                    120.218824,
+                    23.394852
                 ]
             }
         },
@@ -166,9 +192,9 @@
                 "address": "萬華村萬華路16號前",
                 "sensorType": "雷達波",
                 "unitOfMeasurement": "cm",
-                "result": 15.7,
-                "phenomenonTime": "2026-08-26T03:57:00+08:00",
-                "transferTime": "2026-08-26T04:06:01+08:00",
+                "result": 14.1,
+                "phenomenonTime": "2026-08-26T04:07:00+08:00",
+                "transferTime": "2026-08-26T04:16:02+08:00",
                 "toBeConfirm": false,
                 "isCulvert": false,
                 "cityCode": "10013",
@@ -186,52 +212,26 @@
         {
             "type": "Feature",
             "properties": {
-                "authority": "Operator-415",
-                "stationID": "a0a2c00e-45b6-4ef4-8e3a-e1f7b6e14112",
-                "stationName": "七股區-三股農會供銷部(編號282)",
-                "address": "七股區三股農會供銷部",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-08-26T03:10:00+08:00",
-                "transferTime": "2026-08-26T03:55:56+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6701500",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.114814,
-                    23.098769
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "authority": "Operator-414",
-                "stationID": "f5d3dc0d-e075-4e58-b5d6-2993f17c4e20",
-                "stationName": "CYC120太保市安仁里橋子頭社區",
-                "address": "安仁里橋子頭社區",
+                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
+                "stationName": "東石鄉永屯村屯仔頭",
+                "address": "永靈宮附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-08-26T04:01:34+08:00",
-                "transferTime": "2026-08-26T04:05:51+08:00",
+                "phenomenonTime": "2026-08-26T04:12:36+08:00",
+                "transferTime": "2026-08-26T04:15:59+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001001",
+                "townCode": "1001009",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.315505,
-                    23.449703
+                    120.17438,
+                    23.46187
                 ]
             }
         },
@@ -296,9 +296,9 @@
                 "address": "瀰濃里天后宮前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 4.407067,
-                "phenomenonTime": "2026-08-26T04:04:31+08:00",
-                "transferTime": "2026-08-26T04:06:01+08:00",
+                "result": 4.379995,
+                "phenomenonTime": "2026-08-26T04:14:31+08:00",
+                "transferTime": "2026-08-26T04:16:02+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "64",
@@ -323,8 +323,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 2,
-                "phenomenonTime": "2026-08-26T04:00:00+08:00",
-                "transferTime": "2026-08-26T04:05:53+08:00",
+                "phenomenonTime": "2026-08-26T04:10:00+08:00",
+                "transferTime": "2026-08-26T04:15:58+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10007",
@@ -374,9 +374,9 @@
                 "address": "貴舍舍里新十全",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6,
-                "phenomenonTime": "2026-08-26T04:03:02+08:00",
-                "transferTime": "2026-08-26T04:06:01+08:00",
+                "result": 6.2,
+                "phenomenonTime": "2026-08-26T04:12:02+08:00",
+                "transferTime": "2026-08-26T04:16:02+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -401,8 +401,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-08-26T03:50:00+08:00",
-                "transferTime": "2026-08-26T03:56:00+08:00",
+                "phenomenonTime": "2026-08-26T04:10:00+08:00",
+                "transferTime": "2026-08-26T04:16:03+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
