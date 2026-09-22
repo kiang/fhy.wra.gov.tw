@@ -31,14 +31,40 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
+                "stationID": "ca8e8c05-3b6f-4e98-b8ef-eaddb952f493",
+                "stationName": "義竹鄉後鎮村後鎮",
+                "address": "後鎮村83號旁",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-09-22T17:42:16+08:00",
+                "transferTime": "2026-09-22T17:45:44+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001010",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20765,
+                    23.36566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
                 "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
                 "stationName": "東石鄉永屯村屯仔頭",
                 "address": "永靈宮附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-09-22T17:32:11+08:00",
-                "transferTime": "2026-09-22T17:35:57+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2026-09-22T17:44:11+08:00",
+                "transferTime": "2026-09-22T17:45:53+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -128,32 +154,6 @@
                 "coordinates": [
                     118.33295,
                     24.45373
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-415",
-                "stationID": "02255692-2035-436b-9558-3c26aebc6773",
-                "stationName": "永康區-永明街與中山北路264巷165弄路口(編號342)",
-                "address": "永明街與中山北路264巷165弄路口",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 200.9,
-                "phenomenonTime": "2026-09-22T14:15:02+08:00",
-                "transferTime": "2026-09-22T14:25:58+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "67",
-                "townCode": "6703100",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.265452,
-                    23.024592
                 ]
             }
         }
