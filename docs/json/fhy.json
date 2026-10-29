@@ -11,8 +11,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 4,
-                "phenomenonTime": "2026-10-30T07:15:19+08:00",
-                "transferTime": "2026-10-30T07:25:27+08:00",
+                "phenomenonTime": "2026-10-30T07:30:27+08:00",
+                "transferTime": "2026-10-30T07:35:28+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10004",
@@ -56,15 +56,41 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-406",
+                "stationID": "c0c3b740-9d24-42ab-bd01-8b548e29cc37",
+                "stationName": "博愛街204號",
+                "address": "博愛街204號",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-10-30T07:30:23+08:00",
+                "transferTime": "2026-10-30T07:35:44+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10004",
+                "townCode": "1000401",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.006559,
+                    24.833311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-414",
-                "stationID": "ce9c2bb9-5bd3-4f0e-87c2-cd5f8dd2fa9f",
-                "stationName": "溪口鄉游東村",
-                "address": "游東村7號旁",
+                "stationID": "cf9104f4-f71c-4225-b2e5-dcc2b9099e91",
+                "stationName": "溪口鄉溪北村",
+                "address": "溪北村11-2號附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-10-30T07:22:42+08:00",
-                "transferTime": "2026-10-30T07:25:20+08:00",
+                "phenomenonTime": "2026-10-30T07:33:50+08:00",
+                "transferTime": "2026-10-30T07:35:43+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -74,60 +100,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.4002445,
-                    23.610409
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "722f8c91-c140-47a4-8e1f-89f14a01d350",
-                "stationName": "東石鄉洲仔村A站",
-                "address": "洲仔村59-1號旁",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3.1,
-                "phenomenonTime": "2026-10-30T07:12:18+08:00",
-                "transferTime": "2026-10-30T07:15:26+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.19441,
-                    23.44966
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "a9c94823-2100-42a5-9ce2-36fb392f15d4",
-                "stationName": "CYC135民雄鄉寮頂村富義新村",
-                "address": "寮頂村富義新村",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-10-30T07:22:59+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001005",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.4338291,
-                    23.5635323
+                    120.37963,
+                    23.6021
                 ]
             }
         },
@@ -140,9 +114,9 @@
                 "address": "後鎮村83號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-10-30T07:22:51+08:00",
-                "transferTime": "2026-10-30T07:25:52+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2026-10-30T07:31:51+08:00",
+                "transferTime": "2026-10-30T07:35:44+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -166,9 +140,9 @@
                 "address": "永靈宮附近",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3.2,
-                "phenomenonTime": "2026-10-30T07:22:36+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
+                "result": 3,
+                "phenomenonTime": "2026-10-30T07:34:36+08:00",
+                "transferTime": "2026-10-30T07:35:51+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -213,40 +187,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-425",
-                "stationID": "7bc5dfd7-7b11-40dc-99c2-5eca3d05e937",
-                "stationName": "西浦頭201號前",
-                "address": "西浦頭201號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.2,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:58+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "9020",
-                "townCode": "902004",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    118.32143,
-                    24.46305
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-425",
                 "stationID": "8777e147-1ad2-4029-8bdb-14b5cafca73e",
                 "stationName": "保安殿周邊",
                 "address": "保安殿周邊",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 1,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
+                "phenomenonTime": "2026-10-30T07:30:00+08:00",
+                "transferTime": "2026-10-30T07:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -265,40 +213,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-425",
-                "stationID": "06e96cb0-d1a3-4566-87ed-d7805cadbbb4",
-                "stationName": "湖南29號前",
-                "address": "湖南29號前",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.1,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "9020",
-                "townCode": "902004",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    118.33295,
-                    24.45373
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-425",
                 "stationID": "285f15f2-cc87-4159-b99b-d1f071fabc8a",
                 "stationName": "經武-環島南路",
                 "address": "經武-環島南路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.6,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
+                "result": 0.5,
+                "phenomenonTime": "2026-10-30T07:30:00+08:00",
+                "transferTime": "2026-10-30T07:35:54+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
@@ -317,40 +239,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-425",
-                "stationID": "ef9fff4b-08be-459f-8d1a-8a02256bdbf1",
-                "stationName": "瓊安路",
-                "address": "瓊安路",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 0.1,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:58+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "9020",
-                "townCode": "902004",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    118.35377,
-                    24.45919
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-425",
                 "stationID": "79362ee0-1944-4632-a84e-21d7a65ecea0",
                 "stationName": "威濟廟前",
                 "address": "威濟廟前",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 6.8,
-                "phenomenonTime": "2026-10-30T07:20:00+08:00",
-                "transferTime": "2026-10-30T07:25:59+08:00",
+                "result": 6.5,
+                "phenomenonTime": "2026-10-30T07:30:00+08:00",
+                "transferTime": "2026-10-30T07:35:55+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "9020",
