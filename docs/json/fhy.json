@@ -4,6 +4,32 @@
         {
             "type": "Feature",
             "properties": {
+                "authority": "Operator-420",
+                "stationID": "a6f285a7-1ab8-4675-91e2-2f4c9b488f58",
+                "stationName": "冬山鄉冬山路三段320巷鐵路箱涵",
+                "address": "冬山鄉冬山路三段320巷鐵路箱涵",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 4,
+                "phenomenonTime": "2026-11-18T13:31:00+08:00",
+                "transferTime": "2026-11-18T13:35:14+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10002",
+                "townCode": "1000208",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.778505,
+                    24.659923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "authority": "Operator-415",
                 "stationID": "0388a2b0-efdd-41e5-b4c9-ded81c5ec478",
                 "stationName": "新市區-富強路與新港社大道口(編號219)",
@@ -11,8 +37,8 @@
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 5.3,
-                "phenomenonTime": "2026-11-18T13:14:03+08:00",
-                "transferTime": "2026-11-18T13:25:50+08:00",
+                "phenomenonTime": "2026-11-18T13:24:03+08:00",
+                "transferTime": "2026-11-18T13:35:50+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "67",
@@ -31,25 +57,51 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
-                "stationName": "東石鄉永屯村屯仔頭",
-                "address": "永靈宮附近",
+                "stationID": "ca8e8c05-3b6f-4e98-b8ef-eaddb952f493",
+                "stationName": "義竹鄉後鎮村後鎮",
+                "address": "後鎮村83號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-11-18T13:23:00+08:00",
-                "transferTime": "2026-11-18T13:25:50+08:00",
+                "phenomenonTime": "2026-11-18T13:31:52+08:00",
+                "transferTime": "2026-11-18T13:35:39+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001009",
+                "townCode": "1001010",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.17438,
-                    23.46187
+                    120.20765,
+                    23.36566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-5",
+                "stationID": "445607e1-da64-42d7-b394-83ea5653404a",
+                "stationName": "108P055北港水埔里",
+                "address": "水埔里",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 27.538692,
+                "phenomenonTime": "2026-11-18T13:34:07+08:00",
+                "transferTime": "2026-11-18T13:35:51+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10009",
+                "townCode": "1000906",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.279267,
+                    23.54905
                 ]
             }
         },
@@ -76,6 +128,32 @@
                 "coordinates": [
                     120.403923,
                     23.473587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "a89f97e3-374e-48ca-9843-dbf7da636019",
+                "stationName": "CYC156義竹北華村南安溪寮",
+                "address": "北華村北華",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3,
+                "phenomenonTime": "2026-11-18T13:33:02+08:00",
+                "transferTime": "2026-11-18T13:35:51+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001010",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.19554,
+                    23.34224
                 ]
             }
         },
