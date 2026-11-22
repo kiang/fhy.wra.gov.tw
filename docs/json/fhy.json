@@ -5,14 +5,14 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "345f7a81-3cda-4967-be41-79e2071a16bd",
-                "stationName": "布袋鎮過溝中安里",
-                "address": "省道台17線(7-11對面)",
+                "stationID": "224d13ee-c35c-4648-ab25-ed78c36e6bb5",
+                "stationName": "布袋鎮新民里",
+                "address": "新塭國小旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-11-22T21:43:53+08:00",
-                "transferTime": "2026-11-22T21:45:18+08:00",
+                "phenomenonTime": "2026-11-22T21:52:38+08:00",
+                "transferTime": "2026-11-22T21:55:40+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -22,8 +22,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.1786,
-                    23.41755
+                    120.16089,
+                    23.33113
                 ]
             }
         },
@@ -36,9 +36,9 @@
                 "address": "游東村7號旁",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-11-22T21:42:16+08:00",
-                "transferTime": "2026-11-22T21:45:29+08:00",
+                "result": 3.1,
+                "phenomenonTime": "2026-11-22T21:54:16+08:00",
+                "transferTime": "2026-11-22T21:55:41+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
@@ -50,6 +50,32 @@
                 "coordinates": [
                     120.4002445,
                     23.610409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "562740e2-91ce-401c-b9ae-8a0405d33f15",
+                "stationName": "CYC110東石鄉東石村東石市區",
+                "address": "東石村東石市區",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 3.1,
+                "phenomenonTime": "2026-11-22T21:53:47+08:00",
+                "transferTime": "2026-11-22T21:55:50+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001009",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.148889,
+                    23.455063
                 ]
             }
         },
@@ -109,77 +135,25 @@
             "type": "Feature",
             "properties": {
                 "authority": "Operator-414",
-                "stationID": "ca8e8c05-3b6f-4e98-b8ef-eaddb952f493",
-                "stationName": "義竹鄉後鎮村後鎮",
-                "address": "後鎮村83號旁",
+                "stationID": "4fe1b853-a341-468d-a4a3-8bd000fc039c",
+                "stationName": "朴子市永和里",
+                "address": "永和里150-16號",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
                 "result": 3,
-                "phenomenonTime": "2026-11-22T21:43:28+08:00",
-                "transferTime": "2026-11-22T21:45:41+08:00",
+                "phenomenonTime": "2026-11-22T21:53:47+08:00",
+                "transferTime": "2026-11-22T21:55:57+08:00",
                 "toBeConfirm": true,
                 "isCulvert": false,
                 "cityCode": "10010",
-                "townCode": "1001010",
+                "townCode": "1001002",
                 "dataSource": "IoT-Sensor"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    120.20765,
-                    23.36566
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "b510a3d9-0c24-4be2-90bd-4eae47a014d0",
-                "stationName": "CYC105東石鄉西崙村栗仔崙(磚仔窯)",
-                "address": "西崙村栗仔崙(磚仔窯)",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-11-22T21:42:11+08:00",
-                "transferTime": "2026-11-22T21:45:45+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.188994,
-                    23.428696
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "authority": "Operator-414",
-                "stationID": "74f08eba-0e84-4d0f-b3a9-eb2a25412e2c",
-                "stationName": "東石鄉永屯村屯仔頭",
-                "address": "永靈宮附近",
-                "sensorType": "壓力式",
-                "unitOfMeasurement": "cm",
-                "result": 3,
-                "phenomenonTime": "2026-11-22T21:44:51+08:00",
-                "transferTime": "2026-11-22T21:45:51+08:00",
-                "toBeConfirm": true,
-                "isCulvert": false,
-                "cityCode": "10010",
-                "townCode": "1001009",
-                "dataSource": "IoT-Sensor"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    120.17438,
-                    23.46187
+                    120.22736,
+                    23.45392
                 ]
             }
         },
@@ -206,6 +180,32 @@
                 "coordinates": [
                     120.403923,
                     23.473587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "authority": "Operator-414",
+                "stationID": "71346408-fd23-4aab-b53a-7f4501ad53fa",
+                "stationName": "CYC214布袋興中里布袋漁港 (60戶社區)",
+                "address": "布袋興中里布袋漁港 (60戶社區)",
+                "sensorType": "壓力式",
+                "unitOfMeasurement": "cm",
+                "result": 0.3,
+                "phenomenonTime": "2026-11-22T21:54:02+08:00",
+                "transferTime": "2026-11-22T21:55:56+08:00",
+                "toBeConfirm": true,
+                "isCulvert": false,
+                "cityCode": "10010",
+                "townCode": "1001003",
+                "dataSource": "IoT-Sensor"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.15872,
+                    23.382847
                 ]
             }
         },
@@ -296,9 +296,9 @@
                 "address": "湖口鄉三元路",
                 "sensorType": "壓力式",
                 "unitOfMeasurement": "cm",
-                "result": 0.8,
-                "phenomenonTime": "2026-11-22T21:31:13+08:00",
-                "transferTime": "2026-11-22T21:36:01+08:00",
+                "result": 0.4,
+                "phenomenonTime": "2026-11-22T21:45:36+08:00",
+                "transferTime": "2026-11-22T21:55:56+08:00",
                 "toBeConfirm": true,
                 "isCulvert": true,
                 "cityCode": "10004",
